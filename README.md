@@ -29,7 +29,7 @@ As if that has stopped me, or Def, or others before. Oxy can feel free to take t
 - Color-coded BPM tool
 - Disable clicking on progress bar (no more accidentally going to the end of map)
 
-### Feature Wishlist (Feel free to [request](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/issues))
+### TO DO / Feature Wishlist (Feel free to [request](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/issues))
 - Add toggles for some features (turn on/off sliding caret, BPM Save button, turn off discord message, etc.)
 - Change base dlls to non-obfuscated version (cause less headaches and give more freedom)
 - Map Selector Optimizations and Improvements (caching?)
