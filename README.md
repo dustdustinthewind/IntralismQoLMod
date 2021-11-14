@@ -18,7 +18,7 @@ As if that has stopped me, or Def, or others before. Oxy can feel free to take t
 
 ## Features
 ### Current
-- Config v3 maps do not encrypt (Decrypted maps will save encrypted as well)
+- Config v3 maps do not encrypt (Encrypted maps will save as decrypted as well!)
 - Editor has dark background
 - Current event is highlighted in Editor
 - The editor will attempt to set the BPM if a map has "BPM" in the description
