@@ -38,6 +38,7 @@ As if that has stopped me, or Def, or others before. Oxy can feel free to take t
 - Keyboard shortcuts on main menu (one key press to editor for example)
 - Change base dlls to non-obfuscated version (cause less headaches and give more freedom)
 - Map Selector Optimizations and Improvements (caching?)
+- Add better storyboard navigation/manipulation features (can use https://github.com/FlyingRabidUnicornPig/Intralism-Mapping-Assistant for reference)
 - Decrease ram usage of storyboard images.
 - Proper arc positioning
 - Improved Zooms
