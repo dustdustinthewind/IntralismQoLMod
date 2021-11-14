@@ -1,5 +1,5 @@
 # Intralism Quality of Life Mod
-A mod with a myriad of features and fixes that Oxy will never make no matter how many rebuilds are under his belt.
+A mod with a myriad of features and fixes that Oxy will never make.
 
 Focus is primarily on editor features right now, though [I would like to touch up gameplay someday.](https://cdn.discordapp.com/attachments/646553696821444609/905530596632191066/91adfe01e7.png)
 
