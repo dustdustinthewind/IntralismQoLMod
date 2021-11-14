@@ -29,19 +29,21 @@ As if that has stopped me, or Def, or others before. Oxy can feel free to take t
 
 ### Working on
 - Color-coded BPM tool
-- Disable clicking on progress bar (no more accidentally going to the end of map)
+- Improved Editor-zoom controls (more fidelity and removed unneded ranges)
 
 ### TO DO / Feature Wishlist (Feel free to [request](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/issues))
 - Add toggles for some features (turn on/off sliding caret, BPM Save button, turn off discord message, etc.)
+- Disable clicking on progress bar (no more accidentally going to the end of map)
 - Handle multiple BPMs and OFfsets
 - Test Map from current time
 - Keyboard shortcuts on main menu (one key press to editor for example)
 - Change base dlls to non-obfuscated version (cause less headaches and give more freedom)
 - Map Selector Optimizations and Improvements (caching?)
 - Add better storyboard navigation/manipulation features (can use https://github.com/FlyingRabidUnicornPig/Intralism-Mapping-Assistant for reference)
-- Decrease ram usage of storyboard images.
+- Decrease ram usage of storyboard images
+- Skip the beginning/ending of a map
 - Proper arc positioning
 - Improved Zooms
 - Timing Windows
 - Custom player Speed
-- Create a custom map config to allow more features for mappers/players (These would be backwards compat (save a v3 version) and can be uploaded to the workshop)
+- Create a custom map config to allow more features for mappers/players (These would be backwards compat (save a v3 version for non-modded clients) and can be uploaded to the workshop)
