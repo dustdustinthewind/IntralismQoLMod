@@ -26,10 +26,10 @@ As if that has stopped me, or Def, or others before. Oxy can feel free to take t
 - The BPM will be saved to the description of the map.
 - The editor caret no longer slides
 - The Discord RPC message for Editor will show the map you're working on
-
-### Working on
 - Color-coded BPM tool
 - Improved Editor-zoom controls (more fidelity and removed unneded ranges)
+
+### Working on
 
 ### TO DO / Feature Wishlist (Feel free to [request](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/issues))
 - Add toggles for some features (turn on/off sliding caret, BPM Save button, turn off discord message, etc.)
