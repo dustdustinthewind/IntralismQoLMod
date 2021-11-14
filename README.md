@@ -10,7 +10,7 @@ Click `Code > Download as Zip`. Right click Intralism in Steam and select `Manag
 ### How do I uninstall the mod?
 Right click Intralism in Steam. Click `Properties`. Go to the `Local Files` tab and then click `Verify integrity of game files...`. This will restore Intralism to its current version.
 
-### Can this mod ruin my editor or workshop files?
+### Can this mod ruin my editor or workshop map files?
 There has been no features added that can drastically alter your files. Currently, the most that can happen is your maps will receive a "BPM 120" at the end of the description when you save.
 
 ### Isn't this against the terms of service?
