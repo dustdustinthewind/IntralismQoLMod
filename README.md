@@ -20,6 +20,7 @@ As if that has stopped me, or Def, or others before. Oxy can feel free to take t
 ### Known Bugs
 - Newly placed arcs don't get selected by the Event Editor (Maybe be a vanilla bug, will fix regardless it's shitty.)
 - Either Copying or Pasting is screwed up. You can only paste 1 arc even if you tried to copy more.
+- Maps with multiple BPMs listed are not properly supported by the mod yet. You can hang Intralism into a crash, and overwrite your listed BPMs if you're not careful!
 
 ### Current
 - Config v3 maps do not encrypt (Encrypted maps can be resaved to be decrypted!)
