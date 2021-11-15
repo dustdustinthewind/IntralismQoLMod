@@ -14,7 +14,7 @@ Right click Intralism in Steam. Click `Properties`. Go to the `Local Files` tab 
 There has been no features added that can drastically alter your files. Currently, the most that can happen is your maps will receive a "BPM 120" at the end of the description when you save.
 
 ### Isn't this against the terms of service?
-As if that has stopped me, or Def, or others before. Oxy can feel free to take this down with a DMCA, that is totally in his right, and I will not complain if he does. I will still host the mod as long as I'm working on it.
+As if that has stopped me, or Def, or others before. Oxy can feel free to take this down with a DMCA, that is totally in his right, and I will not complain if he does. I will still host the mod somewhere as long as I'm working on it.
 
 ## Features
 ### Current
