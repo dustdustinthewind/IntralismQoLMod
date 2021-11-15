@@ -36,9 +36,8 @@ As if that has stopped me, or Def, or others before. Oxy can feel free to take t
 - Audio Waveform in background doesn't delete when loading a new map. (Workaround: restart the editor. Vanilla Bug. Seems to be one that stumped oxy as well, he tried several times to delete it)
 
 ### Working on
-- Copy/Paste Bug (Copy/paste functions are unchanged, what could be affecting this? how are my changes be fucking with it? findNearestEvent changes? idk why but i could see taht)
 - Readd the editor audio waveform as a toggleable setting
-- Increase accuracy of audio waveform (and/or allow users to select accuracy. ~~This will increase the time it takes for a waveform to load, could look into saving the data through caching or other means~~ ~~no oxy is just bad at coding, this should actually *decrease* the time it takes to generate the waveform.~~ I may be bad at coding too)
+- Remake the audio waveform to be more accurate, faster, and hopefully more appealing.
 
 ### TO DO / Feature Wishlist (Feel free to [request](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/issues))
 - Scroll snap to BPM tool
