@@ -17,6 +17,10 @@ There has been no features added that can drastically alter your files. Currentl
 As if that has stopped me, or Def, or others before. Oxy can feel free to take this down with a DMCA, that is totally in his right, and I will not complain if he does. I will still host the mod somewhere as long as I'm working on it.
 
 ## Features
+### Known Bugs
+- Newly placed arcs don't get selected by the Event Editor (Maybe be a vanilla bug, will fix regardless it's shitty.)
+- Either Copying or Pasting is screwed up. You can only paste 1 arc even if you tried to copy more.
+
 ### Current
 - Config v3 maps do not encrypt (Encrypted maps can be resaved to be decrypted!)
 - Editor has dark background
@@ -29,11 +33,10 @@ As if that has stopped me, or Def, or others before. Oxy can feel free to take t
 - Color-coded BPM tool
 - Improved Editor-zoom controls (more fidelity and removed unneded ranges)
 
-### Known Bugs
-- Newly placed arcs don't get selected by the Event Editor (Maybe be a vanilla bug, will fix regardless it's shitty.)
-- Either Copying or Pasting is screwed up. You can only paste 1 arc even if you tried to copy more.
-
 ### Working on
+- Copy/Paste Bug (Copy/paste functions are unchanged, what could be affecting this? how are my changes be fucking with it?)
+- Readd the editor audio waveform as a toggleable setting
+- Increase accuracy of audio waveform (and/or allow users to select accuracy. This will increase the time it takes for a waveform to load, could look into saving the data through caching or other means)
 
 ### TO DO / Feature Wishlist (Feel free to [request](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/issues))
 - Scroll snap to BPM tool
@@ -54,3 +57,5 @@ As if that has stopped me, or Def, or others before. Oxy can feel free to take t
 - Timing Windows
 - Custom player Speed
 - Create a custom map config to allow more features for mappers/players (These would be backwards compat (save a v3 version for non-modded clients) and can be uploaded to the workshop)
+
+Yes I'm using the Readme like I would a board, fuck you.
