@@ -31,6 +31,7 @@ As if that has stopped me, or Def, or others before. Oxy can feel free to take t
 
 ### Known Bugs
 - Newly placed arcs don't get selected by the Event Editor (Maybe be a vanilla bug, will fix regardless it's shitty.)
+- Either Copying or Pasting is screwed up. You can only paste 1 arc even if you tried to copy more.
 
 ### Working on
 
