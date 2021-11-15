@@ -33,6 +33,7 @@ As if that has stopped me, or Def, or others before. Oxy can feel free to take t
 
 ### TO DO / Feature Wishlist (Feel free to [request](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/issues))
 - Scroll snap to BPM tool
+- Remove the 1-second bars in editor (we have enough things pointing up and down)
 - Add toggles for some features (turn on/off sliding caret, BPM Save button, turn off discord message, etc.)
 - Disable clicking on progress bar (no more accidentally going to the end of map)
 - Handle multiple BPMs and OFfsets
