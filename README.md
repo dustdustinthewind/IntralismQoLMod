@@ -30,7 +30,7 @@ As if that has stopped me, or Def, or others before. Oxy can feel free to take t
 - Improved Editor-zoom controls (more fidelity and removed unneded ranges)
 
 ### Known Bugs
-- Newly placed arcs don't get selected by the Event Editor.
+- Newly placed arcs don't get selected by the Event Editor (Maybe be a vanilla bug, will fix regardless it's shitty.)
 
 ### Working on
 
