@@ -17,12 +17,6 @@ There has been no features added that can drastically alter your files. Currentl
 As if that has stopped me, or Def, or others before. Oxy can feel free to take this down with a DMCA, that is totally in his right, and I will not complain if he does. I will still host the mod somewhere as long as I'm working on it.
 
 ## Features
-### Bugs list (mod bugs on top, vanilla bugs on bottom)
-- Either Copying or Pasting is screwed up. You can only paste 1 arc even if you tried to copy more. (awful bug, so sorry)
-- Maps with multiple BPMs listed are not properly supported by the mod yet. You can hang Intralism into a crash, and overwrite your listed BPMs if you're not careful!
-- Newly placed arcs don't get selected by the Event Editor (Workaround: scroll to a different event and back. Maybe be a vanilla bug, will fix regardless it's shitty.)
-- Audio Waveform in background doesn't delete when loading a new map. (Workaround: restart the editor. Vanilla Bug. Seems to be one that stumped oxy as well, he tried several times to delete it)
-
 ### Current
 - Config v3 maps do not encrypt (Encrypted maps can be resaved to be decrypted!)
 - Editor has dark background
@@ -34,6 +28,12 @@ As if that has stopped me, or Def, or others before. Oxy can feel free to take t
 - The Discord RPC message for Editor will show the map you're working on
 - Color-coded BPM tool
 - Improved Editor-zoom controls (more fidelity and removed unneded ranges)
+
+### Bugs list (mod bugs on top, vanilla bugs on bottom)
+- Either Copying or Pasting is screwed up. You can only paste 1 arc even if you tried to copy more. (awful bug, so sorry)
+- Maps with multiple BPMs listed are not properly supported by the mod yet. You can hang Intralism into a crash, and overwrite your listed BPMs if you're not careful!
+- Newly placed arcs don't get selected by the Event Editor (Workaround: scroll to a different event and back. Maybe be a vanilla bug, will fix regardless it's shitty.)
+- Audio Waveform in background doesn't delete when loading a new map. (Workaround: restart the editor. Vanilla Bug. Seems to be one that stumped oxy as well, he tried several times to delete it)
 
 ### Working on
 - Copy/Paste Bug (Copy/paste functions are unchanged, what could be affecting this? how are my changes be fucking with it? findNearestEvent changes? idk why but i could see taht)
