@@ -30,9 +30,7 @@ As if that has stopped me, or Def, or others before. Oxy can feel free to take t
 - Improved Editor-zoom controls (more fidelity and removed unneded ranges)
 
 ### Bugs list (mod bugs on top, vanilla bugs on bottom)
-- Either Copying or Pasting is screwed up. You can only paste 1 arc even if you tried to copy more. (awful bug, so sorry)
-- Maps with multiple BPMs listed are not properly supported by the mod yet. You can hang Intralism into a crash, and overwrite your listed BPMs if you're not careful!
-- Newly placed arcs don't get selected by the Event Editor (Workaround: scroll to a different event and back. Maybe be a vanilla bug, will fix regardless it's shitty.)
+- Maps with multiple BPMs listed are not properly supported by the mod yet. You can hang Intralism into a crash, and overwrite your listed BPMs when you save if you're not careful!
 - Audio Waveform in background doesn't delete when loading a new map. (Workaround: restart the editor. Vanilla Bug. Seems to be one that stumped oxy as well, he tried several times to delete it)
 
 ### Working on
