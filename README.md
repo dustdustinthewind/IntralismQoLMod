@@ -47,6 +47,7 @@ As if that has stopped me, or Def, or others before. Oxy can feel free to take t
 - Add toggles for some features (turn on/off sliding caret, BPM Save button, turn off discord message, etc.)
 - Disable clicking on progress bar (no more accidentally going to the end of map)
 - Handle multiple BPMs and OFfsets
+- Sliding/stepped BPM tool? 👀
 - Test Map from current time
 - Keyboard shortcuts on main menu (one key press to editor for example)
 - Change base dlls to non-obfuscated version (would probably save a lot of time and some headaches)
