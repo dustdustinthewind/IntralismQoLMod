@@ -29,6 +29,9 @@ As if that has stopped me, or Def, or others before. Oxy can feel free to take t
 - Color-coded BPM tool
 - Improved Editor-zoom controls (more fidelity and removed unneded ranges)
 
+### Known Bugs
+- Newly placed arcs don't get selected by the Event Editor.
+
 ### Working on
 
 ### TO DO / Feature Wishlist (Feel free to [request](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/issues))
