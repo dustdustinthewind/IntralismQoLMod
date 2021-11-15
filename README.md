@@ -45,6 +45,7 @@ As if that has stopped me, or Def, or others before. Oxy can feel free to take t
 - Remove the 1-second bars in editor (we have enough things pointing up and down)
 - Add toggles for some features (turn on/off sliding caret, BPM Save button, turn off discord message, etc.)
 - Disable clicking on progress bar (no more accidentally going to the end of map)
+- Change colors and sizes of events depending on type (imagine storyboard editing without a sea of green, starting/ending events being larger acting as bookmarks)
 - Handle multiple BPMs and OFfsets
 - Sliding/stepped BPM tool? 👀
 - Test Map from current time
