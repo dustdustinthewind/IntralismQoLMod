@@ -26,8 +26,7 @@ As if that has stopped me, or others before. Oxy can feel free to take this down
 - Config v3 maps do not encrypt (Encrypted maps can be resaved to be decrypted!)
 - Gave Editor a Dark Theme
 - The BPM tool uses colors for snaps (only for 1, 2, 3, 4, 6, 8, 12, 16 snaps, if you're using something else you're probably wrong)
-- Editor sets BPM automatically if "BPM" is in the description. (Doesn't work with multiple BPMs)
-- The current working BPM will be saved to the description.
+- Automatic BPM saving/loading to and from description (Doesn't work properly with multiple BPMs).
 - Navigation improvements: better caret, finer zoom controls
 - The Discord RPC message for Editor will show the map you're working on
 - Audio Waveform should be more consistent and accurate, in exchange for being a little slower than it used to be. Press skip if you don't care for the waveform and its limitations.
