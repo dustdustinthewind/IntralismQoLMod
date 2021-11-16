@@ -38,12 +38,13 @@ As if that has stopped me, or Def, or others before. Oxy can feel free to take t
 - Audio Waveform in background doesn't delete when loading a new map. Vanilla Bug. Workaround: restart the editor. Seems to be one that stumped oxy as well, he tried several times to delete it)
 
 ### Working on
+- Snap caret to BPM when scrolling.
 
 ### TO DO / Feature Wishlist (Feel free to [request](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/issues))
-- Scroll snap to BPM tool
 - Open last edited map
 - Remove the 1-second bars in editor (we have enough things pointing up and down)
-- Add toggles for some features (turn on/off sliding caret, BPM Save button, turn off discord message, etc.)
+- Add buttons and settings for some features (disable waveforms, BPM Save button, turn off discord message, etc.)
+- Edit the settings menu to make more sense
 - Disable clicking on progress bar (no more accidentally going to the end of map)
 - Change colors and sizes of events depending on type (imagine storyboard editing without a sea of green, starting/ending events being larger acting as bookmarks)
 - Handle multiple BPMs and OFfsets
