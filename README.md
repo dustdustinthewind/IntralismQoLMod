@@ -30,13 +30,13 @@ As if that has stopped me, or Def, or others before. Oxy can feel free to take t
 - The Discord RPC message for Editor will show the map you're working on
 - Color-coded BPM tool
 - Improved Editor-zoom controls (more fidelity and removed unneded ranges)
+- Audio Waveform should be more consistent and accurate, in exchange for being a little slower than it used to be. Press skip if you don't care for the waveform and its limitations.
 
 ### Bugs list (mod bugs on top, vanilla bugs on bottom)
 - Maps with multiple BPMs listed are not properly supported by the mod yet. You can hang Intralism into a crash, and overwrite your listed BPMs when you save if you're not careful!
 - Audio Waveform in background doesn't delete when loading a new map. (Workaround: restart the editor. Vanilla Bug. Seems to be one that stumped oxy as well, he tried several times to delete it)
 
 ### Working on
-- Remake the audio waveform to be more accurate, faster, and hopefully more appealing.
 
 ### TO DO / Feature Wishlist (Feel free to [request](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/issues))
 - Scroll snap to BPM tool
