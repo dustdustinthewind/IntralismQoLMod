@@ -49,6 +49,7 @@ As if that has stopped me, or Def, or others before. Oxy can feel free to take t
 - Sliding/stepped BPM tool? 👀
 - Test Map from current time
 - Calculate zoomless difficulty in "about"
+- BPM Find tool (tap to the beat)
 - Calculate and display difficulty on map select
 - Toggle zooms in options (nerfs you on official maps so who cares bout modded rank submissions here lol)
 - Keyboard shortcuts on main menu (one key press to editor for example)
