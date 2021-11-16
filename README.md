@@ -15,6 +15,9 @@ Right click Intralism in Steam. Click `Properties`. Go to the `Local Files` tab 
 ### Can this mod ruin my editor or workshop map files?
 There has been no features added that can drastically alter your files. Currently, the most that can happen is your maps will receive a "BPM 120" at the end of the description when you save.
 
+### Can this mod get me banned?
+I highly doubt it. Don't shove it in Oxy's face though.
+
 ### Isn't this against the terms of service?
 As if that has stopped me, or Def, or others before. Oxy can feel free to take this down with a DMCA, that is totally in his right, and I will not complain if he does. I will still host the mod somewhere as long as I'm working on it.
 
