@@ -37,8 +37,8 @@ As if that has stopped me, or others before. Oxy can feel free to take this down
 - Event Editor drop-down doesn't always position properly.
 
 ### Working on
-- Snap caret to BPM when scrolling.
 - Calculate zoomless difficulty in "about"
+- Test Map from current time
 
 ### TO DO / Feature Wishlist (Feel free to [request](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/issues))
 - Open last edited map
@@ -50,11 +50,10 @@ As if that has stopped me, or others before. Oxy can feel free to take this down
 - Change colors and sizes of events depending on type (imagine storyboard editing without a sea of green, starting/ending events being larger acting as bookmarks)
 - Handle multiple BPMs and OFfsets
 - Remake arcs editing to be closer to osu!m's editor in design.
-- Sliding/stepped BPM tool? 👀
-- Test Map from current time
+- Sliding/stepped BPM tool?
 - BPM Find tool (tap to the beat)
 - Calculate and display difficulty on map select
-- Toggle zooms in options (nerfs you on official maps so who cares bout modded rank submissions here lol)
+- Toggle zooms in options (nerfs your max score on official maps so who cares bout modded rank submissions here lol)
 - Keyboard shortcuts on main menu (one key press to editor for example)
 - Change base dlls to non-obfuscated version (would probably save a lot of time and some headaches)
 - Map Selector Optimizations and Improvements (caching?)
