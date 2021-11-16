@@ -37,7 +37,6 @@ As if that has stopped me, or others before. Oxy can feel free to take this down
 - Event Editor drop-down doesn't always position properly.
 
 ### Working on
-- Calculate zoomless difficulty in "about"
 - Test Map from current time
 
 ### TO DO / Feature Wishlist (Feel free to [request](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/issues))
