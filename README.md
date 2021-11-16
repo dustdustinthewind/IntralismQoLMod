@@ -37,7 +37,6 @@ As if that has stopped me, or Def, or others before. Oxy can feel free to take t
 
 ### Bugs list (mod bugs on top, vanilla bugs on bottom)
 - Maps with multiple BPMs listed are not properly supported by the mod yet. You can hang Intralism into a crash, and overwrite your listed BPMs when you save if you're not careful!
-- The editor can get "Stuck" in some situations. Seems to happen when loading a second map. Likely Mod Bug. Workaround: try pressing CTRL and/or opening and closing the config menu.
 - Audio Waveform in background doesn't delete when loading a new map. Vanilla Bug. Workaround: restart the editor. Seems to be one that stumped oxy as well, he tried several times to delete it)
 
 ### Working on
