@@ -41,6 +41,7 @@ As if that has stopped me, or others before. Oxy can feel free to take this down
 
 ### Working on
 - Snap caret to BPM when scrolling.
+- Calculate zoomless difficulty in "about"
 
 ### TO DO / Feature Wishlist (Feel free to [request](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/issues))
 - Open last edited map
@@ -54,7 +55,6 @@ As if that has stopped me, or others before. Oxy can feel free to take this down
 - Remake arcs editing to be closer to osu!m's editor in design.
 - Sliding/stepped BPM tool? 👀
 - Test Map from current time
-- Calculate zoomless difficulty in "about"
 - BPM Find tool (tap to the beat)
 - Calculate and display difficulty on map select
 - Toggle zooms in options (nerfs you on official maps so who cares bout modded rank submissions here lol)
