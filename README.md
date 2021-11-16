@@ -44,6 +44,7 @@ As if that has stopped me, or Def, or others before. Oxy can feel free to take t
 
 ### TO DO / Feature Wishlist (Feel free to [request](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/issues))
 - Open last edited map
+- Optimize Editor Events to not update offscreen (reduce lag with more objects + BPM + waveform, there's so many objects and they all move at once)
 - Remove the 1-second bars in editor (we have enough things pointing up and down)
 - Add buttons and settings for some features (disable waveforms, BPM Save button, turn off discord message, etc.)
 - Edit the settings menu to make more sense
