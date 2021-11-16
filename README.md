@@ -34,7 +34,8 @@ As if that has stopped me, or Def, or others before. Oxy can feel free to take t
 
 ### Bugs list (mod bugs on top, vanilla bugs on bottom)
 - Maps with multiple BPMs listed are not properly supported by the mod yet. You can hang Intralism into a crash, and overwrite your listed BPMs when you save if you're not careful!
-- Audio Waveform in background doesn't delete when loading a new map. (Workaround: restart the editor. Vanilla Bug. Seems to be one that stumped oxy as well, he tried several times to delete it)
+- The editor can get "Stuck" in some situations. Seems to happen when loading a second map. Likely Mod Bug. Workaround: try pressing CTRL and/or opening and closing the config menu.
+- Audio Waveform in background doesn't delete when loading a new map. Vanilla Bug. Workaround: restart the editor. Seems to be one that stumped oxy as well, he tried several times to delete it)
 
 ### Working on
 
@@ -46,6 +47,7 @@ As if that has stopped me, or Def, or others before. Oxy can feel free to take t
 - Disable clicking on progress bar (no more accidentally going to the end of map)
 - Change colors and sizes of events depending on type (imagine storyboard editing without a sea of green, starting/ending events being larger acting as bookmarks)
 - Handle multiple BPMs and OFfsets
+- Remake arcs editing to be closer to osu!m's editor in design.
 - Sliding/stepped BPM tool? 👀
 - Test Map from current time
 - Calculate zoomless difficulty in "about"
