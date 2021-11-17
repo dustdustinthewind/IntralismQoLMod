@@ -16,7 +16,7 @@ Right click Intralism in Steam. Click `Properties`. Go to the `Local Files` tab 
 There has been no features added that can drastically alter your files. Becareful loading maps with multiple BPMs in the description. If you try to open the BPM tool you will hang Intralism. If you save you will remove the characters (spaces, commas) between the BPMs.
 
 ### Can this mod get me banned?
-I highly doubt it. Don't shove it in Oxy's face though.
+I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Steam ban or VAC.
 
 ### Isn't this against the terms of service?
 As if that has stopped me, or others before. Oxy can feel free to take this down with a DMCA, that is totally in his right, and I will not complain if he does. I will still host the mod somewhere as long as I'm working on it.
