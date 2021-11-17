@@ -33,7 +33,7 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 
 ### Misc
 - Intralism now compresses textures pulled from images. No more needing 30 gigs of ram to play an image sequencce storyboard. This does increase loading times.
-- 
+
 ### Working on
 - Test Map from current time
 - Add Shift key modifier to BPM scroll to scroll faster.
