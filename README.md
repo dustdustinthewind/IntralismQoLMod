@@ -13,7 +13,7 @@ To update your mod, you only need to copy/paste the newest [Assembly-Csharp.dll]
 Right click Intralism in Steam. Click `Properties`. Go to the `Local Files` tab and then click `Verify integrity of game files...`. This will restore Intralism to its current version.
 
 ### Can this mod ruin my editor or workshop map files?
-There has been no features added that can drastically alter your files. Becareful loading maps with multiple BPMs in the description. If you try to open the BPM tool you will hang Intralism. If you save you will remove the characters (spaces, commas) between the BPMs.
+There has been no features added that can drastically alter your files.
 
 ### Isn't this against the terms of service?
 As if that has stopped me, or others before. Oxy can feel free to take this down with a DMCA, that is totally in his right. However, I will still host the mod somewhere as long as I'm working on it.
@@ -26,7 +26,7 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 - Config v3 maps do not encrypt (Encrypted maps can be resaved to be decrypted!)
 - Gave Editor a Dark Theme
 - The BPM tool uses colors for snaps (only for 1, 2, 3, 4, 6, 8, 12, 16 snaps, if you're using something else you're probably wrong)
-- Automatic BPM saving/loading to and from description (Doesn't work properly with multiple BPMs).
+- Automatic BPM saving/loading to and from description (Doesn't work properly with multiple BPMs)
 - Navigation improvements: better caret, finer zoom controls
 - The Discord RPC message for Editor will show the map you're working on
 - Audio Waveform should be more consistent and accurate, in exchange for being a little slower than it used to be. Press skip if you don't care for the waveform and its limitations.
@@ -39,7 +39,6 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 - Add Shift key modifier to BPM scroll to scroll faster.
 
 ### Bugs To Squash (mod bugs on top, vanilla bugs on bottom)
-- Maps with multiple BPMs listed are not properly supported by the mod yet. You can hang Intralism into a crash, and overwrite your listed BPMs when you save if you're not careful! Workaround: Be mindful of the BPM tool and your description and the bullshit this mod has right now.
 - There's a "Play Test Map" button that doesn't do anything yet. Mod Bug. The first part of an upcoming feature.
 - The "Map" drop down menu flashes while loading the map. Intetional Mod "Bug". Workaround: none needed. While this is currently intentional for reasons I do not have the energy nor ability to explain, I'd rather this wasn't the case.
 - Audio Waveform in background doesn't delete when loading a new map. Vanilla Bug. Workaround: restart the editor. Seems to be one that stumped oxy as well, he tried several times to delete it)
