@@ -30,6 +30,7 @@ As if that has stopped me, or others before. Oxy can feel free to take this down
 - Navigation improvements: better caret, finer zoom controls
 - The Discord RPC message for Editor will show the map you're working on
 - Audio Waveform should be more consistent and accurate, in exchange for being a little slower than it used to be. Press skip if you don't care for the waveform and its limitations.
+- Intralism now compresses textures pulled from images. No more needing 30 gigs of ram to play an image sequencce storyboard.
 
 ### Bugs list (mod bugs on top, vanilla bugs on bottom)
 - Maps with multiple BPMs listed are not properly supported by the mod yet. You can hang Intralism into a crash, and overwrite your listed BPMs when you save if you're not careful!
@@ -58,7 +59,6 @@ As if that has stopped me, or others before. Oxy can feel free to take this down
 - Change base dlls to non-obfuscated version (would probably save a lot of time and some headaches)
 - Map Selector Optimizations and Improvements (caching?)
 - Add better storyboard navigation/manipulation features (can use https://github.com/FlyingRabidUnicornPig/Intralism-Mapping-Assistant for reference)
-- Decrease ram usage of storyboard images
 - Skip the beginning/ending of a map
 - Proper arc positioning
 - Improved Zooms
