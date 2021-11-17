@@ -37,7 +37,7 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 ### Bugs list (mod bugs on top, vanilla bugs on bottom)
 - Maps with multiple BPMs listed are not properly supported by the mod yet. You can hang Intralism into a crash, and overwrite your listed BPMs when you save if you're not careful! Workaround: Be mindful of the BPM tool and your description and the bullshit this mod has right now.
 - There's a "Play Test Map" button that doesn't do anything yet. Mod Bug. The first part of an upcoming feature.
-- The "Map" drop down menu flashes while loading the map. Intetional Mod "Bug". Workaround: none needed. While this is currently intentional for reasons I do not have the ability nor energy to explain, I'd rather this wasn't the case.
+- The "Map" drop down menu flashes while loading the map. Intetional Mod "Bug". Workaround: none needed. While this is currently intentional for reasons I do not have the energy nor ability to explain, I'd rather this wasn't the case.
 - Audio Waveform in background doesn't delete when loading a new map. Vanilla Bug. Workaround: restart the editor. Seems to be one that stumped oxy as well, he tried several times to delete it)
 - Event Editor drop-down doesn't always position properly. Vanilla Bug. Workaround: Open and close the event editor.
 - Editor overwrites custom values if they are out of range. Vanilla Bug. Workaround: Don't apply changes to events with values set manually in config.txt.
