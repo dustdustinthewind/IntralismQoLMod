@@ -57,7 +57,7 @@ As if that has stopped me, or others before. Oxy can feel free to take this down
 - Remake arcs editing to be closer to osu!m's editor in design.
 - Sliding/stepped BPM tool?
 - BPM Find tool (tap to the beat)
-- Store raw texture data in map folder? With how small compression makes images, it may be reasonable to store them rather than loading/recompressing every time we load a map. This would significantly cut down loading times for maps, especially those with many images.
+- Store raw texture data in map folder? With how small compression makes images, it may be reasonable to store them rather than loading/recompressing every time we load a map. This would significantly cut down loading times for maps with many images.
 - Calculate and display difficulty on map select
 - Toggle zooms in options (nerfs your max score on official maps so who cares bout modded rank submissions here lol)
 - Keyboard shortcuts on main menu (one key press to editor for example)
