@@ -33,6 +33,10 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 
 ### Misc
 - Intralism now compresses textures pulled from images. No more needing 30 gigs of ram to play an image sequencce storyboard. This does increase loading times.
+- 
+### Working on
+- Test Map from current time
+- Add Shift key modifier to BPM scroll to scroll faster.
 
 ### Bugs To Squash (mod bugs on top, vanilla bugs on bottom)
 - Maps with multiple BPMs listed are not properly supported by the mod yet. You can hang Intralism into a crash, and overwrite your listed BPMs when you save if you're not careful! Workaround: Be mindful of the BPM tool and your description and the bullshit this mod has right now.
@@ -41,11 +45,8 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 - Audio Waveform in background doesn't delete when loading a new map. Vanilla Bug. Workaround: restart the editor. Seems to be one that stumped oxy as well, he tried several times to delete it)
 - Event Editor drop-down doesn't always position properly. Vanilla Bug. Workaround: Scroll time, open/close the event editor.
 - Editor overwrites custom values if they are out of range. Vanilla Bug. Workaround: Don't apply changes to events with values set manually in config.txt.
-- Highscore doesn't save the first time you play a new map. Vanilla Bug. Workaround: End the map before starting proper.
+- Highscore doesn't save the first time you play a new map. Vanilla Bug. Workaround: Stop the map before starting proper.
 
-### Working on
-- Test Map from current time
-- Add Shift key modifier to BPM scroll to scroll faster.
 
 ### TO DO / Feature Wishlist (Feel free to [request](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/issues))
 - Open last edited map
