@@ -35,11 +35,11 @@ As if that has stopped me, or others before. Oxy can feel free to take this down
 - Intralism now compresses textures pulled from images. No more needing 30 gigs of ram to play an image sequencce storyboard. This does increase loading times.
 
 ### Bugs list (mod bugs on top, vanilla bugs on bottom)
-- Maps with multiple BPMs listed are not properly supported by the mod yet. You can hang Intralism into a crash, and overwrite your listed BPMs when you save if you're not careful!
-- There's a "Play Test Map" button that doesn't do anything yet.
+- Maps with multiple BPMs listed are not properly supported by the mod yet. You can hang Intralism into a crash, and overwrite your listed BPMs when you save if you're not careful! Workaround: Be mindful of the BPM tool and your description and the bullshit this mod has right now.
+- There's a "Play Test Map" button that doesn't do anything yet. Mod Bug. The first part of an upcoming feature.
 - Audio Waveform in background doesn't delete when loading a new map. Vanilla Bug. Workaround: restart the editor. Seems to be one that stumped oxy as well, he tried several times to delete it)
-- Event Editor drop-down doesn't always position properly.
-- Editor overwrites custom values if they are out of range.
+- Event Editor drop-down doesn't always position properly. Vanilla Bug. Workaround: Open and close the event editor.
+- Editor overwrites custom values if they are out of range. Vanilla Bug. Workaround: Don't apply changes to events with values set manually in config.txt.
 
 ### Working on
 - Test Map from current time
@@ -53,6 +53,7 @@ As if that has stopped me, or others before. Oxy can feel free to take this down
 - Disable clicking on progress bar (no more accidentally going to the end of map)
 - Change colors and sizes of events depending on type (imagine storyboard editing without a sea of green, starting/ending events being larger acting as bookmarks)
 - Handle multiple BPMs and OFfsets
+- Less restriction in values available to select in Event Editor (replace sliders with text boxes?)
 - Remake arcs editing to be closer to osu!m's editor in design.
 - Sliding/stepped BPM tool?
 - BPM Find tool (tap to the beat)
