@@ -61,7 +61,7 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 - BPM Find tool (tap to the beat)
 - Store raw texture data in map folder? With how small compression makes images, it may be reasonable to store them rather than loading/recompressing every time we load a map. This would significantly cut down loading times for maps with many images.
 - Calculate and display difficulty on map select
-- Toggle zooms in options (nerfs your max score on official maps so who cares bout modded rank submissions here lol)
+- Disable/Enable map zooms
 - Keyboard shortcuts on main menu (one key press to editor for example)
 - Change base dlls to non-obfuscated version (would probably save a lot of time and some headaches)
 - Map Selector Optimizations and Improvements (caching?)
