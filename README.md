@@ -19,7 +19,7 @@ There has been no features added that can drastically alter your files. Becarefu
 I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Steam ban or VAC.
 
 ### Isn't this against the terms of service?
-As if that has stopped me, or others before. Oxy can feel free to take this down with a DMCA, that is totally in his right, and I will not complain if he does. I will still host the mod somewhere as long as I'm working on it.
+As if that has stopped me, or others before. Oxy can feel free to take this down with a DMCA, that is totally in his right. However, I will still host the mod somewhere as long as I'm working on it.
 
 ## Features
 ### Editor
