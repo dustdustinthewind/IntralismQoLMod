@@ -34,6 +34,7 @@ As if that has stopped me, or others before. Oxy can feel free to take this down
 
 ### Bugs list (mod bugs on top, vanilla bugs on bottom)
 - Maps with multiple BPMs listed are not properly supported by the mod yet. You can hang Intralism into a crash, and overwrite your listed BPMs when you save if you're not careful!
+- There's a "Play Test Map" button that doesn't do anything yet.
 - Audio Waveform in background doesn't delete when loading a new map. Vanilla Bug. Workaround: restart the editor. Seems to be one that stumped oxy as well, he tried several times to delete it)
 - Event Editor drop-down doesn't always position properly.
 - Editor overwrites custom values if they are out of range.
