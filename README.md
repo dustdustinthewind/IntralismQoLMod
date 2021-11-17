@@ -32,7 +32,7 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 - Audio Waveform should be more consistent and accurate, in exchange for being a little slower than it used to be. Press skip if you don't care for the waveform and its limitations.
 
 ### Misc
-- Intralism now compresses textures pulled from images. No more needing 30 gigs of ram to play an image sequencce storyboard. This does increase loading times.
+- Loaded textures (skin, storyboard, map icons) will now compress. No more needing 30 gigs of ram to play an image sequencce storyboard. This does increase loading times.
 
 ### Working on
 - Test Map from current time
