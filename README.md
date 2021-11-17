@@ -32,7 +32,7 @@ As if that has stopped me, or others before. Oxy can feel free to take this down
 - Audio Waveform should be more consistent and accurate, in exchange for being a little slower than it used to be. Press skip if you don't care for the waveform and its limitations.
 
 ### Misc
-- Intralism now compresses textures pulled from images. No more needing 30 gigs of ram to play an image sequencce storyboard.
+- Intralism now compresses textures pulled from images. No more needing 30 gigs of ram to play an image sequencce storyboard. This does increase loading times.
 
 ### Bugs list (mod bugs on top, vanilla bugs on bottom)
 - Maps with multiple BPMs listed are not properly supported by the mod yet. You can hang Intralism into a crash, and overwrite your listed BPMs when you save if you're not careful!
