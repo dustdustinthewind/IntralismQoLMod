@@ -7,7 +7,7 @@ Focus is primarily on editor features right now, though [I would like to touch u
 ### How do I install the mod?
 Click `Code > Download as Zip`. Right click Intralism in Steam and select `Manage > Browse Local Files`. Go into `Intralism_Data\Managed`. Copy the .dll files from the zip and paste them into the `Managed` folder. If it asks you to replace files say yes.
 
-To patch with a newer version of the mod, you only need to download [Assembly-Csharp.dll](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/blob/main/Assembly-CSharp?raw=true). This may change in the future.
+To update your mod, you only need to copy/paste the newest [Assembly-Csharp.dll](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/blob/main/Assembly-CSharp?raw=true). This may change in the future.
 
 ### How do I uninstall the mod?
 Right click Intralism in Steam. Click `Properties`. Go to the `Local Files` tab and then click `Verify integrity of game files...`. This will restore Intralism to its current version.
