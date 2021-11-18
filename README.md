@@ -36,7 +36,6 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 
 ### Working on
 - Test Map from current time
-- Add Shift key modifier to BPM scroll to scroll faster.
 
 ### Bugs To Squash (mod bugs on top, vanilla bugs on bottom)
 - There's a "Play Test Map" button that doesn't do anything yet. Mod Bug. The first part of an upcoming feature.
