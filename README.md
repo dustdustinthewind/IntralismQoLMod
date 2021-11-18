@@ -49,6 +49,7 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 ### TO DO / Feature Wishlist (Feel free to [request](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/issues))
 - Open last edited map
 - Fix/Make accessible the replay system (Turns out theirs a Replay Viewer in the code. Idk how well it works, it could be an artifact of an older version, but there's at least the base for one here.)
+- Unlock the dev console
 - Key button to skip connecting to shoddy russian servers
 - Optimize Editor Events to not update offscreen (reduce/remove lag that comes from many events + BPM snaps + waveform, there's so many objects and they all move at once...)
 - Remove the 1-second bars in editor (we have enough things pointing up and down)
