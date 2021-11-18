@@ -23,7 +23,7 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 
 ## Features
 ### Editor
-- Config v3 maps do not encrypt (Encrypted maps can be resaved to be decrypted!)
+- Config v3 maps and the save file do not encrypt (Encrypted maps can be resaved to be decrypted!)
 - Gave Editor a Dark Theme
 - The BPM tool uses colors for snaps (only for 1, 2, 3, 4, 6, 8, 12, 16 snaps, if you're using something else you're probably wrong)
 - Automatic BPM saving/loading to and from description (Doesn't work properly with multiple BPMs)
@@ -58,6 +58,7 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 - Remove the 1-second bars in editor (we have enough things pointing up and down)
 - Add buttons and settings for some features (disable waveforms, BPM Save button, turn off discord message, etc.)
 - Edit the settings menu to make more sense
+- Add more editor themes
 - Disable clicking on progress bar (no more accidentally going to the end of map)
 - Change colors and sizes of events depending on type (imagine storyboard editing without a sea of green, starting/ending events being larger acting as bookmarks)
 - Handle multiple BPMs and OFfsets
