@@ -23,9 +23,6 @@ As if that has stopped me, or others before. Oxy can feel free to take this down
 ### I mean will I get banned for using the mod?
 I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Steam ban or VAC.
 
-### Have you heard of Rebuild?
-Yes. Just because I left the main community doesn't mean I'm not in the know 😜
-
 ## Features
 ### Editor
 - Config v3 maps and the save file do not encrypt (Encrypted maps can be resaved to be decrypted!)
