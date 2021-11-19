@@ -47,6 +47,7 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 ### Bugs To Squash (mod bugs on top, vanilla bugs on bottom)
 - Trying to exit the map while the waveform is generating will not close the editor, but instead stops the waveform generation. Workaround: Try exiting again. Will be fixed when wave form generation is in the settings rather than a dialog box.
 - The "Map" drop down menu flashes while loading the map. Intetional Mod "Bug". Workaround: none needed. While this is currently intentional for reasons I do not have the energy nor space to explain, I'd rather this wasn't the case.
+- Lives do not display on non-hardcore gamemodes. Mod Bug. No Workaround: Do people care about lives?
 - Audio Waveform in background doesn't delete when loading a new map. Vanilla Bug. Workaround: restart the editor. Seems to be one that stumped oxy as well, he tried several times to delete it)
 - Event Editor drop-down doesn't always position properly. Vanilla Bug. Workaround: Load a new arc, don't leave the drop down open while playing.
 - Editor overwrites custom values if they are out of range. Vanilla Bug. Workaround: Don't click "Apply" on events that have had their values set manually in config.txt.
