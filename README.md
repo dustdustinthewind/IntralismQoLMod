@@ -14,14 +14,17 @@ Right click Intralism in Steam. Click `Properties`. Go to the `Local Files` tab 
 
 ### Can this mod ruin my files?
 This mod should not mess with your files in unwanted ways. However of note:
-- The BPM tool will automatically write/read from your description, but it shouldn't cause any issues unless you're trying to break it.
-- This mod decrypts the save file found in `...\Intralism\Save`. While I'm pretty sure I correctly implemented decryption, there is very much the chance that something will go wrong. I have implemented a feature that will backup your save every time you launch Intralism, just in case something breaks your save during that session. To recover the backup, delete the old save and change the file extension of the backup from `.bak` to `.save`
+- The BPM tool will automatically write/read from your description, but it shouldn't cause any issues unless you're trying to break it. Multi-BPM/offset mapping is not supported yet.
+- This mod decrypts the save file found in `...\Intralism\Save`. While I'm pretty sure I correctly implemented this feature, there is very much the chance that something will go wrong. I have implemented a feature that will backup your save every time you launch Intralism, just in case something breaks your save during that session. To recover the backup, delete the broken save and change the file extension of the backup from `.bak` to `.save`.
 
-### Isn't this against the terms of service?
+### Isn't this against Intralism's terms of service?
 As if that has stopped me, or others before. Oxy can feel free to take this down with a DMCA, that is totally in his right. However, I will still host the mod somewhere as long as I'm working on it.
 
-### I mean will I get banned?
+### I mean will I get banned for using the mod?
 I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Steam ban or VAC.
+
+### Have you heard of Rebuild?
+Yes. Just because I left the main community doesn't mean I'm not in the know 😜
 
 ## Features
 ### Editor
@@ -46,10 +49,10 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 
 ### Bugs To Squash (mod bugs on top, vanilla bugs on bottom)
 - Trying to exit the map while the waveform is generating will not close the editor, but instead stops the waveform generation. Workaround: Try exiting again. Will be fixed when wave form generation is in the settings rather than a dialog box.
-- The "Map" drop down menu flashes while loading the map. Intetional Mod "Bug". Workaround: none needed. While this is currently intentional for reasons I do not have the energy nor ability to explain, I'd rather this wasn't the case.
+- The "Map" drop down menu flashes while loading the map. Intetional Mod "Bug". Workaround: none needed. While this is currently intentional for reasons I do not have the energy nor space to explain, I'd rather this wasn't the case.
 - Audio Waveform in background doesn't delete when loading a new map. Vanilla Bug. Workaround: restart the editor. Seems to be one that stumped oxy as well, he tried several times to delete it)
 - Event Editor drop-down doesn't always position properly. Vanilla Bug. Workaround: Load a new arc, don't leave the drop down open while playing.
-- Editor overwrites custom values if they are out of range. Vanilla Bug. Workaround: Don't apply changes to events with values set manually in config.txt.
+- Editor overwrites custom values if they are out of range. Vanilla Bug. Workaround: Don't click "Apply" on events that have had their values set manually in config.txt.
 - Highscore doesn't save the first time you play a new map. Vanilla Bug. Workaround: Stop the map before starting proper.
 
 
