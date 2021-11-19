@@ -12,8 +12,10 @@ To update your mod, you only need to copy/paste the newest [Assembly-Csharp.dll]
 ### How do I uninstall the mod?
 Right click Intralism in Steam. Click `Properties`. Go to the `Local Files` tab and then click `Verify integrity of game files...`. This will restore Intralism to its current version.
 
-### Can this mod ruin my editor or workshop map files?
-There has been no features added that can drastically alter your files. The BPM tool will automatically write/read from your description, but it shouldn't cause any issues unless you're trying to break it.
+### Can this mod ruin my files?
+There has been no features added that can drastically alter your files. However of Note:
+-The BPM tool will automatically write/read from your description, but it shouldn't cause any issues unless you're trying to break it.
+-This mod decrypts the save file found in `...\Intralism\Save`. While I'm pretty sure I correctly implemented decryption, there is very much the chance that something will go wrong. I have implemented a feature that will backup your save every time you launch Intralism, just in case something breaks your save during that session. To recover the backup, change the file extension from `.bak` to `.save`
 
 ### Isn't this against the terms of service?
 As if that has stopped me, or others before. Oxy can feel free to take this down with a DMCA, that is totally in his right. However, I will still host the mod somewhere as long as I'm working on it.
