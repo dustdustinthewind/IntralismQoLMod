@@ -80,17 +80,15 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 - BPM Find tool (tap to the beat)
 - Store raw texture data in map folder? With how small compression makes images, it may be reasonable to store them rather than loading/recompressing every time we load a map. This would significantly cut down loading times for maps with many images.
 - Give mappers control over what images compress (we don't have to compress and potentially ruin the quality of map icons or maps with 1 Image)
-- Calculate and display difficulty on map select
 - Disable/Enable map zooms
 - Keyboard shortcuts on main menu (one key press to editor for example)
-- Change base dlls to non-obfuscated version (would probably save a lot of time and some headaches)
 - Map Selector Optimizations and Improvements (caching?)
 - Add better storyboard navigation/manipulation features (can use https://github.com/FlyingRabidUnicornPig/Intralism-Mapping-Assistant for reference)
 - Skip the beginning/ending of a map
-- Proper arc positioning
-- Improved Zooms
+- Proper arc positioning according to the music's time and not a spawner with a unity timer
+- Improved Zooms, make them not frame-rate dependent and add specific zoom types.
 - Timing Windows
-- Custom player Speed
+- Custom player Speed (with map speed acting as a modifer on top)
 - Create a custom map config to allow more features for mappers/players (These would be backwards compat (save a v3 version for non-modded clients) and can be uploaded to the workshop)
 
 Yes I'm using the Readme like I would a board, fuck you.
