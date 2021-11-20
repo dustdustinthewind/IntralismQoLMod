@@ -17,13 +17,13 @@ Right click Intralism in Steam. Click `Properties`. Go to the `Local Files` tab 
 ### Can this mod ruin my files?
 This mod should not mess with your files in unwanted ways. However of note:
 - The BPM tool will automatically write/read from your description, but it shouldn't cause any issues unless you're trying to break it. Multi-BPM/offset mapping is not supported yet.
-- This mod decrypts the save file found in `...\Intralism\Save`. While I'm pretty sure I correctly implemented this feature, there is very much the chance that something will go wrong. I have implemented a feature that will backup your save every time you launch Intralism, just in case something breaks your save during that session. To recover the backup, delete the broken save and change the file extension of the backup from `.bak` to `.save`.
+- This mod decrypts the save file found in `...\Intralism\Save`. While I'm pretty sure I correctly implemented this feature, there is very much the chance that something will go wrong. I have implemented a feature that keeps three save backups in the same folder as your save data. If a save gets corrupted, try using the backups. Delete the faulty save and change the extenion of the backup you want to use to `.save`. The `.bak_oldest` file was generated the first time you launched Intralism with mod version `0.6.3` or newer, and doesn't get overwritten by other backups.
 
 ### Isn't this against Intralism's terms of service?
 As if that has stopped me, or others before. Oxy can feel free to take this down with a DMCA, that is totally in his right. However, I will still host the mod somewhere as long as I'm working on it.
 
 ### I mean will I get banned for using the mod?
-I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Steam ban or VAC.
+I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Steam or VAC ban.
 
 ## Features
 ### Editor
@@ -42,6 +42,7 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 ### Misc
 - Loaded textures (skin, storyboard, map icons) will now compress. No more needing 30 gigs of ram to play an image sequencce storyboard. This does increase loading times.
 - Downloaded maps will display their difficulty when hovered in map-select
+- Added a backup feature to the save data, in case the game or the mod fucks things up.
 - Several vanilla bugs have been squashed (a never ending feat)
 
 ### Working on
