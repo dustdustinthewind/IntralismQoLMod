@@ -1,7 +1,7 @@
 # Intralism Quality of Life Mod
 A mod with a myriad of features and fixes that Oxy will never make.
 
-Focus is primarily on editor features right now, though [I would like to touch up gameplay someday.](https://cdn.discordapp.com/attachments/646553696821444609/905530596632191066/91adfe01e7.png)
+Focus is primarily on editor [features](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod#features) right now, though [I would like to touch up gameplay someday.](https://cdn.discordapp.com/attachments/646553696821444609/905530596632191066/91adfe01e7.png)
 
 ![meme](https://cdn.discordapp.com/attachments/592268952265293824/910555214732488804/20211117071911_1.jpg)
 
