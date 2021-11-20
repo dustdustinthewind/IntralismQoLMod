@@ -40,6 +40,7 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 ### Misc
 - Loaded textures (skin, storyboard, map icons) will now compress. No more needing 30 gigs of ram to play an image sequencce storyboard. This does increase loading times.
 - Downloaded maps will display their difficulty when hovered in map-select
+- Several vanilla bugs have been squashed (a never ending feat)
 
 ### Working on
 - Test Map from current time
