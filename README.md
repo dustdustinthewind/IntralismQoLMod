@@ -48,7 +48,9 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 - Test Map from current time
 
 ### Bugs To Squash (mod bugs on top, vanilla bugs on bottom)
+- Level Select takes longer to load due to compression be aplied there. Mod Bug. Workaround: None.
 - Trying to exit the map while the waveform is generating will not close the editor, but instead stops the waveform generation. Workaround: Try exiting again. Will be fixed when wave form generation is in the settings rather than a dialog box.
+- If you play tested in the Editor, leaving the editor will take you to the map select on top of the main menu. Mod Bug. Workaround: None, besides taking longer to leave Intralism without alt+f4 or playing multi, this may actually be a useful bug for some lol.
 - The "Map" drop down menu flashes while loading the map. Intetional Mod "Bug". Workaround: none needed. While this is currently intentional for reasons I do not have the energy nor space to explain, I'd rather this wasn't the case.
 - Lives do not display on non-hardcore gamemodes. Mod Bug. No Workaround: Do people care about lives?
 - Audio Waveform in background doesn't delete when loading a new map. Vanilla Bug. Workaround: restart the editor. Seems to be one that stumped oxy as well, he tried several times to delete it)
