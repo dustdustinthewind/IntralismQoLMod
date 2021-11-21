@@ -1,5 +1,5 @@
 # Intralism Quality of Life Mod
-A mod with a myriad of [features](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod#features) and fixes that Oxy will never make.
+A mod with a myriad of [**features and fixes**](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod#features) that Oxy will never make.
 
 Focus is primarily on editor features right now, though [I would like to touch up gameplay someday.](https://cdn.discordapp.com/attachments/646553696821444609/905530596632191066/91adfe01e7.png)
 
@@ -27,69 +27,68 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 
 ## Features
 ### Editor
-- Config v3 maps and the save file do not encrypt (Encrypted maps can be resaved to be decrypted!)
-- Gave Editor a Dark Theme
-- The BPM tool uses colors for snaps (only for 1, 2, 3, 4, 6, 8, 12, 16 snaps, if you're using something else you're probably wrong)
-- Automatic BPM saving/loading to and from description (Doesn't work properly with multiple BPMs)
-- Navigation improvements: better caret, finer zoom controls
-- The Discord RPC message for Editor will show the map you're working on
-- Audio Waveform should be more consistent and accurate, in exchange for being a little slower than it used to be. Press skip if you don't care for the waveform and its limitations.
-- Playtest Map button under the "Map" drop down menu. Only launches from start of map, still work in progress.
+- Config v3 maps and the save file **do not encrypt** (**Encrypted maps can be resaved to be decrypted!**)
+- Gave Editor a **Dark Theme**
+- The **BPM tool uses colors** for snaps (only for 1, 2, 3, 4, 6, 8, 12, 16 snaps, if you're using something else you're probably wrong)
+- **Automatic BPM saving/loading** to and from description (Doesn't work properly with multiple BPMs)
+- Navigation improvements: **Better caret, Finer zoom controls, BPM scrolling, Shift-key scrolling**
+- **Audio Waveform should be more consistent and accurate**, in exchange for being a little slower than it used to be. Press skip if you don't care for the waveform and its limitations.
+- **Playtest Map** button under the "Map" drop down menu. Functional, but a work in progress.
 
 ### Gameplay
 - Accuracy is now shown on all non-relax gamemodes.
 
 ### Misc
-- Loaded textures (skin, storyboard, map icons) will now compress. No more needing 30 gigs of ram to play an image sequencce storyboard. This does increase loading times.
-- Downloaded maps will display their difficulty when hovered in map-select
-- Added a backup feature to the save data, in case the game or the mod fucks things up.
-- Several vanilla bugs have been squashed (a never ending feat)
+- **Map images will now compress** before being used as a texture. No more needing 30 gigs of ram to play an image sequencce storyboard. This does increase loading times.
+- Downloaded **maps will display their difficulty** when hovered in map-select
+- Added a **backup feature to saves**, in case the mod or the game fucks things up.
+- **Several vanilla bugs have been squashed** (a never ending feat)
 
 ### Working on
 - Test Map from current time
 
 ### Bugs To Squash (mod bugs on top, vanilla bugs on bottom)
-- Level Select takes longer to load due to compression be aplied there. Mod Bug. Workaround: None.
-- Trying to exit the map while the waveform is generating will not close the editor, but instead stops the waveform generation. Workaround: Try exiting again. Will be fixed when wave form generation is in the settings rather than a dialog box.
-- If you play tested in the Editor, leaving the editor will take you to the map select on top of the main menu. Mod Bug. Workaround: None, besides taking longer to leave Intralism without alt+f4 or playing multi, this may actually be a useful bug for some lol.
-- The "Map" drop down menu flashes while loading the map. Intetional Mod "Bug". Workaround: none needed. While this is currently intentional for reasons I do not have the energy nor space to explain, I'd rather this wasn't the case.
-- Lives do not display on non-hardcore gamemodes. Mod Bug. No Workaround: Do people care about lives?
-- Audio Waveform in background doesn't delete when loading a new map. Vanilla Bug. Workaround: restart the editor. Seems to be one that stumped oxy as well, he tried several times to delete it)
-- Event Editor drop-down doesn't always position properly. Vanilla Bug. Workaround: Load a new arc, don't leave the drop down open while playing.
-- Editor overwrites custom values if they are out of range. Vanilla Bug. Workaround: Don't click "Apply" on events that have had their values set manually in config.txt.
-- Highscore doesn't save the first time you play a new map. Vanilla Bug. Workaround: Stop the map before starting proper.
+- Game Over screen is trying to update a null object every frame. Mod Bug. **No Workaround**
+- Trying to exit the map while the waveform is generating will not close the editor, but instead stops the waveform generation. **Workaround:** Try exiting again. Will be fixed when wave form generation is in the settings rather than a dialog box.
+- Leaving the editor will take you to the map select on top of the main menu. Mod Bug. **No Workaround**, besides taking longer to leave Intralism without alt+f4 or playing multi, this may actually be a useful bug for some lol.
+- The "Map" drop down menu flashes and sometimes stays up while loading. Intetional Mod "Bug". **Workaround:** none needed. While this is currently intentional for reasons I do not have the energy nor space to explain, I'd rather this wasn't the case.
+- Accuracy/Lives squashed. Mod Bug. **No Workaround**. Why is it so hard to modify UI elements?
+- Editor overwrites custom values if they are out of range. Vanilla Bug. **Workaround:** Don't click "Apply" on events that have had their values set manually in config.txt.
+- Highscore doesn't save the first time you play a new map. Vanilla Bug. **Workaround:** Fail the map with a positive score then start again.
+- Audio Waveform in background doesn't delete when loading a new map. Vanilla Bug. **Workaround:** restart the editor. Seems to be one that stumped oxy as well, he tried several times to delete it)
+- Event Editor drop-down doesn't always position properly. Vanilla Bug. **Workaround:** Load a new arc, don't leave the drop down open while playing.
 
 
 ### TO DO / Feature Wishlist (Feel free to [request](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/issues))
 - Open last edited map
-- Fix/Make accessible the replay system (Turns out theirs a Replay Viewer in the code. Idk how well it works, it could be an artifact of an older version, but there's at least the base for one here.)
-- Unlock the dev console
-- Fix inaccuracies in Results Screen.
-- Key button to skip connecting to shoddy russian servers
-- Optimize Editor Events to not update offscreen (reduce/remove lag that comes from many events + BPM snaps + waveform, there's so many objects and they all move at once...)
+- Disable clicking on progress bar when event editor is up (no more accidentally going to the end of map when I try to click Apply)
+- Press button to skip connecting to shoddy Russian servers (quick offline mode)
+- Less restriction in values available to select in Event Editor (replace sliders with text boxes or at least give them bigger, finer ranges)
+- Create a custom map config to allow more features for modded clients. Workshop uploads would include a vanilla-compatible v3 config.
+- Give mappers control over what images to compress (we don't have to compress and potentially ruin the quality of maps with few images)
+- Proper arc positioning according to the music's time and not a spawner based on Time.deltaTime
+- Optimize offscreen Editor elements
+- Change colors and sizes of events depending on type (imagine storyboard editing without a sea of green, starting/ending events being larger acting as bookmarks)
 - Remove the 1-second bars in editor (we have enough things pointing up and down)
-- Add buttons and settings for some features (disable waveforms, BPM Save button, turn off discord message, etc.)
+- Mousewheel to control volume during gameplay
+- BPM Find tool (tap to the beat)
+- Store raw texture data in map folder? With how small compression makes images, it may be reasonable to store them rather than loading/recompressing every time we load a map. This would significantly cut down loading times for maps with many images.
+- Skip the beginning/ending of a map
+- Fix negative zooms causing difficulty to be "Inifinte".
+- Fix the replay system (Turns out there's a Replay Viewer in the code. Idk how well it works, it could be an artifact of a much older version of Intralism, but there's at least the base for one here.)
+- Fix inaccuracies in Results Screen.
+- Unlock the dev console
+- Add buttons and settings for some features (disable waveform generation, save BPMs, turn off discord rpc, etc.)
 - Edit the settings menu to make more sense
 - Add more editor themes
-- Disable clicking on progress bar (no more accidentally going to the end of map)
-- Change colors and sizes of events depending on type (imagine storyboard editing without a sea of green, starting/ending events being larger acting as bookmarks)
-- Handle multiple BPMs and OFfsets
-- Less restriction in values available to select in Event Editor (replace sliders with text boxes?)
-- Remake arcs editing to be closer to osu!m's editor in design.
+- Handle multiple BPMs and Offsets
 - Sliding/stepped BPM tool?
-- BPM Find tool (tap to the beat)
-- Mousewheel to control volume during gameplay
-- Store raw texture data in map folder? With how small compression makes images, it may be reasonable to store them rather than loading/recompressing every time we load a map. This would significantly cut down loading times for maps with many images.
-- Give mappers control over what images compress (we don't have to compress and potentially ruin the quality of map icons or maps with 1 Image)
-- Disable/Enable map zooms
+- Remake arc-event editing to be closer to osu!m's editor in design.
+- Toggle map zooms
 - Keyboard shortcuts on main menu (one key press to editor for example)
-- Map Selector Optimizations and Improvements (caching?)
+- Map Selector Optimizations & Improvements (caching, faster loading, more maps, remember better)
 - Add better storyboard navigation/manipulation features (can use https://github.com/FlyingRabidUnicornPig/Intralism-Mapping-Assistant for reference)
-- Skip the beginning/ending of a map
-- Proper arc positioning according to the music's time and not a spawner with a unity timer
-- Improved Zooms, make them not frame-rate dependent and add specific zoom types.
+- Pause on esc press
+- Improved Zooms, make them frame independent and add specific zoom types.
 - Timing Windows
 - Custom player Speed (with map speed acting as a modifer on top)
-- Create a custom map config to allow more features for mappers/players (These would be backwards compat (save a v3 version for non-modded clients) and can be uploaded to the workshop)
-
-Yes I'm using the Readme like I would a board, fuck you.
