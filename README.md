@@ -48,10 +48,10 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 - Test Map from current time
 
 ### Bugs To Squash (mod bugs on top, vanilla bugs on bottom)
-- Game Over screen is trying to update a null object every frame. Mod Bug. **No Workaround**
 - Trying to exit the map while the waveform is generating will not close the editor, but instead stops the waveform generation. **Workaround:** Try exiting again. Will be fixed when wave form generation is in the settings rather than a dialog box.
 - Leaving the editor will take you to the map select on top of the main menu. Mod Bug. **No Workaround**, besides taking longer to leave Intralism without alt+f4 or playing multi, this may actually be a useful bug for some lol.
 - The "Map" drop down menu flashes and sometimes stays up while loading. Intetional Mod "Bug". **Workaround:** none needed. While this is currently intentional for reasons I do not have the energy nor space to explain, I'd rather this wasn't the case.
+- Game Over screen is trying to update a null object every frame. Mod Bug. **No Workaround**
 - Accuracy/Lives squashed. Mod Bug. **No Workaround**. Why is it so hard to modify UI elements?
 - Editor overwrites custom values if they are out of range. Vanilla Bug. **Workaround:** Don't click "Apply" on events that have had their values set manually in config.txt.
 - Highscore doesn't save the first time you play a new map. Vanilla Bug. **Workaround:** Fail the map with a positive score then start again.
