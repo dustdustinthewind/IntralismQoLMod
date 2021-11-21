@@ -78,6 +78,7 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 - Remake arcs editing to be closer to osu!m's editor in design.
 - Sliding/stepped BPM tool?
 - BPM Find tool (tap to the beat)
+- Mousewheel to control volume during gameplay
 - Store raw texture data in map folder? With how small compression makes images, it may be reasonable to store them rather than loading/recompressing every time we load a map. This would significantly cut down loading times for maps with many images.
 - Give mappers control over what images compress (we don't have to compress and potentially ruin the quality of map icons or maps with 1 Image)
 - Disable/Enable map zooms
