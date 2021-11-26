@@ -77,6 +77,7 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 - Fix the replay system (Turns out there's a Replay Viewer in the code. Idk how well it works, it could be an artifact of a much older version of Intralism, but there's at least the base for one here.)
 - Fix inaccuracies in Results Screen.
 - Unlock the dev console
+- Specific number of arcs, zooms, storyboard events, etc
 - Add buttons and settings for some features (disable waveform generation, save BPMs, turn off discord rpc, etc.)
 - Edit the settings menu to make more sense
 - Add more editor themes
