@@ -57,7 +57,8 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 - The "Map" drop down menu flashes and sometimes stays up while/after loading. Intetional Mod "Bug". **Workaround:** none needed. While this is currently intentional for reasons I do not have the energy nor space to explain, I'd rather this wasn't the case.
 - Game Over screen is trying to update a null object every frame. Mod Bug. **No Workaround**
 - Accuracy/Lives squashed. Mod Bug. **No Workaround**. Why is it so hard to modify UI elements?
-- **SHOULD BE FIXED** ~~Map selector sometimes comes up when launching the game~~ (Leaving up in case for now it's not fixed)
+- Untagged workshop maps don't pop up in map selector. Vanilla Bug. **No Workaround**
+- Map Selector Sometimes pops up when entering the game. Vanilla Bug. **No Workaround:** If you know one, tell me.
 - Editor overwrites custom values if they are out of range. Vanilla Bug. **Workaround:** Don't click "Apply" on events that have had their values set manually in config.txt.
 - Highscore doesn't save the first time you play a new map. Vanilla Bug. **Workaround:** Fail the map with a positive score then start again.
 - Rank updating can cause stutter during gameplay (is this still a bug? need to check/test). Vanilla Bug. **Workaround:** check console to wait for rank update before playing a map again
