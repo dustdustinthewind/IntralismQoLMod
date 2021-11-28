@@ -40,8 +40,8 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 - Accuracy is now shown on all non-relax gamemodes.
 
 ### Misc
-- **Map images will now compress** before being used as a texture. No more needing 30 gigs of ram to play an image sequencce storyboard. This does increase loading times.
-- Downloaded **maps will display their difficulty** when hovered in map-select. TODO: Give mappers control over compression.
+- **Map images will now compress** before being used as a texture. No more needing 30 gigs of ram to play an image sequencce storyboard. This does increase loading times. TODO: Give mappers control over compression.
+- Downloaded **maps will display their difficulty** when hovered in map-select.
 - Added a **backup feature to saves**, in case the mod or the game fucks things up.
 - Press "O" while connecting to server to **Quickstart Offline Mode**
 - **Several vanilla bugs have been squashed** (a never ending feat)
