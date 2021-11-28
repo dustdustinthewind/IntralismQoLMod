@@ -52,6 +52,7 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 - Custom Menu Music through skin folder
 
 ### Bugs To Squash (mod bugs on top, vanilla bugs on bottom)
+- Pressing "O" will bring up the offline message. Mod Bug **Workaround** press yes i dont' think it works if you already loaded
 - Initial BPM doesn't save properly. Mod Bug. **Workaround** manually add the BPM to the description.
 - Leaving the editor will take you to the map select on top of the main menu if you play tested. Mod Bug. **No Workaround**, besides taking longer to leave Intralism without alt+f4 or playing multi, this may actually be a useful bug for some lol.
 - The "Map" drop down menu flashes and sometimes stays up while/after loading. Intetional Mod "Bug". **Workaround:** none needed. While this is currently intentional for reasons I do not have the energy nor space to explain, I'd rather this wasn't the case.
