@@ -73,6 +73,7 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 - Give mappers control over what images to compress (we don't have to compress and potentially ruin the quality of maps with few images)
 - Proper arc positioning according to the music's time and not a spawner based on Time.deltaTime
 - Optimize offscreen Editor elements
+- Access the leaderboards for workshop maps
 - Change colors and sizes of events depending on type (imagine storyboard editing without a sea of green, starting/ending events being larger acting as bookmarks)
 - Remove the 1-second bars in editor (we have enough things pointing up and down)
 - Mousewheel to control volume during gameplay
