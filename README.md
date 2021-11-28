@@ -34,34 +34,39 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 - Navigation improvements: **Better caret, Finer zoom controls, BPM scrolling, Shift-key scrolling**
 - **Audio Waveform should be more consistent and accurate**, in exchange for being a little slower than it used to be. Press skip if you don't care for the waveform and its limitations.
 - **Playtest Map** button under the "Map" drop down menu. Functional, but a work in progress.
+- **Better Map Stats**. TODO: Button to copy map stats to map description.
 
 ### Gameplay
 - Accuracy is now shown on all non-relax gamemodes.
 
 ### Misc
 - **Map images will now compress** before being used as a texture. No more needing 30 gigs of ram to play an image sequencce storyboard. This does increase loading times.
-- Downloaded **maps will display their difficulty** when hovered in map-select
+- Downloaded **maps will display their difficulty** when hovered in map-select. TODO: Give mappers control over compression.
 - Added a **backup feature to saves**, in case the mod or the game fucks things up.
+- Press "O" while connecting to server to **Quickstart Offline Mode**
 - **Several vanilla bugs have been squashed** (a never ending feat)
+- **A couple easter eggs**
 
 ### Working on
-- Test Map from current time
+- Test Map from current time (test map implemented, from time not)
+- Custom Menu Music through skin folder
 
 ### Bugs To Squash (mod bugs on top, vanilla bugs on bottom)
+- Initial BPM doesn't save properly. Mod Bug. **Workaround** manually add the BPM to the description.
 - Leaving the editor will take you to the map select on top of the main menu if you play tested. Mod Bug. **No Workaround**, besides taking longer to leave Intralism without alt+f4 or playing multi, this may actually be a useful bug for some lol.
 - The "Map" drop down menu flashes and sometimes stays up while/after loading. Intetional Mod "Bug". **Workaround:** none needed. While this is currently intentional for reasons I do not have the energy nor space to explain, I'd rather this wasn't the case.
 - Game Over screen is trying to update a null object every frame. Mod Bug. **No Workaround**
 - Accuracy/Lives squashed. Mod Bug. **No Workaround**. Why is it so hard to modify UI elements?
+- Sometimes Map Select opens up when you press any button to launch the menu. Vanilla Bug **Workaround:** Figuring that out, I think it's controllable.
 - Editor overwrites custom values if they are out of range. Vanilla Bug. **Workaround:** Don't click "Apply" on events that have had their values set manually in config.txt.
 - Highscore doesn't save the first time you play a new map. Vanilla Bug. **Workaround:** Fail the map with a positive score then start again.
-- Audio Waveform in background doesn't delete when loading a new map. Vanilla Bug. **Workaround:** restart the editor. Seems to be one that stumped oxy as well, he tried several times to delete it)
+- Rank updating can cause stutter during gameplay (is this still a bug? need to check/test). Vanilla Bug. **Workaround:** check console to wait for rank update before playing a map again
 - Event Editor drop-down doesn't always position properly. Vanilla Bug. **Workaround:** Load a new arc, don't leave the drop down open while playing.
 
 
 ### TO DO / Feature Wishlist (Feel free to [request](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/issues))
 - Open last edited map
 - Disable clicking on progress bar when event editor is up (no more accidentally going to the end of map when I try to click Apply)
-- Press button to skip connecting to shoddy Russian servers (quick offline mode)
 - Less restriction in values available to select in Event Editor (replace sliders with text boxes or at least give them bigger, finer ranges)
 - Create a custom map config to allow more features for modded clients. Workshop uploads would include a vanilla-compatible v3 config.
 - Give mappers control over what images to compress (we don't have to compress and potentially ruin the quality of maps with few images)
