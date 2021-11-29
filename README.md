@@ -39,7 +39,7 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
   - **Refined Scroll Zoom** (Get much closer to the arcs without getting uncomfortably close like before)
   - Speed up to 2x or down to .125x (Press shift key or enable caps to step by .125x instead of .25x)
 - **Audio Waveform should be more consistent and accurate**, in exchange for being a little slower than it used to be. Press skip if you don't care for the waveform and its limitations.
-- **Playtest Map** button under the "Map" drop down menu. Functional, but a work in progress.
+- **Playtest Map** button under the "Map" drop down menu. Replaces the "Exit" button (use `esc` to leave editor) Functional, but a work in progress.
 - **Better Map Stats**. TODO: Button to copy map stats to map description.
 
 ### Gameplay
