@@ -27,8 +27,8 @@ As if that has stopped me, or others before. Oxy can feel free to take this down
 ### I mean will I get banned for using the mod?
 I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Steam or VAC ban.
 
-## Features
-### Editor
+## FEATURES
+### EDITOR
 - Config v3 maps and the save file **do not encrypt** (**Encrypted maps can be resaved to be decrypted!**)
 - Gave Editor a **Dark Theme**
 - The **BPM tool uses colors** for snaps (only for 1, 2, 3, 4, 6, 8, 12, 16 snaps, if you're using something else you're probably wrong)
@@ -42,10 +42,10 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 - **Playtest Map** button under the "Map" drop down menu. Replaces the "Exit" button (use `esc` to leave editor) Functional, but a work in progress.
 - **Better Map Stats**. TODO: Button to copy map stats to map description.
 
-### Gameplay
+### GAMEPLAY
 - Accuracy is now shown on all non-relax gamemodes (bug makes it squashed with lives atm)
 
-### Misc
+### MISC
 - **Map images will now compress** before being used as a texture. No more needing 30 gigs of ram to play an image sequencce storyboard. This does increase loading times. TODO: Give mappers control over compression.
 - Downloaded **maps will display their difficulty** when hovered in map-select.
 - **Zoom difficulty calculations have been reigned in**, zooms outside of 4-40 get treated as 4 or 40, meaning maps can't reach 1 million or infinity difficulty.
