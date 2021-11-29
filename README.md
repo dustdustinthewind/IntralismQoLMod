@@ -48,6 +48,7 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 ### Misc
 - **Map images will now compress** before being used as a texture. No more needing 30 gigs of ram to play an image sequencce storyboard. This does increase loading times. TODO: Give mappers control over compression.
 - Downloaded **maps will display their difficulty** when hovered in map-select.
+- **Zoom difficulty calculations have been reigned in**, zooms outside of 4-40 get treated as 4 or 40, meaning maps can't reach 1 million or infinity difficulty.
 - Added a **backup feature to saves**, in case the mod or the game fucks things up.
 - Press "O" while connecting to server to **Quickstart Offline Mode**
 - **Several vanilla bugs have been squashed** (a never ending feat)
@@ -88,7 +89,6 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 - Video Player for storyboard
 - Store raw texture data in map folder? With how small compression makes images, it may be reasonable to store them rather than loading/recompressing every time we load a map. This would significantly cut down loading times for maps with many images.
 - Skip the beginning/ending of a map
-- Fix negative zooms causing difficulty to be "Inifinte".
 - Fix the replay system (Turns out there's a Replay Viewer in the code. Idk how well it works, it could be an artifact of a much older version of Intralism, but there's at least the base for one here.)
 - Fix inaccuracies in Results Screen.
 - Unlock the dev console
