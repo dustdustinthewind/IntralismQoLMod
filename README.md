@@ -48,8 +48,9 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 - **A couple easter eggs**
 
 ### Working on
-- Test Map from current time (test map implemented, from time not)
-- Custom Menu Music through skin folder
+- Change BPM/Snap Events (handle BPM through a new custom event rather than operating within the description. Would log errors on vanilla in console but that's it, no v4 needed.)
+- Test Map from current time (test map implemented, from time not) (Reimplement into the editor using playerbase/controller?)
+- Custom Menu Music through skin folder (on the backburner)
 
 ### Bugs To Squash (mod bugs on top, vanilla bugs on bottom)
 - Leaving the editor will take you to the map select on top of the main menu if you play tested. Mod Bug. **No Workaround**, besides taking longer to leave Intralism without alt+f4 or playing multi, this may actually be a useful bug for some lol.
