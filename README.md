@@ -33,13 +33,17 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 - Gave Editor a **Dark Theme**
 - The **BPM tool uses colors** for snaps (only for 1, 2, 3, 4, 6, 8, 12, 16 snaps, if you're using something else you're probably wrong)
 - **Automatic BPM saving/loading** to and from description (Doesn't work properly with multiple BPMs)
-- Navigation improvements: **Better caret, Finer zoom controls, BPM scrolling, Shift-key scrolling**
+- Navigation improvements:
+  - Caret Doesn't slide
+  - **Caret Snaps to BPM** (scroll faster by zooming out, playing the map, and/or holding shift)
+  - **Refined Scroll Zoom** (Get much closer to the arcs without getting uncomfortably close like before)
+  - Speed up to 2x or down to .125x (Press shift key or enable caps to step by .125x instead of .25x)
 - **Audio Waveform should be more consistent and accurate**, in exchange for being a little slower than it used to be. Press skip if you don't care for the waveform and its limitations.
 - **Playtest Map** button under the "Map" drop down menu. Functional, but a work in progress.
 - **Better Map Stats**. TODO: Button to copy map stats to map description.
 
 ### Gameplay
-- Accuracy is now shown on all non-relax gamemodes.
+- Accuracy is now shown on all non-relax gamemodes (bug makes it squashed with lives atm)
 
 ### Misc
 - **Map images will now compress** before being used as a texture. No more needing 30 gigs of ram to play an image sequencce storyboard. This does increase loading times. TODO: Give mappers control over compression.
@@ -50,8 +54,10 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 - **A couple easter eggs**
 
 ### Working on
+- Copy Map Stats to map description
+- Change zoom difficulty calculations (Thanks Deko for the new formula!)
 - Change BPM/Snap Events (handle BPM through a new custom event rather than operating within the description. Would log errors on vanilla in console but that's it, no v4 needed.)
-- Test Map from current time (test map implemented, from time not) (Reimplement into the editor using playerbase/controller?)
+- Test Map from current time (test map implemented, from time not) (Reimplement as play testing *inside* the editor using playerbase?) (on the backburner)
 - Custom Menu Music through skin folder (on the backburner)
 
 ### Bugs To Squash (mod bugs on top, vanilla bugs on bottom)
