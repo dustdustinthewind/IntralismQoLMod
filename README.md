@@ -54,8 +54,6 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 - **A couple easter eggs**
 
 ### Working on
-- Copy Map Stats to map description
-- Change zoom difficulty calculations (Thanks Deko for the new formula!)
 - Change BPM/Snap Events (handle BPM through a new custom event rather than operating within the description. Would log errors on vanilla in console but that's it, no v4 needed.)
 - Test Map from current time (test map implemented, from time not) (Reimplement as play testing *inside* the editor using playerbase?) (on the backburner)
 - Custom Menu Music through skin folder (on the backburner)
