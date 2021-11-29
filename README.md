@@ -67,6 +67,7 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 
 ### TO DO / Feature Wishlist (Feel free to [request](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/issues))
 - Open last edited map
+- Custom Gamemode where you can set the speed before playing.
 - Disable clicking on progress bar when event editor is up (no more accidentally going to the end of map when I try to click Apply)
 - Less restriction in values available to select in Event Editor (replace sliders with text boxes or at least give them bigger, finer ranges)
 - Create a custom map config to allow more features for modded clients. Workshop uploads would include a vanilla-compatible v3 config.
