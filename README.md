@@ -51,6 +51,7 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 - **Zoom difficulty calculations have been reigned in**, zooms outside of 4-40 get treated as 4 or 40, meaning maps can't reach 1 million or infinity difficulty.
 - Added a **backup feature to saves**, in case the mod or the game fucks things up.
 - Press "O" while connecting to server to **Quickstart Offline Mode**
+- **Browse for non-tagged maps** by selecting "NoTag" in the filter options (will ignore any other tags you've pressed)
 - **Several vanilla bugs have been squashed** (a never ending feat)
 - **A couple easter eggs**
 
@@ -70,7 +71,6 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 - Highscore doesn't save the first time you play a new map. Vanilla Bug. **Workaround:** Fail the map with a positive score then start again.
 - Rank updating can cause stutter during gameplay (is this still a bug? need to check/test). Vanilla Bug. **Workaround:** check console to wait for rank update before playing a map again
 - Event Editor drop-down doesn't always position properly. Vanilla Bug. **Workaround:** Load a new arc, don't leave the drop down open while playing.
-
 
 ### TO DO / Feature Wishlist (Feel free to [request](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/issues))
 - Open last edited map
