@@ -31,8 +31,8 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 ### EDITOR
 - Config v3 maps and the save file **do not encrypt** (**Encrypted maps can be resaved to be decrypted!**)
 - Gave Editor a **Dark Theme**
-- The **BPM tool uses colors** for snaps (only for 1, 2, 3, 4, 6, 8, 12, 16 snaps, if you're using something else you're probably wrong)
-- **Automatic BPM saving/loading** to and from description (Doesn't work properly with multiple BPMs)
+- The **BPM tool uses colors** for snaps 1, 2, 3, 4, 6, 8, 12, and 16
+- **Automatic BPM saving/loading** to and from description (Doesn't work with multiple BPMs)
 - Navigation improvements:
   - Caret Doesn't slide
   - **Caret Snaps to BPM** (scroll faster by zooming out, playing the map, and/or holding shift)
@@ -48,7 +48,8 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 ### MISC
 - **Map images will now compress** before being used as a texture. No more needing 30 gigs of ram to play an image sequencce storyboard. This does increase loading times. TODO: Give mappers control over compression.
 - Downloaded **maps will display their difficulty** when hovered in map-select.
-- **Zoom difficulty calculations have been reigned in**, zooms outside of 4-40 get treated as 4 or 40, meaning maps can't reach 1 million or infinity difficulty.
+- Difficulty Adjustments:
+  - Zooms outside of 4-40 get treated as 4 or 40, to reduce zoom abuse at extremely low or extremely high values.
 - Added a **backup feature to saves**, in case the mod or the game fucks things up.
 - Press "O" while connecting to server to **Quickstart Offline Mode**
 - **Browse for non-tagged maps** by selecting "NoTag" in the filter options (will ignore any other tags you've pressed)
