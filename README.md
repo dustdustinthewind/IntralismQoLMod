@@ -45,8 +45,8 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 ### GAMEPLAY
 - Accuracy is now shown on all non-relax gamemodes
 - **Storyboard optimizations**:
-  - Suns don't keep spamming for audio data (Estimated Performance (FPS) Gain: 50%!!!)
-  - Sprites don't lerp their color every frame (EPG: 8%)
+  - Suns don't keep spamming for audio data (Maps with many suns will see significant performance boosts)
+  - Sprites don't lerp their color every frame (Estimated performance gain of sprites: 8%)
 
 ### MISC
 - **Map images will now compress** before being used as a texture. No more needing 30 gigs of ram to play an image sequencce storyboard. This does increase loading times. TODO: Give mappers control over compression.
