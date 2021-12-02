@@ -69,6 +69,7 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 - Custom Menu Music through skin folder (on the backburner)
 
 ### Bugs To Squash (mod bugs on top, vanilla bugs on bottom)
+- Suns are currently not epilepsy-friendly
 - **Disable storyboard** gets overwritten by the new discord editor setting when you launch the game. **Workaround:** Click "Disable Storyboard" to your preference when you launch the game.
 - BPM Tool doesn't work with decimal numbers. Woops. Mod Bug. **Workaround:** Manually enter it or use a whole number factor of your BPM. Will be replaced with BPM events.
 - Leaving the editor will take you to the map select on top of the main menu if you play tested. Mod Bug. **No Workaround**, besides taking longer to leave Intralism without alt+f4 or playing multi, this may actually be a useful bug for some lol.
