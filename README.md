@@ -44,6 +44,9 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 
 ### GAMEPLAY
 - Accuracy is now shown on all non-relax gamemodes
+- **Storyboard optimizations**:
+  - Suns don't keep spamming for audio data (Estimated Performance (FPS) Gain: 50%!!!)
+  - Sprites don't lerp their color every frame (EPG: 8%)
 
 ### MISC
 - **Map images will now compress** before being used as a texture. No more needing 30 gigs of ram to play an image sequencce storyboard. This does increase loading times. TODO: Give mappers control over compression.
@@ -57,7 +60,7 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 - **A couple easter eggs**
 
 ### Working on
-- Storyboard optimizations
+- Storyboard optimizations 
 - Change BPM/Snap Events (handle BPM through a new custom event rather than operating within the description. Would log errors on vanilla in console but that's it, no v4 needed.)
 - Make Difficulty calculation ignore events after MapEnd
 - Test Map from current time (test map implemented, from time not) (Reimplement as play testing *inside* the editor using playerbase?) (on the backburner)
