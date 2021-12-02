@@ -52,7 +52,7 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 - **Map images will now compress** before being used as a texture. No more needing 30 gigs of ram to play an image sequencce storyboard. This does increase loading times. TODO: Give mappers control over compression.
 - Downloaded **maps will display their difficulty** when hovered in map-select.
 - Difficulty Adjustments:
-  - Zooms outside of 4-40 get treated as 4 or 40, to reduce zoom abuse at extremely low or extremely high values.
+  - Zooms outside of 4-40 get treated as 4 or 40, to reduce diff abuse at extremely low or extremely high values.
 - Added a **backup feature to saves**, in case the mod or the game fucks things up.
 - Press "O" while connecting to server to **Quickstart Offline Mode**
 - **Browse for non-tagged maps** by selecting "NoTag" in the filter options (will ignore any other tags you've pressed)
