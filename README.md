@@ -56,6 +56,7 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 - Added a **backup feature to saves**, in case the mod or the game fucks things up.
 - Press "O" while connecting to server to **Quickstart Offline Mode**
 - **Browse for non-tagged maps** by selecting "NoTag" in the filter options (will ignore any other tags you've pressed)
+- Added extra settings
 - **Several vanilla bugs have been squashed** (a never ending feat)
 - **A couple easter eggs**
 
@@ -67,6 +68,7 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 - Custom Menu Music through skin folder (on the backburner)
 
 ### Bugs To Squash (mod bugs on top, vanilla bugs on bottom)
+- **Disable storyboard** gets overwritten by the new discord editor setting when you launch the game. **Workaround:** Click "Disable Storyboard" to your preference when you launch the game.
 - BPM Tool doesn't work with decimal numbers. Woops. Mod Bug. **Workaround:** Manually enter it or use a whole number factor of your BPM. Will be replaced with BPM events.
 - Leaving the editor will take you to the map select on top of the main menu if you play tested. Mod Bug. **No Workaround**, besides taking longer to leave Intralism without alt+f4 or playing multi, this may actually be a useful bug for some lol.
 - The "Map" drop down menu flashes and sometimes stays up while/after loading. Intetional Mod "Bug". **Workaround:** none needed. While this is currently intentional for reasons I do not have the energy nor space to explain, I'd rather this wasn't the case.
