@@ -32,7 +32,7 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 - Config v3 maps and the save file **do not encrypt** (**Encrypted maps can be resaved to be decrypted!**)
 - Gave Editor a **Dark Theme**
 - The **BPM tool uses colors** for snaps 1, 2, 3, 4, 6, 8, 12, and 16
-- **Automatic BPM saving/loading** to and from description (Doesn't work with multiple BPMs)
+- **Automatic BPM saving/loading** to and from description (Doesn't work with multiple BPMs or BPMs with decimal places)
 - Navigation improvements:
   - Caret Doesn't slide
   - **Caret Snaps to BPM** (scroll faster by zooming out, playing the map, and/or holding shift)
@@ -63,6 +63,7 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 - Custom Menu Music through skin folder (on the backburner)
 
 ### Bugs To Squash (mod bugs on top, vanilla bugs on bottom)
+- BPM Tool doesn't work with decimal numbers. Woops. Mod Bug. **Workaround:** Manually enter it or use a whole number factor of your BPM. Will be replaced with BPM events.
 - Leaving the editor will take you to the map select on top of the main menu if you play tested. Mod Bug. **No Workaround**, besides taking longer to leave Intralism without alt+f4 or playing multi, this may actually be a useful bug for some lol.
 - The "Map" drop down menu flashes and sometimes stays up while/after loading. Intetional Mod "Bug". **Workaround:** none needed. While this is currently intentional for reasons I do not have the energy nor space to explain, I'd rather this wasn't the case.
 - Game Over screen is trying to update a null object every frame. Mod Bug. **No Workaround**
