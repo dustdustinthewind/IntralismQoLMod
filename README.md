@@ -61,8 +61,9 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 - **A couple easter eggs**
 
 ### Working on
-- Storyboard optimizations 
+- Storyboard optimizations
 - Change BPM/Snap Events (handle BPM through a new custom event rather than operating within the description. Would log errors on vanilla in console but that's it, no v4 needed.)
+- Settings Menu Additions/Revisions
 - Make Difficulty calculation ignore events after MapEnd
 - Test Map from current time (test map implemented, from time not) (Reimplement as play testing *inside* the editor using playerbase?) (on the backburner)
 - Custom Menu Music through skin folder (on the backburner)
@@ -102,8 +103,6 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 - Fix inaccuracies in Results Screen.
 - Unlock the dev console
 - Specific number of arcs, zooms, storyboard events, etc
-- Add buttons and settings for some features (disable waveform generation, save BPMs, turn off discord rpc, etc.)
-- Edit the settings menu to make more sense
 - Add more editor themes
 - Handle multiple BPMs and Offsets
 - Sliding/stepped BPM tool?
