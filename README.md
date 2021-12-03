@@ -45,9 +45,9 @@ There is no risk of being auto banned by Steam or VAC.
 - **Better Map Stats that can be pasted to the map's description**
 
 ### GAMEPLAY
-- Accuracy is now shown on all non-relax gamemodes
 - **MASSIVE STORYBOARD OPTIMIZATIONS** especially to suns and satellites.
 - **Storyboard and zoom animations are less frame-dependent**. This means that maps should play very similarly on all modded clients. This has effected the "style" of vanilla maps.
+- Accuracy is now shown on all non-relax gamemodes
 
 ### MISC
 - **Map images will now compress** before being used as a texture. No more needing 30 gigs of ram to play an image sequence storyboard. This does increase loading times. TODO: Give mappers control over compression.
