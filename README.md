@@ -44,7 +44,7 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 
 ### GAMEPLAY
 - Accuracy is now shown on all non-relax gamemodes
-- **MASSIVE STORYBOARD OPTIMIZATIONS** (some maps receive performance gains over 200%!!!!!!)
+- **MASSIVE STORYBOARD OPTIMIZATIONS** especially to suns and satellites.
 - **Storyboard and zoom animations are less frame-dependent**. This means that maps should play very similarly on all modded clients. This has effected the "style" of vanilla maps.
 
 ### MISC
