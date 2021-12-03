@@ -83,6 +83,7 @@ There is no risk of being auto banned by Steam or VAC.
 ### TO DO / Feature Wishlist (Feel free to [request](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/issues))
 - Open last edited map
 - Custom workshop tags
+- Custom FPS Lock slider setting
 - Custom Gamemode where you can set the speed before playing.
 - Disable clicking on progress bar when event editor is up (no more accidentally going to the end of map when I try to click Apply)
 - Less restriction in values available to select in Event Editor (replace sliders with text boxes or at least give them bigger, finer ranges)
