@@ -9,29 +9,29 @@ Focus is primarily on editor features right now, though [I would like to touch u
 
 ## FAQ
 ### How do I install the mod?
-Click [here](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/archive/refs/heads/main.zip) to download the current version. Right click Intralism in Steam and select `Manage > Browse Local Files`. Go into `Intralism_Data\Managed`. Copy the .dll files from the zip you downloaded and paste them into the `Managed` folder. If it asks you to replace files say yes.
+Click [here](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/archive/refs/heads/main.zip) to download the current version. Right click Intralism in Steam and select `Manage > Browse Local Files`. Go into `Intralism_Data\Managed`. Copy the .dll files from the zip you downloaded and paste them into the `Managed` folder. Replace files, yes.
 
-To update your mod, you only need to copy/paste the newest [Assembly-Csharp.dll](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/raw/main/Assembly-CSharp.dll). This may change in the future.
+To update your mod, you only need to download/paste the newest [Assembly-Csharp.dll](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/raw/main/Assembly-CSharp.dll). This may change in the future.
 
 ### How do I uninstall the mod?
 Right click Intralism in Steam. Click `Properties`. Go to the `Local Files` tab and then click `Verify integrity of game files...`. This will restore Intralism to its current version.
 
 ### Can this mod ruin my files?
 This mod should not mess with your files in unwanted ways. However of note:
-- The BPM tool will automatically write/read from your description, but it shouldn't cause any issues unless you're trying to break it. Multi-BPM/offset mapping is not supported yet.
-- This mod decrypts the save file found in `...\Intralism\Save`. While I'm pretty sure I correctly implemented this feature, there is very much the chance that something could go wrong. For this and other reasons, I have implemented a feature that keeps three save backups in the same folder as your save data. If a save gets corrupted, try using the backups. Delete the faulty save and change the extenion of the backup you want to use to `.save`. The `.bak_oldest` file was generated the first time you launched Intralism with mod version `0.6.3` or newer, and doesn't get overwritten by other backups.
+- The BPM tool will automatically write/read from your description, but it shouldn't cause major issues unless you're trying to break it. Multi-BPM mapping is not supported yet. (Decimal BPMs bugged, woops)
+- This mod decrypts the save file found in `...\Intralism\Save`. I have also implemented a feature that keeps three save backups in the same folder as your save data. If a save gets corrupted, try using the backups. Delete the faulty save and copy a backup. Change the backup copy's extension to `.save`. The `.bak_oldest` file was generated the first time you launched Intralism with mod version `0.6.3` or newer, and doesn't get overwritten by other backups. Delete this file if you wish to have a newer `.bak_oldest`.
 
 ### Isn't this against Intralism's terms of service?
-As if that has stopped me, or others before. Oxy can feel free to take this down with a DMCA, that is totally in his right. However, I will still host the mod somewhere as long as I'm working on it.
+As if that has stopped me, or others before. Oxy can feel free to take this down with a DMCA, that is totally in his right. However, as long as I work on this mod, I will host and advertise it to the community.
 
-### I mean will I get banned for using the mod?
-I highly doubt it. Even if you're banned by the Intralism server, the ban checks are done by the local client, easy for hackers but not normies to bypass. This mod removes (most if not all) those checks; enjoy your freedom.
+### I mean can I get banned for using the mod?
+I highly doubt it. Even if you're banned by the Intralism webserver, the ban checks are handled by the local client, easy for hackers but not normies to bypass. This mod removes (most if not all) those checks; enjoy your freedom.
 
 There is no risk of being auto banned by Steam or VAC.
 
 ## FEATURES
 ### EDITOR
-- Config v3 maps and the save file **do not encrypt** (**Encrypted maps can be resaved to be decrypted!**)
+- Config v3 **maps and the save file do not encrypt** (**Encrypted maps can be resaved to be decrypted!**)
 - Gave Editor a **Dark Theme**
 - The **BPM tool uses colors** for snaps 1, 2, 3, 4, 6, 8, 12, and 16
 - **Automatic BPM saving/loading** to and from description (Doesn't work with multiple BPMs or BPMs with decimal places)
@@ -52,33 +52,33 @@ There is no risk of being auto banned by Steam or VAC.
 ### MISC
 - **Map images will now compress** before being used as a texture. No more needing 30 gigs of ram to play an image sequence storyboard. This does increase loading times. TODO: Give mappers control over compression.
 - Downloaded **maps will display their difficulty** when hovered in map-select.
-- Difficulty Adjustments (potentially nerfs the max rank score you can submit):
-  - Zooms outside of 4-40 get treated as 4 or 40, to reduce diff abuse at extremely low or extremely high values.
-- Added a **backup feature to saves**, in case the mod or the game fucks things up.
-- Press "O" while connecting to server to **Quickstart Offline Mode**
+- Difficulty Adjustments:
+  - Zooms outside of 4-40 get treated as 4 or 40, to reduce diff abuse at extremely low or extremely high values. (potentially nerfs the max rank score you can submit)
+- Added a **backup feature to saves**, in case it gets fucked up.
+- Press "O" while connecting to server to **Quickstart Offline Mode** (works consistently if connection to steam is down/flakey)
 - **Browse for non-tagged maps** by selecting "NoTag" in the filter options (will ignore any other tags you've pressed)
 - Added extra settings
-- **Several vanilla bugs have been squashed** (a never ending feat)
+- **Many vanilla bugs have been squashed** (a never ending feat)
 - **A couple easter eggs**
 
 ### Working on
 - Change BPM/Snap Events (handle BPM through a new custom event rather than operating within the description. Would log errors on vanilla in console but that's it, no v4 needed.)
-- Settings Menu Additions/Revisions
 - Make Difficulty calculation ignore events after MapEnd
+- Settings Menu Additions/Revisions
 - Test Map from current time (test map implemented, from time not) (Reimplement as play testing *inside* the editor using playerbase?) (on the backburner)
 - Custom Menu Music through skin folder (on the backburner)
 
-### Bugs To Squash (mod bugs on top, vanilla bugs on bottom)
-- **Disable storyboard** gets overwritten by the new discord editor setting when you launch the settings menu for the first time (i.e. when you launch the menu) **Workaround:** Click "Disable Storyboard" to your preference when you launch the game.
-- BPM Tool doesn't work with decimal numbers. Woops. Mod Bug. **Workaround:** Manually enter it or use a whole number factor of your BPM. Will be replaced with BPM events.
-- Leaving the editor will take you to the map select on top of the main menu if you play tested. Mod Bug. **No Workaround**, besides taking longer to leave Intralism without alt+f4 or playing multi, this may actually be a useful bug for some lol.
-- The "Map" drop down menu flashes and sometimes stays up while/after loading. Intetional Mod "Bug". **Workaround:** none needed. While this is currently intentional for reasons I do not have the energy nor space to explain, I'd rather this wasn't the case.
-- Game Over screen is trying to update a null object every frame. Mod Bug. **No Workaround**
-- Map Selector Sometimes pops up when entering the game. Vanilla Bug. **Workaround:** Don't force close intralism after opening (but not closing) the map selector.
-- Editor overwrites custom values if they are out of range. Vanilla Bug. **Workaround:** Don't click "Apply" on events that have had their values set manually in config.txt.
-- Highscore doesn't save the first time you play a new map. Vanilla Bug. **Workaround:** Fail the map with a positive score then start again.
-- Rank updating can cause stutter during gameplay (is this still a bug? need to check/test). Vanilla Bug. **Workaround:** check console to wait for rank update before playing a map again
-- Event Editor drop-down doesn't always position properly. Vanilla Bug. **Workaround:** Load a new arc, don't leave the drop down open while playing.
+### Bugs To Squash
+- Mod Bug: **Disable storyboard** gets overwritten by the new discord editor setting when you launch the settings menu for the first time (i.e. when you launch the menu) **Workaround:** Click "Disable Storyboard" to your preference when you launch the game.
+- Mod Bug: BPM Tool doesn't work with decimal numbers. Woops. **Workaround:** Manually enter it or use a whole number factor of your BPM. Will be replaced with BPM events.
+- Mod Bug: Leaving the editor will take you to the map select on top of the main menu if you play tested. **No Workaround**
+- Intentional Mod "Bug": The "Map" drop down menu flashes and sometimes stays up while/after loading. I'd rather this wasn't the case.
+- Mod Bug: Game Over screen is trying to update a null object every frame. **No Workaround**
+- Vanilla Bug: Map Selector Sometimes pops up when entering the game. **Workaround:** Don't force close intralism after opening (but not closing) the map selector.
+- Vanilla Bug: Editor overwrites custom values if they are out of range.**Workaround:** Don't click "Apply" on events that have had their values set manually in config.txt.
+- Vanila Bug: Highscore doesn't save the first time you play a new map. **Workaround:** Fail the map with a positive score then start again.
+- Vanilla Bug: Rank updating can cause stutter during gameplay (is this still a bug? need to check/test). **Workaround:** check console to wait for rank update before playing a map again
+- Vanila Bug: Event Editor drop-down doesn't always position properly. **Workaround:** Scroll to a new arc, don't leave the drop down open while playing.
 
 ### TO DO / Feature Wishlist (Feel free to [request](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/issues))
 - Open last edited map
@@ -95,22 +95,18 @@ There is no risk of being auto banned by Steam or VAC.
 - Remove the 1-second bars in editor (we have enough things pointing up and down)
 - Mousewheel to control volume during gameplay
 - BPM Find tool (tap to the beat)
-- Video Player for storyboard
-- Store raw texture data in map folder? With how small compression makes images, it may be reasonable to store them rather than loading/recompressing every time we load a map. This would significantly cut down loading times for maps with many images.
+- Video Player for storyboard?
 - Skip the beginning/ending of a map
 - Fix the replay system (Turns out there's a Replay Viewer in the code. Idk how well it works, it could be an artifact of a much older version of Intralism, but there's at least the base for one here.)
 - Fix inaccuracies in Results Screen.
 - Unlock the dev console
-- Specific number of arcs, zooms, storyboard events, etc
+- List the number of arcs, zooms, storyboard events, etc
 - Add more editor themes
-- Handle multiple BPMs and Offsets
-- Sliding/stepped BPM tool?
-- Remake arc-event editing to be closer to osu!m's editor in design.
+- Remake arc-event editing to be closer to osu!m's editor in design?
 - Toggle map zooms
 - Keyboard shortcuts on main menu (one key press to editor for example)
 - Map Selector Optimizations & Improvements (caching, faster loading, more maps, remember better)
 - Add better storyboard navigation/manipulation features (can use https://github.com/FlyingRabidUnicornPig/Intralism-Mapping-Assistant for reference)
 - Pause on esc press
-- Improved Zooms, make them frame independent and add specific zoom types.
 - Timing Windows
 - Custom player Speed (with map speed acting as a modifer on top)
