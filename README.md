@@ -48,7 +48,7 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 - **Storyboard and zoom animations are less frame-dependent**. This means that maps should play very similarly on all modded clients. This has effected the "style" of vanilla maps.
 
 ### MISC
-- **Map images will now compress** before being used as a texture. No more needing 30 gigs of ram to play an image sequencce storyboard. This does increase loading times. TODO: Give mappers control over compression.
+- **Map images will now compress** before being used as a texture. No more needing 30 gigs of ram to play an image sequence storyboard. This does increase loading times. TODO: Give mappers control over compression.
 - Downloaded **maps will display their difficulty** when hovered in map-select.
 - Difficulty Adjustments:
   - Zooms outside of 4-40 get treated as 4 or 40, to reduce diff abuse at extremely low or extremely high values.
@@ -67,7 +67,7 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 - Custom Menu Music through skin folder (on the backburner)
 
 ### Bugs To Squash (mod bugs on top, vanilla bugs on bottom)
-- **Disable storyboard** gets overwritten by the new discord editor setting when you launch the game. **Workaround:** Click "Disable Storyboard" to your preference when you launch the game.
+- **Disable storyboard** gets overwritten by the new discord editor setting when you launch the settings menu for the first time (i.e. when you launch the menu) **Workaround:** Click "Disable Storyboard" to your preference when you launch the game.
 - BPM Tool doesn't work with decimal numbers. Woops. Mod Bug. **Workaround:** Manually enter it or use a whole number factor of your BPM. Will be replaced with BPM events.
 - Leaving the editor will take you to the map select on top of the main menu if you play tested. Mod Bug. **No Workaround**, besides taking longer to leave Intralism without alt+f4 or playing multi, this may actually be a useful bug for some lol.
 - The "Map" drop down menu flashes and sometimes stays up while/after loading. Intetional Mod "Bug". **Workaround:** none needed. While this is currently intentional for reasons I do not have the energy nor space to explain, I'd rather this wasn't the case.
