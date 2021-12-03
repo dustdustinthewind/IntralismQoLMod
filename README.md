@@ -25,7 +25,8 @@ This mod should not mess with your files in unwanted ways. However of note:
 As if that has stopped me, or others before. Oxy can feel free to take this down with a DMCA, that is totally in his right. However, I will still host the mod somewhere as long as I'm working on it.
 
 ### I mean will I get banned for using the mod?
-I highly doubt it. Don't shove it in Oxy's face though. There is no risk of being auto banned by Steam or VAC.
+I highly doubt it. Even if you're banned by the Intralism server, the ban checks are done by the local client, easy for hackers but not normies to bypass. This mod removes (most if not all) those checks; enjoy your freedom.
+There is no risk of being auto banned by Steam or VAC.
 
 ## FEATURES
 ### EDITOR
