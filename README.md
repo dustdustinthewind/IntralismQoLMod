@@ -72,8 +72,7 @@ I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Stea
 - Leaving the editor will take you to the map select on top of the main menu if you play tested. Mod Bug. **No Workaround**, besides taking longer to leave Intralism without alt+f4 or playing multi, this may actually be a useful bug for some lol.
 - The "Map" drop down menu flashes and sometimes stays up while/after loading. Intetional Mod "Bug". **Workaround:** none needed. While this is currently intentional for reasons I do not have the energy nor space to explain, I'd rather this wasn't the case.
 - Game Over screen is trying to update a null object every frame. Mod Bug. **No Workaround**
-- Untagged workshop maps don't pop up in map selector. Vanilla Bug. **No Workaround**
-- Map Selector Sometimes pops up when entering the game. Vanilla Bug. **No Workaround:** Force closing Intralism without closing the map selector (even if it's not visible) forces it open.
+- Map Selector Sometimes pops up when entering the game. Vanilla Bug. **Workaround:** Don't force close intralism after opening (but not closing) the map selector.
 - Editor overwrites custom values if they are out of range. Vanilla Bug. **Workaround:** Don't click "Apply" on events that have had their values set manually in config.txt.
 - Highscore doesn't save the first time you play a new map. Vanilla Bug. **Workaround:** Fail the map with a positive score then start again.
 - Rank updating can cause stutter during gameplay (is this still a bug? need to check/test). Vanilla Bug. **Workaround:** check console to wait for rank update before playing a map again
