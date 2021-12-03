@@ -25,7 +25,7 @@ This mod should not mess with your files in unwanted ways. However of note:
 As if that has stopped me, or others before. Oxy can feel free to take this down with a DMCA, that is totally in his right. However, I will still host the mod somewhere as long as I'm working on it.
 
 ### I mean will I get banned for using the mod?
-I highly doubt it. Don't shove it in Oxy's face though. There is no risk of Steam or VAC ban.
+I highly doubt it. Don't shove it in Oxy's face though. There is no risk of being auto banned by Steam or VAC.
 
 ## FEATURES
 ### EDITOR
