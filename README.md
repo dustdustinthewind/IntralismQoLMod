@@ -52,7 +52,7 @@ There is no risk of being auto banned by Steam or VAC.
 ### MISC
 - **Map images will now compress** before being used as a texture. No more needing 30 gigs of ram to play an image sequence storyboard. This does increase loading times. TODO: Give mappers control over compression.
 - Downloaded **maps will display their difficulty** when hovered in map-select.
-- Difficulty Adjustments:
+- Difficulty Adjustments (potentially nerfs the max rank score you can submit):
   - Zooms outside of 4-40 get treated as 4 or 40, to reduce diff abuse at extremely low or extremely high values.
 - Added a **backup feature to saves**, in case the mod or the game fucks things up.
 - Press "O" while connecting to server to **Quickstart Offline Mode**
