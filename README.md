@@ -14,12 +14,16 @@ Click [here](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/archive/re
 To update your mod, you only need to download/paste the newest [Assembly-Csharp.dll](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/raw/main/Assembly-CSharp.dll). This may change in the future.
 
 ### How do I uninstall the mod?
-Right click Intralism in Steam. Click `Properties`. Go to the `Local Files` tab and then click `Verify integrity of game files...`. This will restore Intralism to its current version.
+Right click Intralism in Steam. Click `Properties`. Go to the `Local Files` tab and then click `Verify integrity of game files...`. This will restore Intralism to its current version. ***PLEASE NOTE***: Your save file will be considered "Corrupted" by intralism and deleted. Read the next section for assistance handling saves.
+
 
 ### Can this mod ruin my files?
 This mod should not mess with your files in unwanted ways. However of note:
+- The Map Stats screen has a button that will paste the stats to the map's description. This will not paste without the mapper's permission.
 - The BPM tool will automatically write/read from your description, but it shouldn't cause major issues unless you're trying to break it. Multi-BPM mapping is not supported yet. (Decimal BPMs bugged, woops)
-- This mod decrypts the save file found in `...\Intralism\Save`. I have also implemented a feature that keeps three save backups in the same folder as your save data. If a save gets corrupted, try using the backups. Delete the faulty save and copy a backup. Change the backup copy's extension to `.save`. The `.bak_oldest` file was generated the first time you launched Intralism with mod version `0.6.3` or newer, and doesn't get overwritten by other backups. Delete this file if you wish to have a newer `.bak_oldest`.
+- This mod decrypts the save file found in `...\Intralism\Save`. **THIS WILL CAUSE INTRALISM TO DELETE YOUR SAVE IF YOU REVERT TO VANILLA.** If your first install was after version `0.6.3` you have nothing to worry about. Find the `.bak_oldest` bakup file and change its extension to `.save`. If you first installed the mod before this version, you will need to wait for a future version where I remedy this issue with a `.bak_vanilla` file to use. 
+
+- If a save gets corrupted, try using the backups. Delete the faulty save and copy a backup. Change the backup copy's extension to `.save`. The `.bak_oldest` file was generated the first time you launched Intralism with mod version `0.6.3` or newer, and doesn't get overwritten by other backups. It is strongly recommended that you **do not delete this backup.**
 
 ### Isn't this against Intralism's terms of service?
 As if that has stopped me, or others before. Oxy can feel free to take this down with a DMCA, that is totally in his right. However, as long as I work on this mod, I will host and advertise it to the community.
