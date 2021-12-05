@@ -77,7 +77,7 @@ There is no risk of being auto banned by Steam or VAC.
 - Mod Bug: BPM Tool doesn't work with decimal numbers. Woops. **Workaround:** Manually enter it or use a whole number factor of your BPM. Will be replaced with BPM events.
 - Mod Bug: Leaving the editor will take you to the map select on top of the main menu if you play tested. **No Workaround**
 - Intentional Mod "Bug": The "Map" drop down menu flashes and sometimes stays up while/after loading. I'd rather this wasn't the case.
-- Mod Bug: Game Over screen is trying to update a null object every frame. **No Workaround**
+- Mod Bug: Assorted debug spam that could effect performance. **Workaround** Click the "report a bug" button on the main menu and [let me know!](https://steamcommunity.com/id/DustDustInTheWind/)
 - Vanilla Bug: Map Selector Sometimes pops up when entering the game. **Workaround:** Don't force close intralism after opening (but not closing) the map selector.
 - Vanilla Bug: Editor overwrites custom values if they are out of range.**Workaround:** Don't click "Apply" on events that have had their values set manually in config.txt.
 - Vanila Bug: Highscore doesn't save the first time you play a new map. **Workaround:** Fail the map with a positive score then start again.
