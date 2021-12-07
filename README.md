@@ -37,6 +37,7 @@ There is no risk of being auto banned by Steam or VAC.
 ### EDITOR
 - Config v3 **maps and the save file do not encrypt** (**Encrypted maps can be resaved to be decrypted!**)
 - Gave Editor a **Dark Theme**
+- **Increased Performance**
 - The **BPM tool uses colors** for snaps 1, 2, 3, 4, 6, 8, 12, and 16
 - **Automatic BPM saving/loading** to and from description (Doesn't work with multiple BPMs or BPMs with decimal places)
 - Navigation improvements:
@@ -67,6 +68,7 @@ There is no risk of being auto banned by Steam or VAC.
 
 ### Working on
 - Change BPM/Snap Events (handle BPM through a new custom event rather than operating within the description. Would log errors on vanilla in console but that's it, no v4 needed.)
+- Optimizations
 - Make Difficulty calculation ignore events after MapEnd
 - Settings Menu Additions/Revisions
 - Test Map from current time (test map implemented, from time not) (Reimplement as play testing *inside* the editor using playerbase?) (on the backburner)
