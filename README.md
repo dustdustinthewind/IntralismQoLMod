@@ -51,7 +51,7 @@ There is no risk of being auto banned by Steam or VAC.
 
 ### GAMEPLAY
 - **MASSIVE STORYBOARD OPTIMIZATIONS** especially to suns and satellites.
-- **Storyboard and zoom animations are less frame-dependent**. This means that maps should play very similarly on all modded clients. This has effected the "style" of vanilla maps.
+- **Storyboard and zoom animations are less frame-dependent**. This means that maps should play very similarly on all modded clients. This alters the style between version, i.e. playing a vanilla map on a modded client will "feel" different, and vice versa, a modded map will feel different on vanilla.
 - Accuracy is now shown on all non-relax gamemodes
 
 ### MISC
