@@ -14,7 +14,7 @@ Click [here](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/archive/re
 To update your mod, you only need to download/paste the newest [Assembly-Csharp.dll](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/raw/main/Assembly-CSharp.dll). Updates happen frequently, check daily if you to stay up to date!
 
 ### How do I uninstall the mod?
-Right click Intralism in Steam. Click `Properties`. Go to the `Local Files` tab and then click `Verify integrity of game files...`. This will restore Intralism to its current version. ***PLEASE NOTE***: Your save file will be considered "Corrupted" by intralism and deleted. Read the next section for assistance handling saves.
+Right click Intralism in Steam. Click `Properties`. Go to the `Local Files` tab and then click `Verify integrity of game files...`. This will restore Intralism to its current version. ***PLEASE NOTE***: Your save file will be considered "Corrupted" by intralism and deleted. Read the next question for assistance handling saves.
 
 
 ### Can this mod ruin my files?
