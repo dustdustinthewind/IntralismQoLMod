@@ -63,7 +63,7 @@ There is no risk of being auto banned by Steam or VAC.
 - **Many vanilla bugs have been squashed** (a never ending feat)
 - **A couple easter eggs**
 
-### TODO
+### Working on
 - Optimizations
 - Change BPM/Snap Events (handle BPM through a new custom event rather than operating within the description. Would log errors on vanilla in console but that's it, no v4 needed.)
 - Make Difficulty calculation ignore events after MapEnd
