@@ -46,13 +46,13 @@ There is no risk of being auto banned by Steam or VAC.
 - **Playtest Map** button under the "Map" drop down menu. Replaces the "Exit" button (use `esc` to leave editor) Functional, but a work in progress.
 - **Better Map Stats that can be pasted to the map's description**
 
-### GAMEPLAY
-- **MASSIVE STORYBOARD OPTIMIZATIONS** especially to suns and satellites.
+### GAMEPLAY / STORYBOARD
+- **MASSIVE STORYBOARD OPTIMIZATIONS** especially to audio-reading entities (suns, satellites, and particle emitters)
+- **Map images will now compress** before being used as a texture. No more needing 30 gigs of ram to play an image sequence storyboard. This does increase loading times. TODO: Give mappers control over compression.
 - **Storyboard and zoom animations are less frame-dependent**. This means that maps should play very similarly on all modded clients. This alters the style between version, i.e. playing a vanilla map on a modded client will "feel" different, and vice versa, a modded map will feel different on vanilla.
 - Accuracy is now shown on all non-relax gamemodes
 
 ### MISC
-- **Map images will now compress** before being used as a texture. No more needing 30 gigs of ram to play an image sequence storyboard. This does increase loading times. TODO: Give mappers control over compression.
 - Downloaded **maps will display their difficulty** when hovered in map-select.
 - Difficulty Adjustments:
   - Zooms outside of 4-40 get treated as 4 or 40, to reduce diff abuse at extremely low or extremely high values. (potentially nerfs the max rank score you can submit)
