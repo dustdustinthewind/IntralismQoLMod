@@ -1,6 +1,6 @@
 player.redarc
 
-Type the arc skin you would like to use in the line above. Re/Start the map for changes to take effect. Leave blank to use your inventory-selected skin.
+Type the arc skin you would like to use in the line above. Re/Start a map for changes to take effect. Leave blank to use your inventory-selected skin.
 
 The currently known list of arcs (there could be a dev arc or two we don't know of yet!):
 
