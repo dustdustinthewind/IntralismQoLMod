@@ -73,6 +73,7 @@ There is no risk of being auto banned by Steam or VAC.
 - Custom Menu Music through skin folder (on the backburner)
 
 ### Bugs To Squash
+- Mod Bug: **MP3s do not play** **Workaround:** use vanilla, where they also don't work :/
 - Mod Bug: **Disable storyboard** gets overwritten by the new discord editor setting when you launch the settings menu for the first time (i.e. when you launch the menu) **Workaround:** Click "Disable Storyboard" to your preference when you launch the game.
 - Mod Bug: BPM Tool doesn't work with decimal numbers. Woops. **Workaround:** Manually enter it or use a whole number factor of your BPM. Will be replaced with BPM events.
 - Mod Bug: Caret can't be scrolled manually if it's behind the BPM tool. **Workaround:** Space to play still works, or turn off BPM and scroll to position.
