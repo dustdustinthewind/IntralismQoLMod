@@ -1,4 +1,4 @@
-player.redarc
+
 
 Type the arc skin you would like to use in the line above. Re/Start a map for changes to take effect. Leave blank to use your inventory-selected skin.
 
