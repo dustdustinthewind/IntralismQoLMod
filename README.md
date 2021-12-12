@@ -34,17 +34,17 @@ There is no risk of being auto banned by Steam or VAC.
 ### EDITOR
 - Config v3 **maps and the save file do not encrypt** (**Encrypted maps can be resaved to be decrypted!**)
 - Gave Editor a **Dark Theme**
-- **Increased Performance**
+- **BPM Events** Use events for BPM automation!
+- **Playtest Map** button under the "Map" drop down menu. Replaces the "Exit" button (use `esc` to leave editor) Functional, but a work in progress.
 - The **BPM tool uses colors** for snaps 1, 2, 3, 4, 6, 8, 12, and 16
-- **Automatic BPM saving/loading** to and from description (Doesn't work with multiple BPMs or BPMs with decimal places)
 - Navigation improvements:
   - Caret Doesn't slide
   - **Caret Snaps to BPM** (scroll faster by zooming out, playing the map, and/or holding shift)
   - **Refined Scroll Zoom** (Get much closer to the arcs without getting uncomfortably close like before)
   - Speed up to 2x or down to .125x ([Press shift key or enable caps to step by .125x instead of .25x](https://youtu.be/llyDIod8bdo))
-- **Audio Waveform should be more consistent and accurate**, in exchange for being a little slower than it used to be. Press skip if you don't care for the waveform and its limitations.
-- **Playtest Map** button under the "Map" drop down menu. Replaces the "Exit" button (use `esc` to leave editor) Functional, but a work in progress.
 - **Better Map Stats that can be pasted to the map's description**
+- **Audio Waveform should be more consistent and accurate**, in exchange for being a little slower than it used to be. Press skip if you don't care for the waveform and its limitations.
+- **Increased Performance**
 
 ### GAMEPLAY / STORYBOARD
 - **MASSIVE STORYBOARD OPTIMIZATIONS** especially to audio-reading entities (suns, satellites, and particle emitters)
