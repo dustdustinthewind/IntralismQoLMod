@@ -65,19 +65,15 @@ There is no risk of being auto banned by Steam or VAC.
 - **A couple easter eggs**
 
 ### Working on
+- Test Map from current time (test map implemented, from time not) (nts: Reimplement as play testing *inside* the editor using playerbase?)
 - Optimizations
-- Change BPM/Snap Events (handle BPM through a new custom event rather than operating within the description. Would log errors on vanilla in console but that's it, no v4 needed.)
-- Make Difficulty calculation ignore events after MapEnd
 - Settings Menu Additions/Revisions
-- Test Map from current time (test map implemented, from time not) (Reimplement as play testing *inside* the editor using playerbase?) (on the backburner)
-- Custom Menu Music through skin folder (on the backburner)
+- Make Difficulty calculation ignore events after MapEnd
+- Custom Menu Music through skin folder
 
 ### Bugs To Squash
-- Mod Bug: Maps are not decrypting properly at the moment! BIG bug big sorry!
 - Mod Bug: **MP3s do not play** **Workaround:** use vanilla, where they also don't work :/
 - Mod Bug: **Disable storyboard** gets overwritten by the new discord editor setting when you launch the settings menu for the first time (i.e. when you launch the menu) **Workaround:** Click "Disable Storyboard" to your preference when you launch the game.
-- Mod Bug: BPM Tool doesn't work with decimal numbers. Woops. **Workaround:** Manually enter it or use a whole number factor of your BPM. Will be replaced with BPM events.
-- Mod Bug: Caret can't be scrolled manually if it's behind the BPM tool. **Workaround:** Space to play still works, or turn off BPM and scroll to position.
 - Mod Bug: Leaving the editor will take you to the map select on top of the main menu if you play tested. **No Workaround**
 - Intentional Mod "Bug": The "Map" drop down menu flashes and sometimes stays up while/after loading. I'd rather this wasn't the case.
 - Mod Bug: Assorted debug spam that could effect performance. **Workaround** Click the "report a bug" button on the main menu and [let me know!](https://steamcommunity.com/id/DustDustInTheWind/)
