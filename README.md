@@ -34,7 +34,7 @@ There is no risk of being auto banned by Steam or VAC.
 ### EDITOR
 - Config v3 **maps and the save file do not encrypt** (**Encrypted maps can be resaved to be decrypted!**)
 - Gave Editor a **Dark Theme**
-- **BPM Events** Use events for BPM automation! (Buggy, but functional!)
+- **BPM Events** for BPM automation! (Buggy, but functional)
 - **Playtest Map** button under the "Map" drop down menu. Replaces the "Exit" button (use `esc` to leave editor) Functional, but a work in progress.
 - The **BPM tool uses colors** for snaps 1, 2, 3, 4, 6, 8, 12, and 16
 - Navigation improvements:
