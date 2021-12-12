@@ -24,7 +24,7 @@ Right click Intralism in Steam. Click `Properties`. Go to the `Local Files` tab 
 - If a save gets corrupted, try using the backups. Delete the faulty save and copy a backup. Change the backup copy's extension to `.save`. The `.bak_oldest` file was generated the first time you launched Intralism with mod version `0.6.3` or newer, and doesn't get overwritten by other backups. It is strongly recommended that you **do not delete this backup.**
 
 ### Isn't this against Intralism's terms of service?
-Update: [Oxy is OK with this project.](https://puu.sh/IvOhs/4fcc2b930d.png)
+Update: [Oxy is OK with this project.](https://cdn.discordapp.com/attachments/429849391164030988/919666559071453214/4fcc2b930d.png)
 
 ### I mean can I get banned for using the mod?
 I highly doubt it. Even if you're banned by the Intralism webserver, the ban checks are handled by the local client, easy for hackers but not normies to bypass. This mod removes (most if not all) those checks; enjoy your freedom.
