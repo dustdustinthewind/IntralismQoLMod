@@ -5,8 +5,6 @@ A mod with a myriad of [**features and fixes**](https://github.com/FlyingRabidUn
 
 Focus is primarily on editor features right now, though [I would like to touch up gameplay best I can too.](https://cdn.discordapp.com/attachments/646553696821444609/905530596632191066/91adfe01e7.png)
 
-![meme](https://cdn.discordapp.com/attachments/592268952265293824/910555214732488804/20211117071911_1.jpg)
-
 ## FAQ
 ### How do I install the mod?
 Click [here](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/archive/refs/heads/revert.zip) to download the current version. Right click Intralism in Steam and select `Manage > Browse Local Files`. Go into `Intralism_Data\Managed`. Copy all files from the zip you downloaded and paste them into the `Managed` folder. Replace files, yes.
