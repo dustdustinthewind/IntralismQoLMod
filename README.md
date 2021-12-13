@@ -67,7 +67,6 @@ There is no risk of being auto banned by Steam or VAC.
 ### Working on
 - Improving Map Events
 - Test Map from current time (test map implemented, from time not) (nts: Reimplement as play testing *inside* the editor using playerbase?)
-
 #### Backburner
 - Optimizations
 - Settings Menu Additions/Revisions
