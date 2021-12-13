@@ -43,6 +43,7 @@ There is no risk of being auto banned by Steam or VAC.
   - **Caret Snaps to BPM** (scroll faster by zooming out, playing the map, and/or holding shift)
   - **Refined Scroll Zoom** (Get much closer to the arcs without getting uncomfortably close like before)
   - Speed up to 2x or down to .125x ([Press shift key or enable caps to step by .125x instead of .25x](https://youtu.be/llyDIod8bdo))
+- **Replaced Sliders with text boxes** for Speed and Distance events
 - **Better Map Stats that can be pasted to the map's description**
 - **Audio Waveform should be more consistent and accurate**, in exchange for being a little slower than it used to be. Press skip if you don't care for the waveform and its limitations.
 - **Increased Performance**
