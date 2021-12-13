@@ -65,7 +65,8 @@ There is no risk of being auto banned by Steam or VAC.
 - **A couple easter eggs**
 
 ### Working on
-- Improving Map Events
+- Vanilla compatibility with BPM Events
+- Map Backup
 - Test Map from current time (test map implemented, from time not) (nts: Reimplement as play testing *inside* the editor using playerbase?)
 #### Backburner
 - Optimizations
