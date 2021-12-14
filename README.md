@@ -7,9 +7,9 @@ Focus is primarily on editor features right now, though [I would like to touch u
 
 ## FAQ
 ### How do I install the mod?
-Click [here](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/archive/refs/heads/revert.zip) to download the current version. Right click Intralism in Steam and select `Manage > Browse Local Files`. Go into `Intralism_Data\Managed`. Copy all files from the zip you downloaded and paste them into the `Managed` folder. Replace files, yes.
+Click [here](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/archive/refs/heads/main.zip) to download the current version. Right click Intralism in Steam and select `Manage > Browse Local Files`. Go into `Intralism_Data\Managed`. Copy all files from the zip you downloaded and paste them into the `Managed` folder. Replace files, yes.
 
-To update your mod, you usually only need to download/paste the newest [Assembly-Csharp.dll](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/raw/revert/Assembly-CSharp.dll). As of vers `v0.9.0` there is a `qolmod` folder, it is entirely optional at the moment.
+To update your mod, you usually only need to download/paste the newest [Assembly-Csharp.dll](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/raw/main/Assembly-CSharp.dll). As of vers `v0.9.0` there is a `qolmod` folder, it is entirely optional at the moment.
 
 Updates happen frequently, check daily if you wish to stay up to date!
 
