@@ -68,14 +68,14 @@ There is no risk of being auto banned by Steam or VAC.
 - **Several easter eggs**
 
 ### Working on
+- Settings Menu Additions/Revisions
+- Map Backup
 - Vanilla compatibility with BPM Events
 - Bug fixes
-- Map Backup
-#### Backburner
 - Optimizations
-- Settings Menu Additions/Revisions
-- Make Difficulty calculation ignore events after MapEnd
+#### Backburner
 - Custom Menu Music through skin folder
+- Make Difficulty calculation ignore events after MapEnd
 
 ### Bugs To Squash
 - Mod Bug: **MP3s do not play** **Workaround:** use vanilla, where they also don't work :/
