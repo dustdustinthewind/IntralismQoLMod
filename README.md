@@ -45,7 +45,7 @@ There is no risk of being auto banned by Steam or VAC.
   - Speed up to 2x or down to .125x ([Press shift key or enable caps to step by .125x instead of .25x](https://youtu.be/llyDIod8bdo))
 - **Replaced sliders with text boxes** for Speed and Distance events
 - **Better Map Stats that can be pasted to the map's description**
-- **Audio Waveform should be more consistent and accurate**, in exchange for being a little slower than it used to be. Press skip if you don't care for the waveform and its limitations.
+- **Audio Waveform should be more consistent and accurate**, in exchange for being a little slower than it used to be. Enable/Disable under "Gameplay" settings.
 - **Increased Performance**
   - Events and images don't render when offscreen
 
@@ -68,9 +68,9 @@ There is no risk of being auto banned by Steam or VAC.
 - **Several easter eggs**
 
 ### Working on
-- Settings Menu Additions/Revisions
 - Map Backup
 - Vanilla compatibility with BPM Events
+- Settings Menu Additions/Revisions
 - Bug fixes
 - Optimizations
 #### Backburner
