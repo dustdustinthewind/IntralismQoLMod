@@ -78,6 +78,7 @@ There's no risk of VAC auto ban. As far as I know, no one has been has been manu
 ### Bugs To Squash
 - Mod Bug: **MP3s do not play** **Workaround:** use vanilla, where they also don't work :/
 - Mod Bug: I believe the "NoTag" tag enables by default, meaning when you search the workshop you'll see mostly untagged maps. **Workaround** uncheck "NoTag"
+- Mod Bug: You can get your frame rate capped to 100 in some situations involving the waveform. **Workaround** restart the game.
 - Mod Bug: Map Preview can be unreasonably laggy. **No Workaround**
 - Mod Bug: Leaving the editor will take you to the map select on top of the main menu if you play tested. **No Workaround**
 - Intentional Mod "Bug": The "Map" drop down menu flashes and sometimes stays up while/after loading. I'd rather this wasn't the case.
