@@ -34,8 +34,10 @@ There is no risk of being auto banned by Steam or VAC.
 - Config v3 **maps and the save file do not encrypt** (**Encrypted maps can be resaved to be decrypted!**)
 - Gave Editor a **Dark Theme**
 - [**BPM Events**](https://www.youtube.com/watch?v=uSNUuTWbvuk) for BPM automation! (You can still use the old system if you prefer)
-- **Playtest Map** button under the "Map" drop down menu. Replaces the "Exit" button (use `esc` to leave editor) Functional, but a work in progress.
+- **Playtest Map** button under the "Map" drop down menu. Replaces the "Exit" button (use `esc` to leave editor)
 - The **BPM tool uses colors** for snaps 1, 2, 3, 4, 6, 8, 12, and 16
+- New Shortcuts:
+  - `Home`/`End` to scroll to the start/end of the map
 - Navigation improvements:
   - Caret Doesn't slide
   - **Caret Snaps to BPM** (scroll faster by zooming out, playing the map, and/or holding shift)
@@ -45,6 +47,7 @@ There is no risk of being auto banned by Steam or VAC.
 - **Better Map Stats that can be pasted to the map's description**
 - **Audio Waveform should be more consistent and accurate**, in exchange for being a little slower than it used to be. Press skip if you don't care for the waveform and its limitations.
 - **Increased Performance**
+  - Events and images don't render when offscreen
 
 ### GAMEPLAY / STORYBOARD
 - **MASSIVE STORYBOARD OPTIMIZATIONS** especially to audio-reading entities (suns, satellites, and particle emitters) [video showcase](https://www.youtube.com/watch?v=sTeboyFxIj4)
@@ -68,7 +71,6 @@ There is no risk of being auto banned by Steam or VAC.
 - Vanilla compatibility with BPM Events
 - Bug fixes
 - Map Backup
-- Test Map from current time (test map implemented, from time not) (nts: Reimplement as play testing *inside* the editor using playerbase?)
 #### Backburner
 - Optimizations
 - Settings Menu Additions/Revisions
@@ -76,30 +78,28 @@ There is no risk of being auto banned by Steam or VAC.
 - Custom Menu Music through skin folder
 
 ### Bugs To Squash
-- Mod Bug: I believe the "NoTag" tag enables by default, meaning when you search the workshop you'll see mostly untagged maps. **Workaround** uncheck "NoTag"
 - Mod Bug: **MP3s do not play** **Workaround:** use vanilla, where they also don't work :/
+- Mod Bug: I believe the "NoTag" tag enables by default, meaning when you search the workshop you'll see mostly untagged maps. **Workaround** uncheck "NoTag"
 - Mod Bug: Map Preview can be unreasonably laggy. **No Workaround**
 - Mod Bug: Leaving the editor will take you to the map select on top of the main menu if you play tested. **No Workaround**
 - Intentional Mod "Bug": The "Map" drop down menu flashes and sometimes stays up while/after loading. I'd rather this wasn't the case.
-- Mod Bug: Assorted console spam that could effect performance. **Workaround** Click the "report a bug" button on the main menu and [let me know!](https://steamcommunity.com/id/DustDustInTheWind/)
+- Mod Bug: Assorted console spam that could effect performance. **Workaround** [Let me know where you see spam](https://steamcommunity.com/id/DustDustInTheWind/)
 - Vanilla Bug: Map Selector Sometimes pops up when entering the game. **Workaround:** Don't force close intralism after opening (but not closing) the map selector.
 - Vanila Bug: Highscore doesn't save the first time you play a new map. **Workaround:** Fail the map with a positive score then start again.
 - Vanilla Bug: Rank updating can cause stutter during gameplay (is this still a bug? need to check/test). **Workaround:** check console to wait for rank update before playing a map again
 - Vanila Bug: Event Editor drop-down doesn't always position properly. **Workaround:** Scroll to a new arc, don't leave the drop down open while playing.
 
 ### TO DO / Feature Wishlist (Feel free to [request](https://steamcommunity.com/id/DustDustInTheWind/) or [here](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/issues))
-- Color palette for storyboard
+- Color palette for storyboard events
 - Change the crosshair to a transparent version of your current view model, a 3D crosshair that matches the skin you're using and will properly represent the nonexistant "judgement line" at z0 compared to a fucking 2D image.
 - Open last edited map
 - Custom workshop tags
 - Custom FPS Lock slider setting
 - Custom Gamemode where you can set the speed before playing.
 - Disable clicking on progress bar when event editor is up (no more accidentally going to the end of map when I try to click Apply)
-- Less restriction in values available to select in Event Editor (replace sliders with text boxes or at least give them bigger, finer ranges)
 - Create a custom map config to allow more features for modded clients. Workshop uploads would include a vanilla-compatible v3 config.
 - Give mappers control over what images to compress (we don't have to compress and potentially ruin the quality of maps with few images)
-- Proper arc positioning according to the music's time and not a spawner based on Time.deltaTime
-- Optimize offscreen Editor elements
+- Change arc spawner to use music time instead of Time.deltaTime
 - Access the leaderboards for workshop maps
 - Change colors and sizes of events depending on type (imagine storyboard editing without a sea of green, starting/ending events being larger acting as bookmarks)
 - Remove the 1-second bars in editor (we have enough things pointing up and down)
@@ -109,13 +109,12 @@ There is no risk of being auto banned by Steam or VAC.
 - Skip the beginning/ending of a map
 - Fix the replay system (Turns out there's a Replay Viewer in the code. Idk how well it works, it could be an artifact of a much older version of Intralism, but there's at least the base for one here.)
 - Fix inaccuracies in Results Screen.
-- Unlock the dev console
+- Unlock the dev console through a setting
 - List the number of arcs, zooms, storyboard events, etc
 - Add more editor themes
-- Remake arc-event editing to be closer to osu!m's editor in design?
 - Toggle map zooms
 - Keyboard shortcuts on main menu (one key press to editor for example)
-- Map Selector Optimizations & Improvements (caching, faster loading, more maps, remember better)
+- Map Selector Optimizations & Improvements (caching, faster loading, more maps, remember better, fix lag)
 - Add better storyboard navigation/manipulation features (can use https://github.com/FlyingRabidUnicornPig/Intralism-Mapping-Assistant for reference)
 - Pause on esc press
 - Timing Windows
