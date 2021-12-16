@@ -25,9 +25,7 @@ Right click Intralism in Steam. Click `Properties`. Go to the `Local Files` tab 
 Update: [Oxy is OK with this project.](https://cdn.discordapp.com/attachments/429849391164030988/919666559071453214/4fcc2b930d.png)
 
 ### I mean can I get banned for using the mod?
-I highly doubt it. Even if you're banned by the Intralism webserver, the ban checks are handled by the local client, easy for hackers but not normies to bypass. This mod removes (most if not all) those checks; enjoy your freedom.
-
-There is no risk of being auto banned by Steam or VAC.
+There's no risk of VAC auto ban. As far as I know, no one has been has been manually banned by steam or Intralism for using this mod.
 
 ## FEATURES
 ### EDITOR
