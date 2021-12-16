@@ -29,7 +29,7 @@ There's no risk of VAC auto ban. As far as I know, no one has been has been manu
 
 ## FEATURES
 ### EDITOR
-- Config v3 **maps and the save file do not encrypt** (**Encrypted maps can be resaved to be decrypted!**)
+- Config v3 **maps and the save file do not encrypt** (Encrypted maps can be resaved to be decrypted!)
 - Gave Editor a **Dark Theme**
 - [**BPM Events**](https://www.youtube.com/watch?v=uSNUuTWbvuk) for BPM automation! (You can still use the old system if you prefer)
 - **Playtest Map** button under the "Map" drop down menu. Replaces the "Exit" button (use `esc` to leave editor)
