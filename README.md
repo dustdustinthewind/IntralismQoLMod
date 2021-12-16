@@ -88,6 +88,7 @@ There is no risk of being auto banned by Steam or VAC.
 - Vanila Bug: Event Editor drop-down doesn't always position properly. **Workaround:** Scroll to a new arc, don't leave the drop down open while playing.
 
 ### TO DO / Feature Wishlist (Feel free to [request](https://steamcommunity.com/id/DustDustInTheWind/) or [here](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/issues))
+- Color palette for storyboard
 - Change the crosshair to a transparent version of your current view model, a 3D crosshair that matches the skin you're using and will properly represent the nonexistant "judgement line" at z0 compared to a fucking 2D image.
 - Open last edited map
 - Custom workshop tags
