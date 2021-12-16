@@ -77,7 +77,7 @@ There is no risk of being auto banned by Steam or VAC.
 
 ### Bugs To Squash
 - Mod Bug: **MP3s do not play** **Workaround:** use vanilla, where they also don't work :/
-- Mod Bug: Map Preview can be unreasonably laggy.**Workaround:** Click "Disable Storyboard" to your preference when you launch the game.
+- Mod Bug: Map Preview can be unreasonably laggy. **No Workaround**
 - Mod Bug: Leaving the editor will take you to the map select on top of the main menu if you play tested. **No Workaround**
 - Intentional Mod "Bug": The "Map" drop down menu flashes and sometimes stays up while/after loading. I'd rather this wasn't the case.
 - Mod Bug: Assorted debug spam that could effect performance. **Workaround** Click the "report a bug" button on the main menu and [let me know!](https://steamcommunity.com/id/DustDustInTheWind/)
