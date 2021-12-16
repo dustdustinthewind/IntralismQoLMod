@@ -41,7 +41,7 @@ There is no risk of being auto banned by Steam or VAC.
   - **Caret Snaps to BPM** (scroll faster by zooming out, playing the map, and/or holding shift)
   - **Refined Scroll Zoom** (Get much closer to the arcs without getting uncomfortably close like before)
   - Speed up to 2x or down to .125x ([Press shift key or enable caps to step by .125x instead of .25x](https://youtu.be/llyDIod8bdo))
-- **Replaced Sliders with text boxes** for Speed and Distance events
+- **Replaced sliders with text boxes** for Speed and Distance events
 - **Better Map Stats that can be pasted to the map's description**
 - **Audio Waveform should be more consistent and accurate**, in exchange for being a little slower than it used to be. Press skip if you don't care for the waveform and its limitations.
 - **Increased Performance**
@@ -83,7 +83,6 @@ There is no risk of being auto banned by Steam or VAC.
 - Intentional Mod "Bug": The "Map" drop down menu flashes and sometimes stays up while/after loading. I'd rather this wasn't the case.
 - Mod Bug: Assorted console spam that could effect performance. **Workaround** Click the "report a bug" button on the main menu and [let me know!](https://steamcommunity.com/id/DustDustInTheWind/)
 - Vanilla Bug: Map Selector Sometimes pops up when entering the game. **Workaround:** Don't force close intralism after opening (but not closing) the map selector.
-- Vanilla Bug: Editor overwrites custom values if they are out of range.**Workaround:** Don't click "Apply" on events that have had their values set manually in config.txt.
 - Vanila Bug: Highscore doesn't save the first time you play a new map. **Workaround:** Fail the map with a positive score then start again.
 - Vanilla Bug: Rank updating can cause stutter during gameplay (is this still a bug? need to check/test). **Workaround:** check console to wait for rank update before playing a map again
 - Vanila Bug: Event Editor drop-down doesn't always position properly. **Workaround:** Scroll to a new arc, don't leave the drop down open while playing.
