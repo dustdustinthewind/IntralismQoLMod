@@ -33,7 +33,7 @@ There is no risk of being auto banned by Steam or VAC.
 ### EDITOR
 - Config v3 **maps and the save file do not encrypt** (**Encrypted maps can be resaved to be decrypted!**)
 - Gave Editor a **Dark Theme**
-- [**BPM Events**](https://www.youtube.com/watch?v=uSNUuTWbvuk) for BPM automation! (a little guggy, but functional)
+- [**BPM Events**](https://www.youtube.com/watch?v=uSNUuTWbvuk) for BPM automation! (You can still use the old system if you prefer)
 - **Playtest Map** button under the "Map" drop down menu. Replaces the "Exit" button (use `esc` to leave editor) Functional, but a work in progress.
 - The **BPM tool uses colors** for snaps 1, 2, 3, 4, 6, 8, 12, and 16
 - Navigation improvements:
@@ -62,7 +62,7 @@ There is no risk of being auto banned by Steam or VAC.
 - **Browse for non-tagged maps** by selecting "NoTag" in the filter options (will ignore any other tags you've pressed)
 - Added extra settings
 - **Many vanilla bugs have been squashed** (a never ending feat)
-- **A couple easter eggs**
+- **Several easter eggs**
 
 ### Working on
 - Vanilla compatibility with BPM Events
