@@ -76,6 +76,7 @@ There is no risk of being auto banned by Steam or VAC.
 - Custom Menu Music through skin folder
 
 ### Bugs To Squash
+- Mod Bug: I believe the "NoTag" tag enables by default, meaning when you search the workshop you'll see mostly untagged maps. **Workaround** uncheck "NoTag"
 - Mod Bug: **MP3s do not play** **Workaround:** use vanilla, where they also don't work :/
 - Mod Bug: Map Preview can be unreasonably laggy. **No Workaround**
 - Mod Bug: Leaving the editor will take you to the map select on top of the main menu if you play tested. **No Workaround**
