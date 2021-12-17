@@ -68,12 +68,13 @@ There's no risk of VAC auto ban. There is next to no risk of manual ban by Intra
 - **Several easter eggs**
 
 ### Working on
-- Map Backup
-- Vanilla compatibility with BPM Events
-- Settings Menu Additions/Revisions
+- New Mod Event
+- Vanilla compatibility with Mod Events
 - Bug fixes
+- Settings Menu Additions/Revisions
 - Optimizations
 #### Backburner
+- Map Backup
 - Custom Menu Music through skin folder
 - Make Difficulty calculation ignore events after MapEnd
 
@@ -83,8 +84,8 @@ There's no risk of VAC auto ban. There is next to no risk of manual ban by Intra
 - Mod Bug: You can get your frame rate capped to 100 in some situations involving the waveform. **Workaround** restart the game.
 - Mod Bug: Map Preview can be unreasonably laggy. **No Workaround**
 - Mod Bug: Leaving the editor will take you to the map select on top of the main menu if you play tested. **No Workaround**
-- Intentional Mod "Bug": The "Map" drop down menu flashes and sometimes stays up while/after loading. I'd rather this wasn't the case.
 - Mod Bug: Assorted console spam that could effect performance. **Workaround** [Let me know where you see spam](https://steamcommunity.com/id/DustDustInTheWind/)
+- Intentional Mod "Bug": The "Map" drop down menu flashes and sometimes stays up while/after loading. I'd rather this wasn't the case.
 - Vanilla Bug: Map Selector Sometimes pops up when entering the game. **Workaround:** Don't force close intralism after opening (but not closing) the map selector.
 - Vanila Bug: Highscore doesn't save the first time you play a new map. **Workaround:** Fail the map with a positive score then start again.
 - Vanilla Bug: Rank updating can cause stutter during gameplay (is this still a bug? need to check/test). **Workaround:** check console to wait for rank update before playing a map again
@@ -118,5 +119,4 @@ There's no risk of VAC auto ban. There is next to no risk of manual ban by Intra
 - Map Selector Optimizations & Improvements (caching, faster loading, more maps, remember better, fix lag)
 - Add better storyboard navigation/manipulation features (can use https://github.com/FlyingRabidUnicornPig/Intralism-Mapping-Assistant for reference)
 - Pause on esc press
-- Timing Windows
 - Custom player Speed (with map speed acting as a modifer on top)
