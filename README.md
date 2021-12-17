@@ -31,7 +31,10 @@ There's no risk of VAC auto ban. There is next to no risk of manual ban by Intra
 ### EDITOR
 - Config v3 **maps and the save file do not encrypt** (Encrypted maps can be resaved to be decrypted!)
 - Gave Editor a **Dark Theme**
-- [**BPM Events**](https://www.youtube.com/watch?v=uSNUuTWbvuk) for BPM automation! (You can still use the old system if you prefer)
+- **New Events and changes to old events**
+  - [**BPM Events**](https://www.youtube.com/watch?v=uSNUuTWbvuk) for BPM automation! (You can still use the old system if you prefer)
+  - **Replaced sliders with text boxes** for Speed and Distance events
+  - [**Added lerp speed control for Distance events**](https://youtu.be/nfSsDREbh5c)
 - **Playtest Map** button under the "Map" drop down menu. Replaces the "Exit" button (use `esc` to leave editor)
 - The **BPM tool uses colors** for snaps 1, 2, 3, 4, 6, 8, 12, and 16
 - New Shortcuts:
@@ -41,7 +44,6 @@ There's no risk of VAC auto ban. There is next to no risk of manual ban by Intra
   - **Caret Snaps to BPM** (scroll faster by zooming out, playing the map, and/or holding shift)
   - **Refined Scroll Zoom** (Get much closer to the arcs without getting uncomfortably close like before)
   - Speed up to 2x or down to .125x ([Press shift key or enable caps to step by .125x instead of .25x](https://youtu.be/llyDIod8bdo))
-- **Replaced sliders with text boxes** for Speed and Distance events
 - **Better Map Stats that can be pasted to the map's description**
 - **Audio Waveform should be more consistent and accurate**, in exchange for being a little slower than it used to be. Enable/Disable under "Gameplay" settings.
 - **Increased Performance**
