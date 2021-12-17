@@ -18,7 +18,7 @@ Right click Intralism in Steam. Click `Properties`. Go to the `Local Files` tab 
 
 ### What files does this mod mess with?
 - This mod uses a custom event called "SetBPM", this will throw errors on vanilla maps while playing (should not crash editor or gameplay) and may cause a frame drop. I have a fix in mind.
-- This mod decrypts the save file found in `...\Intralism\Save`. **THIS WILL CAUSE INTRALISM TO DELETE YOUR SAVE IF YOU REVERT TO VANILLA.** If your first install was after version `0.6.3` you have nothing to worry about. Find the `.bak_oldest` bakup file and change its extension to `.save`. If you first installed the mod before this version, you will need to wait for a future version where I remedy this issue with a `.bak_vanilla` file to use. 
+- This mod decrypts the save file found in `...\Intralism\Save`. **THIS WILL CAUSE INTRALISM TO DELETE YOUR SAVE IF YOU REVERT TO VANILLA.** If your first install was after version `0.6.3` you have nothing to worry about. Find the `.bak_oldest` bakup file and change its extension to `.save`.
 - If a save gets corrupted, try using the backups. Delete the faulty save and copy a backup. Change the backup copy's extension to `.save`. The `.bak_oldest` file was generated the first time you launched Intralism with mod version `0.6.3` or newer, and doesn't get overwritten by other backups. It is strongly recommended that you **do not delete this backup.**
 
 ### Isn't this against Intralism's terms of service?
