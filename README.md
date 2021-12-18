@@ -106,7 +106,7 @@ There's no risk of VAC auto ban. There is next to no risk of manual ban by Intra
 - Change arc spawner to use music time instead of Time.deltaTime
 - Access the leaderboards for workshop maps
 - Change colors and sizes of events depending on type (imagine storyboard editing without a sea of green, starting/ending events being larger acting as bookmarks)
-- Remove the 1-second bars in editor (we have enough things pointing up and down)
+- Remove the 1-second bars in editor (nts: 💡 create a new gameobject rather than modifying the current one)
 - Mousewheel to control volume during gameplay
 - BPM Find tool (tap to the beat)
 - Video Player for storyboard?
