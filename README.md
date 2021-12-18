@@ -84,6 +84,7 @@ There's no risk of VAC auto ban. There is next to no risk of manual ban by Intra
 
 ### Bugs To Squash
 - Mod Bug: **MP3s do not play** **Workaround:** use vanilla, where they also don't work :/
+- Mod Bug: **Camera movement currently doesn't work** plan to fix it tomorrow.
 - Mod Bug: I believe the "NoTag" tag enables by default, meaning when you search the workshop you'll see mostly untagged maps. **Workaround** uncheck "NoTag"
 - Mod Bug: You can get your frame rate capped to 100 in some situations involving the waveform generation. **Workaround** restart the game.
 - Mod Bug: Map Preview can be unreasonably laggy. **No Workaround**
