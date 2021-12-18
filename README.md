@@ -65,6 +65,7 @@ There's no risk of VAC auto ban. There is next to no risk of manual ban by Intra
 - **Mod Settings**
   - Disable editor using the map name in Discord RPC (personal addition)
   - Enable the Editor Waveform
+  - FPS Lock using Unity's shitty built-in fps capper (may fuck with map timing. will be fixed when arc spawners use music time)
 - **Many vanilla bugs have been squashed** (a never ending feat)
 - **Several easter eggs**
 
