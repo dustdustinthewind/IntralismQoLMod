@@ -50,7 +50,8 @@ There's no risk of VAC auto ban. There is next to no risk of manual ban by Intra
 
 ### GAMEPLAY / STORYBOARD
 - **MASSIVE STORYBOARD OPTIMIZATIONS** especially to audio-reading entities (suns, satellites, and particle emitters) [video showcase](https://www.youtube.com/watch?v=sTeboyFxIj4)
-- **Map images will now compress** before being used as a texture. No more needing 30 gigs of ram to play an image sequence storyboard. This does increase loading times. TODO: Give mappers control over compression.
+- **Image compression for maps.** You can manually set the compression for an image by changing the "Compress" value in the levelResources (use `true`/`false`. Vanilla maps that are saved in IQoL will use `null`). Use this on image-sequence maps or maps with many sprites/images to reduce the insane RAM/VRAM usage. Maps with only a few images don't take up a worrying amount of RAM/VRAM.
+- **Autocompression for vanilla image-sequence maps**. If a map has at least 1 unique image for every second, the autocompresser will kick in.
 - **Storyboard and zoom animations are less frame-dependent**. This means that maps should play very similarly on all modded clients. This alters the style between version, i.e. playing a vanilla map on a modded client will "feel" different, and vice versa, a modded map will feel different on vanilla.
 - **Use any skin!** Set the skin you'd like in [`qolmod/skin.txt`](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/blob/main/qolmod/skin.txt)
 - Accuracy is now shown on all non-relax gamemodes
