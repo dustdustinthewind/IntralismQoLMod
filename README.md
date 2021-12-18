@@ -33,18 +33,17 @@ There's no risk of VAC auto ban. There is next to no risk of manual ban by Intra
 - Gave Editor a **Dark Theme**
 - **New Events and changes to old events**
   - [**BPM Events**](https://www.youtube.com/watch?v=uSNUuTWbvuk) for BPM automation! (You can still use the old system if you prefer)
+  - [**Added lerp-speed control for Distance events**](https://youtu.be/nfSsDREbh5c)
   - **Replaced sliders with text boxes** for Speed and Distance events
-  - [**Added lerp speed control for Distance events**](https://youtu.be/nfSsDREbh5c)
 - **Playtest Map** button under the "Map" drop down menu. Replaces the "Exit" button (use `esc` to leave editor)
 - The **BPM tool uses colors** for snaps 1, 2, 3, 4, 6, 8, 12, and 16
 - New Shortcuts:
   - `Home`/`End` to scroll to the start/end of the map
 - Navigation improvements:
-  - Caret Doesn't slide
   - **Caret Snaps to BPM** (scroll faster by zooming out, playing the map, and/or holding shift)
   - **Refined Scroll Zoom** (Get much closer to the arcs without getting uncomfortably close like before)
-  - Speed up to 2x or down to .125x ([Press shift key or enable caps to step by .125x instead of .25x](https://youtu.be/llyDIod8bdo))
-- **Better Map Stats that can be pasted to the map's description**
+  - Playback speed up to 2x or down to .125x ([Press shift key or enable caps to step by .125x instead of .25x](https://youtu.be/llyDIod8bdo))
+- **Better Map Stats** that can be pasted to the map's description
 - **Audio Waveform should be more consistent and accurate**, in exchange for being a little slower than it used to be. Enable/Disable under "Gameplay" settings.
 - **Increased Performance**
   - Events and images don't render when offscreen
@@ -52,27 +51,30 @@ There's no risk of VAC auto ban. There is next to no risk of manual ban by Intra
 ### GAMEPLAY / STORYBOARD
 - **MASSIVE STORYBOARD OPTIMIZATIONS** especially to audio-reading entities (suns, satellites, and particle emitters) [video showcase](https://www.youtube.com/watch?v=sTeboyFxIj4)
 - **Map images will now compress** before being used as a texture. No more needing 30 gigs of ram to play an image sequence storyboard. This does increase loading times. TODO: Give mappers control over compression.
-- **Storyboard and zoom animations are less frame-dependent**. This means that maps should play very similarly on all modded clients. This alters the style between version, i.e. playing a vanilla map on a modded client will "feel" different, and vice versa, a modded map will feel different on vanilla (more noticeable on lower frame rates)
+- **Storyboard and zoom animations are less frame-dependent**. This means that maps should play very similarly on all modded clients. This alters the style between version, i.e. playing a vanilla map on a modded client will "feel" different, and vice versa, a modded map will feel different on vanilla.
 - **Use any skin!** Set the skin you'd like in [`qolmod/skin.txt`](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/blob/main/qolmod/skin.txt)
 - Accuracy is now shown on all non-relax gamemodes
 
 ### MISC
 - Downloaded **maps will display their difficulty** when hovered in map-select.
 - Difficulty Adjustments:
-  - Zooms outside of 4-40 get treated as 4 or 40, to reduce diff abuse at extremely low or extremely high values. (potentially nerfs the max rank score you can submit)
+  - Difficulty calculations cap player distances to 4-40, to reduce diff abuse at extremely low or extremely high values.
 - Added a **backup feature to saves**, in case it gets fucked up.
-- Press "O" while connecting to server to **Quickstart Offline Mode** (works consistently if connection to steam is down/flakey)
+- Press "O" while connecting to server to **Quickstart Offline Mode** (works consistently if connection to steam is down/flakey, need to improve to work when connection to intralism is flakey)
 - **Browse for non-tagged maps** by selecting "NoTag" in the filter options (will ignore any other tags you've pressed)
-- Added extra settings
+- **Mod Settings**
+  - Disable editor using the map name in Discord RPC (personal addition)
+  - Enable the Editor Waveform
 - **Many vanilla bugs have been squashed** (a never ending feat)
 - **Several easter eggs**
 
-### Working on
+### Working On
 - New Mod Event
 - Vanilla compatibility with Mod Events
 - Bug fixes
 - Settings Menu Additions/Revisions
 - Optimizations
+- Endlessly updating the Readme
 #### Backburner
 - Map Backup
 - Custom Menu Music through skin folder
@@ -81,22 +83,22 @@ There's no risk of VAC auto ban. There is next to no risk of manual ban by Intra
 ### Bugs To Squash
 - Mod Bug: **MP3s do not play** **Workaround:** use vanilla, where they also don't work :/
 - Mod Bug: I believe the "NoTag" tag enables by default, meaning when you search the workshop you'll see mostly untagged maps. **Workaround** uncheck "NoTag"
-- Mod Bug: You can get your frame rate capped to 100 in some situations involving the waveform. **Workaround** restart the game.
+- Mod Bug: You can get your frame rate capped to 100 in some situations involving the waveform generation. **Workaround** restart the game.
 - Mod Bug: Map Preview can be unreasonably laggy. **No Workaround**
 - Mod Bug: Leaving the editor will take you to the map select on top of the main menu if you play tested. **No Workaround**
 - Mod Bug: Assorted console spam that could effect performance. **Workaround** [Let me know where you see spam](https://steamcommunity.com/id/DustDustInTheWind/)
 - Intentional Mod "Bug": The "Map" drop down menu flashes and sometimes stays up while/after loading. I'd rather this wasn't the case.
 - Vanilla Bug: Map Selector Sometimes pops up when entering the game. **Workaround:** Don't force close intralism after opening (but not closing) the map selector.
 - Vanila Bug: Highscore doesn't save the first time you play a new map. **Workaround:** Fail the map with a positive score then start again.
-- Vanilla Bug: Rank updating can cause stutter during gameplay (is this still a bug? need to check/test). **Workaround:** check console to wait for rank update before playing a map again
-- Vanila Bug: Event Editor drop-down doesn't always position properly. **Workaround:** Scroll to a new arc, don't leave the drop down open while playing.
+- Vanilla Bug: Rank updating can cause stutter during gameplay (is this still a bug? need to check/test). **Workaround:** check console to wait for rank update before starting a map again
+- Vanila Bug: Event Editor drop-down doesn't always position properly. **Workaround:** Scroll to a new event, don't leave the drop down open while playing the song.
 
 ### TO DO / Feature Wishlist (Feel free to [request](https://steamcommunity.com/id/DustDustInTheWind/) or [here](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/issues))
 - Color palette for storyboard events
-- Change the crosshair to a transparent version of your current view model, a 3D crosshair that matches the skin you're using and will properly represent the nonexistant "judgement line" at z0 compared to a fucking 2D image.
+- Change the crosshair to a transparent version of your current view model, a 3D crosshair that matches the skin you're using and might properly represent the nonexistant "judgement line" at z0 compared to a fucking 2D image.
 - Open last edited map
 - Custom workshop tags
-- Custom FPS Lock slider setting
+- FPS-Lock Slider/Textbox setting
 - Custom Gamemode where you can set the speed before playing.
 - Disable clicking on progress bar when event editor is up (no more accidentally going to the end of map when I try to click Apply)
 - Create a custom map config to allow more features for modded clients. Workshop uploads would include a vanilla-compatible v3 config.
@@ -110,13 +112,11 @@ There's no risk of VAC auto ban. There is next to no risk of manual ban by Intra
 - Video Player for storyboard?
 - Skip the beginning/ending of a map
 - Fix the replay system (Turns out there's a Replay Viewer in the code. Idk how well it works, it could be an artifact of a much older version of Intralism, but there's at least the base for one here.)
-- Fix inaccuracies in Results Screen.
 - Unlock the dev console through a setting
 - List the number of arcs, zooms, storyboard events, etc
 - Add more editor themes
-- Toggle map zooms
+- Disable Zooms setting
 - Keyboard shortcuts on main menu (one key press to editor for example)
 - Map Selector Optimizations & Improvements (caching, faster loading, more maps, remember better, fix lag)
 - Add better storyboard navigation/manipulation features (can use https://github.com/FlyingRabidUnicornPig/Intralism-Mapping-Assistant for reference)
 - Pause on esc press
-- Custom player Speed (with map speed acting as a modifer on top)
