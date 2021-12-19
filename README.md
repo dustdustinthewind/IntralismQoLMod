@@ -51,9 +51,9 @@ There's no risk of VAC auto ban. There is next to no risk of manual ban by Intra
   - Events and images don't render when offscreen
 
 ### GAMEPLAY / STORYBOARD
-- **MASSIVE STORYBOARD OPTIMIZATIONS** especially to audio-reading entities (suns, satellites, and particle emitters) [video showcase](https://www.youtube.com/watch?v=sTeboyFxIj4)
-- **Image compression for maps.** You can manually set the compression for an image by changing the "Compress" value in the levelResources (use `true`/`false`. Vanilla maps that are saved in IQoL will use `null`). Use this on image-sequence maps or maps with many sprites/images to reduce the insane RAM/VRAM usage. Maps with only a few images don't take up a worrying amount of RAM/VRAM.
-- **Autocompression for vanilla image-sequence maps**. If a map has at least 1 unique image for every second, the autocompresser will kick in.
+- [**MASSIVE STORYBOARD OPTIMIZATIONS**](https://www.youtube.com/watch?v=sTeboyFxIj4) especially to audio-reading entities (suns, satellites, and particle emitters)
+- **Image compression for maps.** You can manually set the compression for an image by changing the "Compress" value in the config files `levelResources` (use `true`/`false`. Vanilla maps that are saved in IQoL will use `null`). Use this on image-sequence maps or maps with many sprites/images to reduce the insane RAM/VRAM usage. Maps with only a few images don't take up a worrying amount of RAM/VRAM.
+- **Autocompression for vanilla image-sequence maps**. If a map has at least 1 unique image for every second, the autocompresser will kick in. Most if not all Vanilla image-sequence maps get detected by this, and use significantly less RAM/VRAM than vanilla would in exchange for much longer loading times.
 - **Storyboard and zoom animations are less frame-dependent**. This means that maps should play very similarly on all modded clients. This alters the style between version, i.e. playing a vanilla map on a modded client will "feel" different, and vice versa, a modded map will feel different on vanilla.
 - **Use any skin!** Set the skin you'd like in [`qolmod/skin.txt`](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/blob/main/qolmod/skin.txt)
 - Accuracy is now shown on all non-relax gamemodes
@@ -68,17 +68,16 @@ There's no risk of VAC auto ban. There is next to no risk of manual ban by Intra
 - **Mod Settings**
   - Disable editor using the map name in Discord RPC (personal addition)
   - Enable the Editor Waveform
-  - FPS Lock using Unity's shitty built-in fps capper (may fuck with map timing. will be fixed when arc spawners use music time)
+  - FPS Lock using Unity's shitty built-in fps capper (may fuck with map timing. should be fixed when arc spawners use music time)
 - **Many vanilla bugs have been squashed** (a never ending feat)
 - **Several easter eggs**
 
-### Working On
+### Higher Priority TODO
 - Vanilla compatibility with Mod Events
 - Bug fixes
 - Settings Menu Additions/Revisions
 - Optimizations
 - Endlessly updating the Readme
-#### Backburner
 - Map Backup
 - Custom Menu Music through skin folder
 - Make Difficulty calculation ignore events after MapEnd
