@@ -87,7 +87,6 @@ There's no risk of VAC auto ban. There is next to no risk of manual ban by Intra
 - Vanila Bug: Event Editor drop-down doesn't always position properly. **Workaround:** Scroll to a new event, don't leave the drop down open while playing the song.
 
 ### Higher Priority TODO
-- Vanilla compatibility with Mod Events
 - Bug fixes
 - Settings Menu Additions/Revisions
 - Optimizations
