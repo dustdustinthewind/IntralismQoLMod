@@ -99,6 +99,7 @@ There's no risk of VAC auto ban. There is next to no risk of manual ban by Intra
 
 ### TO DO / Feature Wishlist (Feel free to [request](https://steamcommunity.com/id/DustDustInTheWind/) or [here](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/issues))
 - Color palette for storyboard events
+- Reenable workshop leaderboards
 - Change the crosshair to a transparent version of your current view model, a 3D crosshair that matches the skin you're using and might properly represent the nonexistant "judgement line" at z0 compared to a fucking 2D image.
 - Open last edited map
 - Custom workshop tags
