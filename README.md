@@ -17,9 +17,9 @@ Updates happen frequently, check daily if you wish to stay up to date!
 Right click Intralism in Steam. Click `Properties`. Go to the `Local Files` tab and then click `Verify integrity of game files...`. This will restore Intralism to its current version. ***PLEASE NOTE***: Your save file will be considered "Corrupted" by intralism and deleted. Read the next question for assistance handling saves.
 
 ### What files does this mod mess with?
-- This mod uses a custom event called "SetBPM", this will throw errors on vanilla maps while playing (should not crash editor or gameplay) and may cause a frame drop. I have a fix in mind.
 - This mod decrypts the save file found in `...\Intralism\Save`. **THIS WILL CAUSE INTRALISM TO DELETE YOUR SAVE IF YOU REVERT TO VANILLA.** If your first install was after version `0.6.3` you have nothing to worry about. Copy the `.bak_oldest` bakup file and change its extension to `.save`.
 - If a save gets corrupted, try using the backups. Delete the faulty save and copy a backup. Change the backup copy's extension to `.save`. The `.bak_oldest` file was generated the first time you launched Intralism with mod version `0.6.3` or newer, and doesn't get overwritten by other backups. It is strongly recommended that you **do not delete this backup.**
+- This mod uses custom map events that will throw console warnings on vanilla maps while playing and may cause a frame drop. This may be addressed by co-operation with the vanilla version to not run modded maps with a specific "Incompatible" tag (I've heard that has been suggested).
 
 ### Isn't this against Intralism's terms of service?
 Update: [Oxy is OK with this project.](https://cdn.discordapp.com/attachments/429849391164030988/919666559071453214/4fcc2b930d.png)
