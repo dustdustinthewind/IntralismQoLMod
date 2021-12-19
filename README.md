@@ -87,11 +87,11 @@ There's no risk of VAC auto ban. There is next to no risk of manual ban by Intra
 - Vanila Bug: Event Editor drop-down doesn't always position properly. **Workaround:** Scroll to a new event, don't leave the drop down open while playing the song.
 
 ### Higher Priority TODO
-- Bug fixes
+- Remove Zoom difficulty calcluations
 - Settings Menu Additions/Revisions
-- Optimizations
-- Endlessly updating the Readme
 - Map Backup
+- Bug Fixes and Optimizations
+- Endlessly updating the Readme
 - Custom Menu Music through skin folder
 - Make Difficulty calculation ignore events after MapEnd
 
