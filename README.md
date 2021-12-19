@@ -72,16 +72,6 @@ There's no risk of VAC auto ban. There is next to no risk of manual ban by Intra
 - **Many vanilla bugs have been squashed** (a never ending feat)
 - **Several easter eggs**
 
-### Higher Priority TODO
-- Vanilla compatibility with Mod Events
-- Bug fixes
-- Settings Menu Additions/Revisions
-- Optimizations
-- Endlessly updating the Readme
-- Map Backup
-- Custom Menu Music through skin folder
-- Make Difficulty calculation ignore events after MapEnd
-
 ### Bugs To Squash
 - Mod Bug: **MP3s do not play** **Workaround:** use vanilla, where they also don't work :/
 - Mod Bug: **Camera movement currently doesn't work** plan to fix it tomorrow.
@@ -95,6 +85,16 @@ There's no risk of VAC auto ban. There is next to no risk of manual ban by Intra
 - Vanila Bug: Highscore doesn't save the first time you play a new map. **Workaround:** Fail the map with a positive score then start again.
 - Vanilla Bug: Rank updating can cause stutter during gameplay (is this still a bug? need to check/test). **Workaround:** check console to wait for rank update before starting a map again
 - Vanila Bug: Event Editor drop-down doesn't always position properly. **Workaround:** Scroll to a new event, don't leave the drop down open while playing the song.
+
+### Higher Priority TODO
+- Vanilla compatibility with Mod Events
+- Bug fixes
+- Settings Menu Additions/Revisions
+- Optimizations
+- Endlessly updating the Readme
+- Map Backup
+- Custom Menu Music through skin folder
+- Make Difficulty calculation ignore events after MapEnd
 
 ### TO DO / Feature Wishlist (Feel free to [request](https://steamcommunity.com/id/DustDustInTheWind/) or [here](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/issues))
 - Color palette for storyboard events
