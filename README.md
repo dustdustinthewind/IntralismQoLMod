@@ -34,7 +34,8 @@ There's no risk of VAC auto ban. There is next to no risk of manual ban by Intra
 - **New Events and changes to old events**
   - [**BPM Events**](https://www.youtube.com/watch?v=uSNUuTWbvuk) for BPM automation! (You can still use the old system if you prefer)
   - [**Added lerp-speed control for Distance events**](https://youtu.be/nfSsDREbh5c)
-  - [**Player Position**](https://youtu.be/AVmlvf-fU0U) move the camera around.
+  - [**Player Position**](https://youtu.be/AVmlvf-fU0U)
+  - [**Player Rotation**](https://www.youtube.com/watch?v=Wwh-CFWLpL8)
   - **Replaced sliders with text boxes** for Speed and Distance events
 - **Playtest Map** button under the "Map" drop down menu. Replaces the "Exit" button (use `esc` to leave editor)
 - The **BPM tool uses colors** for snaps 1, 2, 3, 4, 6, 8, 12, and 16
