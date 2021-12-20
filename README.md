@@ -74,6 +74,7 @@ There's no risk of VAC auto ban. There is next to no risk of manual ban by Intra
 
 ### Bugs To Squash
 - Mod Bug: **MP3s do not play** **Workaround:** use vanilla, where they also don't work :/
+- Mod Bug: Scrolling back may jump 2 snaps instead of one. **No Workaround**
 - Mod Bug: It is possible to make a ["blank"](https://cdn.discordapp.com/attachments/592268952265293824/922244562657902662/bfa5ddd08a.png) event that breaks the editor. **Workaround:** Search for `[]` in the map config file and delete the offending event.
 - Mod Bug: I believe the "NoTag" tag enables by default, meaning when you search the workshop you'll see mostly untagged maps. **Workaround** uncheck "NoTag"
 - Mod Bug: You can get your frame rate capped to 100 in some situations involving the waveform generation. **Workaround** restart the game.
