@@ -90,6 +90,8 @@ There's no risk of VAC auto ban. There is next to no risk of manual ban by Intra
 ### Higher Priority TODO
 - Remove Zoom difficulty calcluations
 - Settings Menu Additions/Revisions
+  - Automatically open event editor menu on map load
+  - Open last map on editor startup
 - Map Backup
 - Bug Fixes and Optimizations
 - Endlessly updating the Readme
@@ -100,7 +102,6 @@ There's no risk of VAC auto ban. There is next to no risk of manual ban by Intra
 - Color palette for storyboard events
 - Reenable workshop leaderboards
 - Change the crosshair to a transparent version of your current view model, a 3D crosshair that matches the skin you're using and might properly represent the nonexistant "judgement line" at z0 compared to a fucking 2D image.
-- Open last edited map
 - Custom workshop tags
 - FPS-Lock Slider/Textbox setting
 - Custom Gamemode where you can set the speed before playing.
