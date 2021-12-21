@@ -73,7 +73,6 @@ There's no risk of VAC auto ban. It is highly unlikely to receive a manual ban b
 - **Several easter eggs**
 
 ### Bugs To Squash
-- Mod Bug: Going from Editor or Gameplay to Menu may have unreasonable loading times. **Workaround:** [v0.11.1](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/raw/76d946be2a4eea28ecdb80f16c98966a30143c1e/Assembly-CSharp.dll) seems to have signifcantly lower times for me, I will be reverting the github to this version if I can't fix it otherwise.
 - Mod Bug: **MP3s do not play** **Workaround:** use vanilla, where they also don't work :/ (I actually have no clue how oxy actually got mp3s playing, this is a strangely unique scenario and I haven't been able to deobfuscate it yet. I will probably try to find a new solution instead of trying to understand the old solution.)
 - Mod Bug: Scrolling back may jump 2 snaps instead of one. **No Workaround**
 - Mod Bug: It is possible to make a ["blank"](https://cdn.discordapp.com/attachments/592268952265293824/922244562657902662/bfa5ddd08a.png) event that breaks the editor. **Workaround:** Search for `[]` in the map config file and delete the offending event.
