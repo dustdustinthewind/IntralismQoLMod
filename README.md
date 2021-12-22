@@ -7,11 +7,11 @@ Focus is primarily on editor features right now, though [I would like to touch u
 
 ## FAQ
 ### How do I install the mod?
-Click [here](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/archive/refs/heads/main.zip) to download the current version. Right click Intralism in Steam and select `Manage > Browse Local Files`. Go into `Intralism_Data\Managed`. Copy all files from the zip you downloaded and paste them into the `Managed` folder. Replace files, yes.
+Click [here](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/archive/refs/heads/main.zip) to download the current version. Right click Intralism in Steam and select `Manage > Browse Local Files`. Go into `Intralism_Data\Managed`. Copy all files from the zip you downloaded and paste them into the `Managed` folder. Replace files, yes. The `qolmod` folder is optional.
 
-To update your mod, you usually only need to download/paste the newest [Assembly-Csharp.dll](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/raw/main/Assembly-CSharp.dll). As of vers `v0.9.0` there is a `qolmod` folder, it is entirely optional at the moment.
+To update your mod, you usually only need to download/paste the newest [Assembly-Csharp.dll](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/raw/main/Assembly-CSharp.dll). 
 
-Updates happen frequently, check daily if you wish to stay up to date!
+Updates happen frequently, so check often!
 
 ### How do I uninstall the mod?
 Right click Intralism in Steam. Click `Properties`. Go to the `Local Files` tab and then click `Verify integrity of game files...`. This will restore Intralism to its current version. ***PLEASE NOTE***: Your save file will be considered "Corrupted" by intralism and deleted. Read the next question for assistance handling saves.
@@ -31,11 +31,12 @@ There's no risk of VAC auto ban. It is highly unlikely to receive a manual ban b
 ### EDITOR
 - Config v3 **maps and the save file do not encrypt** (Encrypted maps can be resaved to be decrypted!)
 - Gave Editor a **Dark Theme**
-- **New Events and changes to old events**
+- **New Events**
   - [**BPM Events**](https://www.youtube.com/watch?v=uSNUuTWbvuk) for BPM automation! (You can still use the old system if you prefer)
-  - [**Added lerp-speed control for Distance events**](https://youtu.be/nfSsDREbh5c)
   - [**Player Position**](https://youtu.be/AVmlvf-fU0U)
   - [**Player Rotation**](https://www.youtube.com/watch?v=Wwh-CFWLpL8)
+ - **Changes to old events**
+  - [**Added lerp-speed control for Distance events**](https://youtu.be/nfSsDREbh5c)
   - **Replaced sliders with text boxes** for Speed and Distance events
 - **Playtest Map** button under the "Map" drop down menu. Replaces the "Exit" button (use `esc` to leave editor)
 - The **BPM tool uses colors** for snaps 1, 2, 3, 4, 6, 8, 12, and 16
