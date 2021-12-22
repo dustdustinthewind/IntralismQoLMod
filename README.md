@@ -35,7 +35,7 @@ There's no risk of VAC auto ban. It is highly unlikely to receive a manual ban b
   - [**BPM Events**](https://www.youtube.com/watch?v=uSNUuTWbvuk) for BPM automation! (You can still use the old system if you prefer)
   - [**Player Position**](https://youtu.be/AVmlvf-fU0U)
   - [**Player Rotation**](https://www.youtube.com/watch?v=Wwh-CFWLpL8)
- - **Changes to old events**
+- **Changes to old events**
   - [**Added lerp-speed control for Distance events**](https://youtu.be/nfSsDREbh5c)
   - **Replaced sliders with text boxes** for Speed and Distance events
 - **Playtest Map** button under the "Map" drop down menu. Replaces the "Exit" button (use `esc` to leave editor)
