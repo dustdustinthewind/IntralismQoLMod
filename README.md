@@ -77,13 +77,13 @@ There's no risk of VAC auto ban. It is highly unlikely to receive a manual ban b
 - Mod Bug: Playtesting a lot in editor may cause a hang or crash when trying to leave the editor.
 - Mod Bug: **MP3s do not play** **Workaround:** use vanilla, where they also don't work :/ (I actually have no clue how oxy actually got mp3s playing, this is a strangely unique scenario and I haven't been able to deobfuscate it yet. I will probably try to find a new solution instead of trying to understand the old solution.)
 - Mod Bug: Scrolling back may jump 2 snaps instead of one. **No Workaround**
-- Mod Bug: It is possible to make a ["blank"](https://cdn.discordapp.com/attachments/592268952265293824/922244562657902662/bfa5ddd08a.png) event that breaks the editor. **Workaround:** Search for `[]` in the map config file and delete the offending event.
 - Mod Bug: I believe the "NoTag" tag enables by default, meaning when you search the workshop you'll see mostly untagged maps. **Workaround** uncheck "NoTag"
 - Mod Bug: You can get your frame rate capped to 100 in some situations involving the waveform generation. **Workaround** restart the game.
 - Mod Bug: Map Preview can be unreasonably laggy. **No Workaround**
 - Mod Bug: Leaving the editor will take you to the map select on top of the main menu if you play tested. **No Workaround**
 - Mod Bug: Assorted console spam that could effect performance. **Workaround** [Let me know where you see spam](https://steamcommunity.com/id/DustDustInTheWind/)
 - Intentional Mod "Bug": The "Map" drop down menu flashes and sometimes stays up while/after loading. I'd rather this wasn't the case.
+- Unknown Bug: It is possible to make a ["blank"](https://cdn.discordapp.com/attachments/592268952265293824/922244562657902662/bfa5ddd08a.png) event that breaks the editor. **Workaround:** Search for `[]` in the map config file and delete the offending event.
 - Vanilla Bug: Map Selector Sometimes pops up when entering the game. **Workaround:** Don't force close intralism after opening (but not closing) the map selector.
 - Vanila Bug: Highscore doesn't save the first time you play a new map. **Workaround:** Fail the map with a positive score then start again.
 - Vanilla Bug: Rank updating can cause stutter during gameplay (is this still a bug? need to check/test). **Workaround:** check console to wait for rank update before starting a map again
