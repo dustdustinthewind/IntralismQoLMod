@@ -55,7 +55,7 @@ There's no risk of VAC auto ban. It is highly unlikely to receive a manual ban b
 - [**MASSIVE STORYBOARD OPTIMIZATIONS**](https://www.youtube.com/watch?v=sTeboyFxIj4) especially to audio-reading entities (suns, satellites, and particle emitters)
 - **Compression for Image events** You can manually set the compression for an image by changing the "Compress" value in the config files `levelResources` (use `true`/`false`. Vanilla maps that are saved in IQoL will use `null`). Use this on image-sequence maps or maps with many sprites/images to reduce the insane RAM/VRAM usage. Maps with only a few images don't take up a worrying amount of RAM/VRAM.
 - **Autocompression for image-sequence maps**. If a map has at least 1 unique image for every second, the autocompresser will kick in. Most if not all Vanilla image-sequence maps get detected by this, and use significantly less RAM/VRAM than vanilla would in exchange for much longer loading times. You can rely on this autocompression for a modded image sequence map too.
-- **Storyboard and zoom animations are less frame-dependent**. This means that maps should play very similarly on all modded clients. This alters the style between version, i.e. playing a vanilla map on a modded client will "feel" different, and vice versa, a modded map will feel different on vanilla.
+- **Storyboard and zoom animations are "less frame-dependent"**. This means that maps should play very similarly on all modded clients, regardless of FPS. There is a slight, usually unnoticeable difference in animation between modded and vanilla.
 - **Use any skin!** Set the skin you'd like in [`qolmod/skin.txt`](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/blob/main/qolmod/skin.txt)
 - Accuracy is now shown on all non-relax gamemodes
 
@@ -65,7 +65,7 @@ There's no risk of VAC auto ban. It is highly unlikely to receive a manual ban b
   - Difficulty calculations cap player distances to 4-40, to reduce diff abuse at extremely low or extremely high values.
 - Added a **backup feature to saves**, in case it gets fucked up.
 - Press "O" while connecting to server to **Quickstart Offline Mode** (works consistently if connection to steam is down/flakey, need to improve to work when connection to intralism is flakey)
-- **Browse for non-tagged maps** by selecting "NoTag" in the filter options (will ignore any other tags you've pressed)
+- **Browse for non-tagged workshop maps** by selecting "NoTag" in the filter options (will ignore any other tags you've pressed)
 - **New Settings** (feel free to [request](https://steamcommunity.com/id/DustDustInTheWind/) a personal QoL setting)
   - **"Gameplay"**
     - Disable editor using the map name in Discord RPC (for Dust)
