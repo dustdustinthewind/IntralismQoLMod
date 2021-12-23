@@ -66,10 +66,13 @@ There's no risk of VAC auto ban. It is highly unlikely to receive a manual ban b
 - Added a **backup feature to saves**, in case it gets fucked up.
 - Press "O" while connecting to server to **Quickstart Offline Mode** (works consistently if connection to steam is down/flakey, need to improve to work when connection to intralism is flakey)
 - **Browse for non-tagged maps** by selecting "NoTag" in the filter options (will ignore any other tags you've pressed)
-- **Mod Settings**
-  - Disable editor using the map name in Discord RPC (personal addition)
-  - Enable the Editor Waveform
-  - FPS Lock using Unity's shitty built-in fps capper (may fuck with map timing. should be fixed when arc spawners use music time)
+- **New Settings** (feel free to [request](https://steamcommunity.com/id/DustDustInTheWind/) a personal QoL setting)
+  - **"Gameplay"**
+    - Disable editor using the map name in Discord RPC (personal addition)
+    - Enable the Editor Waveform
+    - Open Event Editor on editor startup.
+  - **Video**
+    - FPS Lock using Unity's shitty built-in fps capper (may fuck with map timing. should be fixed when arc spawners use music time)
 - **Many vanilla bugs have been squashed** (a never ending feat)
 - **Several easter eggs**
 
