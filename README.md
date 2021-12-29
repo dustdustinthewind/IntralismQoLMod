@@ -62,7 +62,7 @@ There's no risk of VAC auto ban. It is highly unlikely to receive a manual ban b
 ### MISC
 - Downloaded **maps will display their difficulty** when hovered in map-select.
 - Difficulty Adjustments:
-  - Difficulty calculations cap player distances to 4-40, to reduce diff abuse at extremely low or extremely high values.
+  - Zooms do not count towards diff calculation anymore.
 - Added a **backup feature to saves**, in case it gets fucked up.
 - Press "O" while connecting to server to **Quickstart Offline Mode** (works consistently if connection to steam is down/flakey, need to improve to work when connection to intralism is flakey)
 - **Browse for non-tagged workshop maps** by selecting "NoTag" in the filter options (will ignore any other tags you've pressed)
@@ -94,14 +94,13 @@ There's no risk of VAC auto ban. It is highly unlikely to receive a manual ban b
 - Vanila Bug: Event Editor drop-down doesn't always position properly, sometimes not even appearing on screen. **Workaround:** Scroll to a new event, click Apply to refresh, and try not to leave the drop down open while playing the song.
 
 ### "High Priority" TODO
-- Remove Zoom difficulty calcluations
 - Settings Menu Additions/Revisions
   - Automatically open event editor menu on map load
 - Map Backup
+- Make Difficulty calculation ignore events after MapEnd
 - Bug Fixes and Optimizations
 - Endlessly updating the Readme
 - Custom Menu Music through skin folder
-- Make Difficulty calculation ignore events after MapEnd
 
 ### TO DO / Feature Wishlist (Feel free to [request](https://steamcommunity.com/id/DustDustInTheWind/) or [here](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/issues))
 - Color palette for storyboard events
