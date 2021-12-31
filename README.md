@@ -38,6 +38,7 @@ There's no risk of VAC auto ban. It is highly unlikely to receive a manual ban b
 - **Changes to old events**
   - [**Added lerp-speed control for Distance events**](https://youtu.be/nfSsDREbh5c)
   - **Replaced sliders with text boxes** for Speed and Distance events
+- [**Auto Animated Image Storyboard**](https://youtu.be/fzL2o3i5xrA)
 - **Playtest Map** button under the "Map" drop down menu. Replaces the "Exit" button (use `esc` to leave editor)
 - The **BPM tool uses colors** for snaps 1, 2, 3, 4, 6, 8, 12, and 16
 - New Shortcuts:
