@@ -32,7 +32,7 @@ There's no risk of VAC auto ban. It is highly unlikely to receive a manual ban b
 - Config v3 **maps and the save file do not encrypt** (Encrypted maps can be resaved to be decrypted!)
 - Gave Editor a **Dark Theme**
 - **New Events**
-  - [**BPM Events**](https://www.youtube.com/watch?v=uSNUuTWbvuk) for BPM automation! (You can still use the old system if you prefer)
+  - [**BPM Events**](https://www.youtube.com/watch?v=uSNUuTWbvuk) for BPM automation (You can still use the old system if you prefer (somewhat buggy tho))
   - [**Player Position**](https://youtu.be/AVmlvf-fU0U)
   - [**Player Rotation**](https://www.youtube.com/watch?v=Wwh-CFWLpL8)
 - **Changes to old events**
