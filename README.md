@@ -42,6 +42,7 @@ There's no risk of VAC auto ban. It is highly unlikely to receive a manual ban b
 - The **BPM tool uses colors** for snaps 1, 2, 3, 4, 6, 8, 12, and 16
 - New Shortcuts:
   - `Home`/`End` to scroll to the start/end of the map
+- **Removed "Complete Map" requirements**
 - Navigation improvements:
   - **Caret Snaps to BPM** (scroll faster by zooming out, playing the map, and/or holding shift)
   - **Refined Scroll Zoom** (Get much closer to the arcs without getting uncomfortably close like before)
