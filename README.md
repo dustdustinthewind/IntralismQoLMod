@@ -106,30 +106,26 @@ There's no risk of VAC auto ban. It is highly unlikely to receive a manual ban b
 
 ### TO DO / Feature Wishlist (Feel free to [request](https://steamcommunity.com/id/DustDustInTheWind/) or [here](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/issues))
 - Color palette for storyboard events
-- Reenable workshop leaderboards
 - Change the crosshair to a transparent version of your current view model, a 3D crosshair that matches the skin you're using and might properly represent the nonexistant "judgement line" at z0 compared to a fucking 2D image.
 - Custom workshop tags
 - Multi-storyboard-object spawner event (spawn x number of an object with a shared id (sun1, sun2, sun3, etc))
 - Mirror-storyboard event (an event that handles multiple objects mirrored over a specified angle/other parameters)
-- FPS-Lock Slider/Textbox setting
 - Custom Gamemode where you can set the speed before playing.
 - Disable clicking on progress bar when event editor is up (no more accidentally going to the end of map when I try to click Apply)
-- Create a custom map config to allow more features for modded clients. Workshop uploads would include a vanilla-compatible v3 config.
 - Give mappers control over what images to compress (we don't have to compress and potentially ruin the quality of maps with few images)
 - Change arc spawner to use music time instead of Time.deltaTime
-- Access the leaderboards for workshop maps
+- Change arc movement to adjust based on music time instead of a set speed
+- Access the leaderboards of workshop maps (IIRC every workshop map has a leaderboard that can be used)
 - Change colors and sizes of events depending on type (imagine storyboard editing without a sea of green, starting/ending events being larger acting as bookmarks)
 - Remove the 1-second bars in editor (nts: 💡 create a new gameobject rather than modifying the current one)
 - Mousewheel to control volume during gameplay
 - BPM Find tool (tap to the beat)
 - Video Player for storyboard?
 - Skip the beginning/ending of a map
-- Fix the replay system (Turns out there's a Replay Viewer in the code. Idk how well it works, it could be an artifact of a much older version of Intralism, but there's at least the base for one here.)
-- Unlock the dev console through a setting
-- List the number of arcs, zooms, storyboard events, etc
+- List the specific number of arcs, zooms, storyboard events, etc
 - Add more editor themes
 - Disable Zooms setting
-- Keyboard shortcuts on main menu (one key press to editor for example)
+- Keyboard shortcuts in main menu (one key press to editor for example)
 - Map Selector Optimizations & Improvements (caching, faster loading, more maps, remember better, fix lag)
 - Add better storyboard navigation/manipulation features (can use https://github.com/FlyingRabidUnicornPig/Intralism-Mapping-Assistant for reference)
 - Pause on esc press
