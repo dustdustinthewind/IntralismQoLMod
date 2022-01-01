@@ -82,8 +82,7 @@ There's no risk of VAC auto ban. It is highly unlikely to receive a manual ban b
 ### Bugs To Squash
 - Mod Bug: Playtesting a lot in editor may cause a hang or crash when trying to leave the editor.
 - Mod Bug: **MP3s do not play** **Workaround:** use vanilla, where they also don't work :/ (I actually have no clue how oxy actually got mp3s playing, this is a strangely unique scenario and I haven't been able to deobfuscate it yet. I will probably try to find a new solution instead of trying to understand the old solution.)
-- Mod Bug: Sometimes BPM Grid won't draw from a specific series of commands/inputs. Unsure what causes this.
-- Mod Bug: Scrolling back may jump 2 snaps instead of one. **No Workaround**
+- Mod Bug: Scrolling back may jump 2 snaps instead of one.
 - Mod Bug: You can get your frame rate capped to 100 in some situations involving the waveform generation. **Workaround** restart the game.
 - Mod Bug: Map Preview can be unreasonably laggy. **No Workaround**
 - Mod Bug: Leaving the editor will take you to the map select on top of the main menu if you play tested. **No Workaround**
@@ -97,8 +96,6 @@ There's no risk of VAC auto ban. It is highly unlikely to receive a manual ban b
 - Vanila Bug: Event Editor drop-down doesn't always position properly, sometimes not even appearing on screen. **Workaround:** Scroll to a new event, click Apply to refresh, and try not to leave the drop down open while playing the song.
 
 ### "High Priority" TODO
-- Settings Menu Additions/Revisions
-  - Automatically open event editor menu on map load
 - Map Backup
 - Make Difficulty calculation ignore events after MapEnd
 - Bug Fixes and Optimizations
