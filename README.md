@@ -88,7 +88,7 @@ There's no risk of VAC auto ban. It is highly unlikely to receive a manual ban b
 - Mod Bug: Leaving the editor will take you to the map select on top of the main menu if you play tested. **No Workaround**
 - Mod Bug: Assorted console spam that could effect performance. **Workaround** [Let me know where you see spam](https://steamcommunity.com/id/DustDustInTheWind/)
 - Intentional Mod "Bug": The "Map" drop down menu flashes and sometimes stays up while/after loading. I'd rather this wasn't the case.
-- Unknown Bug: It is possible to make a ["blank"](https://cdn.discordapp.com/attachments/592268952265293824/922244562657902662/bfa5ddd08a.png) event that breaks the editor. **Workaround:** Search for `[]` in the map config file and delete the offending event.
+- Unknown Bug: It is possible to make a ["blank"](https://cdn.discordapp.com/attachments/592268952265293824/922244562657902662/bfa5ddd08a.png) event that breaks the editor. **Workaround:** Search for `"data": []` in the map config file and delete the offending event.
 - Vanilla Bug: Map Selector Sometimes pops up on game startup. **Workaround:** Don't force close intralism after opening (but not closing) the map selector.
 - Vanilla Bug: Map Selector always goes to page 1 of the Editor tab when loading maps.
 - Vanilla Bug: Highscore doesn't save the first time you play a new map. **Workaround:** Fail the map with a positive score then start again.
