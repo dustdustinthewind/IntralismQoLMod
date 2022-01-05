@@ -93,7 +93,7 @@ There's no risk of VAC auto ban. It is highly unlikely to receive a manual ban b
 - Vanilla Bug: Map Selector Sometimes pops up on game startup. (related to playtest mod bug) **Workaround:** Don't force close intralism after opening (but not closing) the map selector.
 - Vanilla Bug: Map Selector always goes to page 1 of the Editor tab when loading maps.
 - Vanilla Bug: Highscore doesn't save the first time you play a new map. **Workaround:** Fail the map with a positive score then start again.
-- Vanilla Bug: Rank updating can cause stutter during gameplay (is this still a bug? need to check/test). **Workaround:** check console to wait for rank update before starting a map again
+- Vanilla Bug: Rank updating can cause stutter during gameplay (partially fixed with a 10 minute timer, i want to improve this further tho)
 - Vanila Bug: Event Editor drop-down doesn't always position properly, sometimes not even appearing on screen. **Workaround:** Scroll to a new event, click Apply to refresh, and try not to leave the drop down open while playing the song.
 
 ### "High Priority" TODO
