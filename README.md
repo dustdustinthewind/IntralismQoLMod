@@ -57,6 +57,7 @@ There's no risk of VAC auto ban. It is highly unlikely to receive a manual ban b
 - [**MASSIVE STORYBOARD OPTIMIZATIONS**](https://www.youtube.com/watch?v=sTeboyFxIj4) especially to audio-reading entities (suns, satellites, and particle emitters)
 - **Accuracy is now shown** on all non-relax gamemodes
 - **Quitting a map only plays the miss sound once now.** Protect your hearing!
+- **Less Frequent Rank Refresh** Ranks only refresh after a score submit if 10 minutes have passed since the last submission. [This is a quick and dirty solution to handle issues of the current "Rank" Refresh system](https://cdn.discordapp.com/attachments/429849391164030988/928352748108406814/a7e8eb74b7.png) There is a setting to go back to the old system for those who need to see when their rank updates asap.
 - **Compression for Image events** You can manually set the compression for an image by changing the "Compress" value in the config files `levelResources` (use `true`/`false`. Vanilla maps that are saved in IQoL will use `null`). Use this on image-sequence maps or maps with many sprites/images to reduce the insane RAM/VRAM usage. Maps with only a few images don't take up a worrying amount of RAM/VRAM.
 - **Autocompression for image-sequence maps**. If a map has at least 1 unique image for every second, the autocompresser will kick in. Most if not all Vanilla image-sequence maps get detected by this, and use significantly less RAM/VRAM than vanilla would in exchange for much longer loading times. You can rely on this autocompression for a modded image sequence map too.
 - **Storyboard and zoom animations are "less frame-dependent"**. This means that maps should play very similarly on all modded clients, regardless of FPS. There is a slight, usually unnoticeable difference in animation between modded and vanilla.
@@ -71,6 +72,7 @@ There's no risk of VAC auto ban. It is highly unlikely to receive a manual ban b
 - **Browse for non-tagged workshop maps** by selecting "NoTag" in the filter options (will ignore any other tags you've pressed)
 - **New Settings** (feel free to [request](https://steamcommunity.com/id/DustDustInTheWind/) a personal QoL setting)
   - **"Gameplay"**
+    - Enable Old Rank Refresh
     - Disable editor using the map name in Discord RPC (for Dust)
     - Enable the Editor Waveform
     - Open Event Editor on editor startup. (for EDM)
