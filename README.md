@@ -98,6 +98,7 @@ There's no risk of VAC auto ban. It is highly unlikely to receive a manual ban b
 
 ### "High Priority" TODO
 - Stepped/Sliding BPM event
+- Fix 2 hand mode
 - Map Backup
 - Make Difficulty calculation ignore events after MapEnd
 - Bug Fixes and Optimizations
