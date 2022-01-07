@@ -78,7 +78,7 @@ There's no risk of VAC auto ban. It is highly unlikely to receive a manual ban b
     - Open Event Editor on editor startup. (for EDM)
     - Open last edited map on editor startup.
   - **Video**
-    - FPS Lock using Unity's shitty built-in fps capper (may fuck with map timing. should be fixed when arc spawners use music time)
+    - FPS Lock using Unity's shitty built-in fps capper (may fuck with map timing. could be fixed when arc spawners use music time)
 - **Many vanilla bugs have been squashed** (a never ending feat)
 - **Several easter eggs**
 
