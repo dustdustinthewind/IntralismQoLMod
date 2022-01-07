@@ -3,7 +3,7 @@ Should only work with Windows version of the game.
 # Intralism Quality of Life Mod
 A mod with a myriad of [**features and fixes**](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod#features) that Oxy will never make.
 
-Focus is primarily on editor features right now, though [I would like to touch up gameplay best I can too.](https://cdn.discordapp.com/attachments/646553696821444609/905530596632191066/91adfe01e7.png)
+Focus is primarily on editor features right now, But [I have and will continue to improve gameplay as time goes on.](https://cdn.discordapp.com/attachments/646553696821444609/905530596632191066/91adfe01e7.png)
 
 ## FAQ
 ### How do I install the mod?
