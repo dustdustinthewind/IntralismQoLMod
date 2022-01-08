@@ -45,6 +45,7 @@ There's no risk of VAC auto ban. It is highly unlikely to receive a manual ban b
 - New Shortcuts:
   - `Home`/`End` to scroll to the start/end of the map
 - **Removed "Complete Map" requirements**
+- **Batch import image resources.** If the file system finds more than 1 image with the same header name (e.g. `fileNameXXX` where `X`s are numbers), you can batch import all of them at once. If you change the "Image FPS" text box, the import will also automatically create the events for you. Note: Any batched images are automatically tagged to Compress, learn more in the [Gameplay/storyboard feature list](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/blob/main/README.md#gameplay--storyboard).
 - Navigation improvements:
   - **Caret Snaps to BPM** (scroll faster by zooming out, playing the map, and/or holding shift)
   - **Refined Scroll Zoom** (Get much closer to the arcs without getting uncomfortably close like before)
