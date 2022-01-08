@@ -40,6 +40,7 @@ There's no risk of VAC auto ban. It is highly unlikely to receive a manual ban b
   - **Replaced sliders with text boxes** for Speed and Distance events
 - [**Auto Animated Image Storyboard**](https://youtu.be/fzL2o3i5xrA)
 - **Playtest Map** button under the "Map" drop down menu. Replaces the "Exit" button (use `esc` to leave editor)
+  - You can also press your quick-restart button to start playtesting from the start of the map.
 - The **BPM tool uses colors** for snaps 1, 2, 3, 4, 6, 8, 12, and 16
 - New Shortcuts:
   - `Home`/`End` to scroll to the start/end of the map
