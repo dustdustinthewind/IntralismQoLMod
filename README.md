@@ -104,6 +104,7 @@ There's no risk of VAC auto ban. It is highly unlikely to receive a manual ban b
 - Map Backup
 - Multi Track Support
 - Negative Speed experiment
+- Optimize search for closest event (would drastically improve performance of playback and scrolling, especially on *large* maps)
 - Make Difficulty calculation ignore events after MapEnd
 - Bug Fixes and Optimizations
 - Endlessly updating the Readme
