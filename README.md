@@ -3,7 +3,7 @@ Should only work with Windows version of the game.
 # Intralism Quality of Life Mod
 A mod with a myriad of [**features and fixes**](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod#features) that Oxy will never make.
 
-Focus is primarily on editor features right now, But [I have and will continue to improve gameplay as time goes on.](https://cdn.discordapp.com/attachments/646553696821444609/905530596632191066/91adfe01e7.png). Storyboard Mappers: I know very little about storyboarding outside of animated images, and haven't focused on it as much as other parts of the editor. I hope to greatly improve storyboard handling but it may take some time compared to other things. Feel free to request ideas on [steam](https://steamcommunity.com/id/DustDustInTheWind/) or the issue board here.
+Focus is primarily on editor features right now, But [I have and will continue to improve gameplay as time goes on.](https://cdn.discordapp.com/attachments/646553696821444609/905530596632191066/91adfe01e7.png).
 
 ## FAQ
 ### How do I install the mod?
