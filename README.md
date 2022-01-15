@@ -98,9 +98,9 @@ There's no risk of VAC auto ban. It is highly unlikely to receive a manual ban b
 - Vanila Bug: Event Editor drop-down doesn't always position properly, sometimes not even appearing on screen. **Workaround:** Scroll to a new event, click Apply to refresh, and try not to leave the drop down open while playing the song.
 
 ### "High Priority" TODO
+- Fix 2 hand mode (Bloom unfried, now to see other stacked effects)
 - Rotate/Flip Selected arcs
 - Stepped/Sliding BPM params
-- Fix 2 hand mode
 - Map Backup
 - Multi Track Support
 - Negative Speed experiment
