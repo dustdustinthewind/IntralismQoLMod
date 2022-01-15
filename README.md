@@ -111,6 +111,7 @@ There's no risk of VAC auto ban. It is highly unlikely to receive a manual ban b
 - Custom Menu Music through skin folder
 
 ### TO DO / Feature Wishlist (Feel free to [request](https://steamcommunity.com/id/DustDustInTheWind/) or [here](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/issues))
+- "Initialize" event toggle for map/storyboard objects. Basically instead of spawning at 0,0,0, having to wait until time = 0 to trigger an event (maps start before 0), instead spawn at a user specified place, or start as soon as the map starts playing.
 - Color palette for storyboard events
 - Open map folder button in editor
 - Change the crosshair to a transparent version of your current view model, a 3D crosshair that matches the skin you're using and might properly represent the nonexistant "judgement line" at z0 compared to a fucking 2D image.
