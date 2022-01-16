@@ -82,6 +82,7 @@ There's no risk of VAC auto ban. It is highly unlikely to receive a manual ban b
   - **Video**
     - FPS Lock using Unity's shitty built-in fps capper (may fuck with map timing. could be fixed when arc spawners use music time)
 - **Many vanilla bugs have been squashed** (a never ending feat)
+  - 2 hand mode is no longer deep fried
 - **Several easter eggs**
 
 ### Bugs To Squash
