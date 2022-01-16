@@ -85,9 +85,9 @@ There's no risk of VAC auto ban. It is highly unlikely to receive a manual ban b
 - **Several easter eggs**
 
 ### Bugs To Squash
-- Mod Bug: Playtesting a lot in editor may cause a hang or crash when trying to leave the editor.
 - Mod Bug: **MP3s do not play** **Workaround:** use vanilla, where they also don't work :/ (I actually have no clue how oxy actually got mp3s playing, this is a strangely unique scenario and I haven't been able to deobfuscate it yet. I will probably try to find a new solution instead of trying to understand the old solution.)
 - Mod Bug: Map Preview can be unreasonably laggy. **No Workaround**
+- Mod Bug: Playtesting a lot in editor may cause a hang or crash when trying to leave the editor.
 - Mod Bug: Leaving the editor will take you to the map select on top of the main menu if you play tested. (related to vanilla map select bug) **No Workaround**
 - May be fixed: It is possible to make a ["blank"](https://cdn.discordapp.com/attachments/592268952265293824/922244562657902662/bfa5ddd08a.png) event that breaks the editor. **Workaround:** Search for `"data": []` in the map config file and delete the offending event.
 - Intentional Mod "Bug": The "Map" drop down menu flashes and sometimes stays up while/after loading. I'd rather this wasn't the case.
