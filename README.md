@@ -22,11 +22,9 @@ Right click Intralism in Steam. Click `Properties`. Go to the `Local Files` tab 
 - This mod creates custom map events that will throw console warnings when played on vanilla, and may cause a frame drop. Any new events will trigger this, modified vanilla events (old events with new settings) will not trigger a console warning. If you upload a map with modded events besides BPM, I recommend you leave a notice on the map thumbnail ([example](https://steamuserimages-a.akamaihd.net/ugc/1817764136694754642/3A7615BACE215E783C82A9BC3FE40B37E1F4845C/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)). I may be able to make this nicer for vanilla users in the future.
 - This mod has adjusted the difficulty calculation. At the moment the most it can do is nerf the difficulty, meaning ranked scores can also get nerfed. I recommend you play on vanilla if you wish to play ranked, especially considering I intend to remove vanilla rank submitting someday.
 
-### Isn't this against Intralism's terms of service?
+### Can I get banned for using the mod?
+There's no risk of VAC auto ban. You are almost certainly safe from Steam or Intralism bans. There's always a chance, but I doubt they care. Thus far, no one has been banned for using the mod.
 Update: [Oxy is OK with this project.](https://cdn.discordapp.com/attachments/429849391164030988/919666559071453214/4fcc2b930d.png)
-
-### I mean can I get banned for using the mod?
-There's no risk of VAC auto ban. It is highly unlikely to receive a manual ban by Intralism or Steam from using this mod.
 
 ## FEATURES
 ### EDITOR
@@ -41,11 +39,12 @@ There's no risk of VAC auto ban. It is highly unlikely to receive a manual ban b
   - **Replaced sliders with text boxes** for Speed and Distance events
 - [**Auto Animated Image Storyboard**](https://youtu.be/fzL2o3i5xrA)
 - **Playtest Map** button under the "Map" drop down menu. Replaces the "Exit" button (use `esc` to leave editor)
-  - You can also press your quick-restart button to start playtesting from the start of the map.
+  - You can also **press your quick-restart button to start playtesting from the start of the map**.
 - The **BPM tool uses colors** for snaps 1, 2, 3, 4, 6, 8, 12, and 16
 - New Shortcuts:
   - `Home`/`End` to scroll to the start/end of the map
-  - Hold `Shift` to modify scroll/slomo steps.
+  - Hold `Shift` to modify snap-scroll/slomo step.
+  - Press your quick-restart key to playtest from the start of the map
 - **Removed "Complete Map" requirements**
 - **Batch import image resources.** If the file system finds more than 1 image with the same header name (e.g. `fileNameXXX` where `X`s are numbers), you can batch import all of them at once. If you change the "Image FPS" text box, the import will also automatically create the events for you. Note: Any batched images are automatically tagged to Compress, learn more in the [Gameplay/storyboard feature list](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/blob/main/README.md#gameplay--storyboard).
 - Navigation improvements:
@@ -85,6 +84,12 @@ There's no risk of VAC auto ban. It is highly unlikely to receive a manual ban b
     - FPS Lock using Unity's shitty built-in fps capper (may fuck with map timing. could be fixed in future update)
 - **Many vanilla bugs have been squashed** (a never ending feat)
   - 2 hand mode is no longer deep fried
+  - The Map-Over screen is "Fixed" (yes, the text is supposed to stay up, the bar is supposed to turn red, etc. A bug caused these from triggering and killed the frame rate with console spam as well)
+  - Main Menu Player Data now starts in a "loading" state.
+- **And many new bugs have been added**
+  - Mp3s now don't work *at all*.
+  - More lag in some places.
+  - A probable memory leak or two.
 - **Several easter eggs**
 
 ### Bugs To Squash
