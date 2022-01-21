@@ -99,17 +99,15 @@ There's no risk of VAC auto ban. It is highly unlikely to receive a manual ban b
 - Vanila Bug: Event Editor drop-down doesn't always position properly, sometimes not even appearing on screen. **Workaround:** Scroll to a new event, click Apply to refresh, and try not to leave the drop down open while playing the song.
 
 ### "High Priority" TODO
-- Fix 2 hand mode (Bloom unfried, now to see other stacked effects)
+- Multi Track Support
 - Rotate/Flip Selected arcs
 - Stepped/Sliding BPM params
 - Map Backup
-- Multi Track Support
 - Negative Speed experiment
 - Optimize search for closest event (would drastically improve performance of playback and scrolling, especially on *large* maps)
 - Make Difficulty calculation ignore events after MapEnd
 - Bug Fixes and Optimizations
 - Endlessly updating the Readme
-- Custom Menu Music through skin folder
 
 ### TO DO / Feature Wishlist (Feel free to [request](https://steamcommunity.com/id/DustDustInTheWind/) or [here](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/issues))
 - "Initialize" event toggle for map/storyboard objects. Basically instead of spawning at 0,0,0, having to wait until time = 0 to trigger an event (maps start before 0), instead spawn at a user specified place, or start as soon as the map starts playing.
@@ -126,7 +124,6 @@ There's no risk of VAC auto ban. It is highly unlikely to receive a manual ban b
 - Change arc movement to adjust based on music time instead of a set speed
 - Access the leaderboards of workshop maps (IIRC every workshop map has a leaderboard that can be used)
 - Change colors and sizes of events depending on type (imagine storyboard editing without a sea of green, starting/ending events being larger acting as bookmarks)
-- Remove the 1-second bars in editor (nts: 💡 create a new gameobject rather than modifying the current one)
 - Mousewheel to control volume during gameplay
 - BPM Find tool (tap to the beat)
 - Video Player for storyboard?
