@@ -55,6 +55,7 @@ Update: [Oxy is OK with this project.](https://cdn.discordapp.com/attachments/42
 - **Audio Waveform should be more consistent and accurate**, in exchange for being a little slower than it used to be. Enable/Disable under "Gameplay" settings.
 - **Increased Performance**
   - Events and images don't render when offscreen
+  - The grey time-bar consists of only 3 objects instead of 3 objects for every second in the song.
 
 ### GAMEPLAY / STORYBOARD
 - [**MASSIVE STORYBOARD OPTIMIZATIONS**](https://www.youtube.com/watch?v=sTeboyFxIj4) especially to audio-reading entities (suns, satellites, and particle emitters)
