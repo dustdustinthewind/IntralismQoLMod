@@ -65,12 +65,12 @@ Update: [Oxy is OK with this project.](https://cdn.discordapp.com/attachments/42
 - **Compression for Image resources** (ShowImage/SpriteObj) You can manually set the compression for an image by changing the "Compress" value in the config files `levelResources` (use `true`/`false`. Vanilla maps that are resaved in IQoL will use `null` (equivalent to false, but tagged differently to future-proof against potential issues). Use this on image-sequence maps or maps with many sprites/images to reduce the insane RAM/VRAM usage. Maps with only a few images don't take up a worrying amount of RAM/VRAM.
 - **Autocompression for image-sequence maps**. If a map has at least 1 unique image for every second, the autocompresser will kick in. Most if not all Vanilla image-sequence maps get detected by this, and will use significantly less RAM/VRAM than vanilla would in exchange for much longer loading times. This will also trigger on a modded map, even if the resources were tagged false. You can check the console during a long loading time to see if auto-compress triggered.
 - **Storyboard and zoom animations are "less frame-dependent"**. This means that map animations (zooms, storyboards, etc.) should play very similarly on all modded clients, regardless of FPS. There is a slight, usually unnoticeable difference in animation-feel between modded and vanilla.
-- **Use any skin!** Set the skin you'd like in [`qolmod/skin.txt`](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/blob/main/qolmod/skin.txt)
+- **Use any skin!** Set the skin you'd like in [`qolmod/skin.txt`](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/blob/main/qolmod/skin.txt). This is a visual change to the client-side only. Users in multiplayer lobbies will see your steam-equipped skin when spectating, your inventory still only shows skins you own through Steam, etc.
 
 ### MISC
 - Downloaded **maps will display their difficulty** when hovered in map-select.
 - Difficulty Adjustments:
-  - **Zooms do not count towards diff calculation anymore.** Modded zooms/rotation are near-impossible to calculate with any sense of reliability. Fuck that!
+  - **Zooms do not count towards diff calculation anymore.** Modded zooms/rotations are near-impossible to calculate with any sense of reliability. Fuck that!
 - Added a **backup feature to saves**, in case things get fucked up.
 - Press "O" while connecting to server to **Quickstart Offline Mode** (flakey, only works consistently if Steam connection is iffy, but not if Intralism connection is iffy, need to do more)
 - **Browse for non-tagged workshop maps** by selecting "NoTag" in the filter options (will ignore any other tags you've pressed)
