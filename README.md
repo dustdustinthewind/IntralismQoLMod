@@ -124,6 +124,8 @@ Update: [Oxy is OK with this project.](https://cdn.discordapp.com/attachments/42
 - Open map folder button in editor
 - Easy way to change speed/tempo of map (for BPM messups or for people who want to easily convert a faster/slower ver of a map)
 - Change the crosshair to a transparent version of your current view model, a 3D crosshair that matches the skin you're using and might properly represent the nonexistant "judgement line" at z0 compared to a fucking 2D image.
+- Try fixing the broken skin textures
+- Add custom skin loader
 - Custom workshop tags
 - Multi-storyboard-object spawner event (spawn x number of an object with a shared id (sun1, sun2, sun3, etc))
 - Mirror-storyboard event (an event that handles multiple objects mirrored over a specified angle/other parameters)
