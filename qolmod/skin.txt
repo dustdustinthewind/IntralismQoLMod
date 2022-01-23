@@ -15,7 +15,7 @@ player.deleted
 player.linea
 player.rgb
 player.goldarc
-player.egglips
+player.egglipszerotwo
 player.russia
 player.circle
 player.slash
