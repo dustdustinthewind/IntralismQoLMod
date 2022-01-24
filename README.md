@@ -130,6 +130,7 @@ Update: [Oxy is OK with this project.](https://cdn.discordapp.com/attachments/42
 - Multi-storyboard-object spawner event (spawn x number of an object with a shared id (sun1, sun2, sun3, etc))
 - Mirror-storyboard event (an event that handles multiple objects mirrored over a specified angle/other parameters)
 - Custom Gamemode where you can set the speed before playing.
+- SwitchHand event (go from 1hand to 2hand and vice versa)
 - Disable clicking on progress bar when event editor is up (no more accidentally going to the end of map when I try to click Apply)
 - Improve gameplay-to-song accuracy
   - Change arc spawner to use music time instead of Time.deltaTime (greatly improves map-to-song accuracy, can stutter-proof the spawn easily, but stutters could still fuck with arc movement on the way to the crosshair. Easiest to implement)
