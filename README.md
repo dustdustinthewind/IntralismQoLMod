@@ -47,7 +47,7 @@ Update: [Oxy is OK with this project.](https://cdn.discordapp.com/attachments/42
   - Press your quick-restart key to playtest from the start of the map
   - Hold `Ctrl` when clicking "Playtest" to playtest with "Infinite" lives.
 - **Removed "Complete Map" requirements**
-- **Batch import image resources.** If the file system finds more than 1 image with the same header name (e.g. `fileNameXXX` where `X`s are numbers), you can batch import all of them at once. If you change the "Image FPS" text box, the import will also automatically create the events for you. Note: Any batched images are automatically tagged to Compress, learn more in the [Gameplay/storyboard feature list](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/blob/main/README.md#gameplay--storyboard).
+- **Batch import image resources.** If the file system finds more than 1 image with the same header name (e.g. `fileNameXXX` where `X`s are numbers), you can batch import all of them at once. If you change the "Image FPS" text box, the import will also automatically create the events for you. Use the "Sequence Offset" box to change when these events start. Note: Any batched images are automatically tagged to Compress, learn more in the [Gameplay/storyboard feature list](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/blob/main/README.md#gameplay--storyboard).
 - Navigation improvements:
   - **Caret Snaps to BPM** (scroll faster by zooming out, if the song is playing, and/or holding shift)
   - **Refined Scroll Zoom** (Get much closer to the arcs without getting uncomfortably close like before)
