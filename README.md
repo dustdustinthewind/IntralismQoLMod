@@ -57,6 +57,7 @@ Update: [Oxy is OK with this project.](https://cdn.discordapp.com/attachments/42
 - **Increased Performance**
   - Events and images don't render when offscreen
   - The grey time-bar consists of only 3 objects instead of 3 objects for every second in the song.
+  - BPM Grid only draws once, follows active track
 
 ### GAMEPLAY / STORYBOARD
 - [**MASSIVE STORYBOARD OPTIMIZATIONS**](https://www.youtube.com/watch?v=sTeboyFxIj4) especially to audio-reading entities (suns, satellites, and particle emitters)
