@@ -60,7 +60,7 @@ Update: [Oxy is OK with this project.](https://cdn.discordapp.com/attachments/42
   - BPM Grid only draws once, follows active track
 
 ### GAMEPLAY / STORYBOARD
-- [**MASSIVE STORYBOARD OPTIMIZATIONS**](https://www.youtube.com/watch?v=sTeboyFxIj4) especially to audio-reading entities (suns, satellites, and particle emitters)
+- [**MASSIVE STORYBOARD AUDIO-READING OPTIMIZATIONS**](https://www.youtube.com/watch?v=sTeboyFxIj4) (Suns, Satellites, and Particle Emitters will share audio data with each other, instead of refreshing the same audio data of that frame for every single object)
 - **Accuracy is now shown** on all non-relax gamemodes
 - **Quitting a map only plays the miss sound once.** Protect your hearing!
 - **Less Frequent Rank Refresh** Ranks only refresh after a score submit if 10 minutes have passed since the last submission. [This is a quick and dirty solution to handle issues of the current "Rank" Refresh system](https://cdn.discordapp.com/attachments/429849391164030988/928352748108406814/a7e8eb74b7.png) There is a setting to go back to the old system for those who need to see when their rank updates asap. Even tho I plan to remove rank updates, I'm still gonna fully fix this out of spite.
