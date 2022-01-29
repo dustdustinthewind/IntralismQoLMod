@@ -50,7 +50,7 @@ Update: [Oxy is OK with this project.](https://cdn.discordapp.com/attachments/42
 - **Batch import image resources.** If the file system finds more than 1 image with the same header name (e.g. `fileNameXXX` where `X`s are numbers), you can batch import all of them at once. If you change the "Image FPS" text box, the import will also automatically create the events for you. Use the "Sequence Offset" box to change when these events start. Note: Any batched images are automatically tagged to Compress, learn more in the [Gameplay/storyboard feature list](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/blob/main/README.md#gameplay--storyboard).
 - Navigation improvements:
   - **Caret Snaps to BPM** (scroll faster by zooming out, if the song is playing, and/or holding shift)
-  - **Refined Scroll Zoom** (Get much closer to the arcs without getting uncomfortably close like before)
+  - **Refined Scroll Zoom** (Don't snap uncomfortably close to arcs when zooming in anymore)
   - Playback speed up to 2x or down to .125x ([Press shift key or enable caps to step by .125x instead of .25x](https://youtu.be/llyDIod8bdo))
 - **User-Relevant Map Stats** that can be pasted to the description.
 - **Audio Waveform should be more consistent and accurate**, in exchange for being a little slower than it used to be. Enable/Disable under "Gameplay" settings.
