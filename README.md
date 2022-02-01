@@ -89,7 +89,7 @@ Update: [Oxy is OK with this project.](https://cdn.discordapp.com/attachments/42
     - FPS Lock using Unity's shitty built-in fps capper (may fuck with map timing. could be fixed in future update)
 - **Many vanilla bugs have been squashed** (a never ending feat)
   - 2 hand mode is no longer deep fried
-  - The Map-Over screen is "Fixed" (yes, the text is supposed to stay up, the bar is supposed to turn red, etc. A bug caused these from triggering and killed the frame rate with console spam as well)
+  - The Map-Over screen is "Fixed" (minus current bug lol) (yes, the text is supposed to stay up, the bar is supposed to turn red, etc. A bug caused these from triggering and killed the frame rate with console spam as well)
   - Main Menu Player Data now starts in a "loading" state.
 - **And many new bugs have been added**
   - Mp3s now don't work *at all*.
@@ -99,6 +99,7 @@ Update: [Oxy is OK with this project.](https://cdn.discordapp.com/attachments/42
 
 ### Bugs To Squash
 - Mod Bug: **MP3s do not play** **Workaround:** use vanilla, where they also don't work :/ I actually have no clue how oxy actually got mp3s playing, this is a strangely unique scenario and I haven't been able to deobfuscate it yet. I will probably try to find a new solution instead of trying to understand the old solution. For now just use superior .ogg
+- Mod Bug: Map Over screen doesn't update values for new map (was this null spam shit intentional? Just figure out how to clear and reset it i guess)
 - Mod Bug: Caret movement somewhat buggy
 - Mod Bug: BPM Grid tool doesn't seem to target newly created BPM Events
 - Mod Bug: Map Preview can be unreasonably laggy. **No Workaround**
