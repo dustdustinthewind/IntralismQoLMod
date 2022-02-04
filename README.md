@@ -102,6 +102,7 @@ Update: [Oxy is OK with this project.](https://cdn.discordapp.com/attachments/42
 ### Bugs To Squash
 - Mod Bug: **MP3s do not play** **Workaround:** use vanilla, where they also don't work :/ I actually have no clue how oxy actually got mp3s playing, this is a strangely unique scenario and I haven't been able to deobfuscate it yet. I will probably try to find a new solution instead of trying to understand the old solution. For now just use superior .ogg
 - Mod Bug: Map Over screen doesn't update values for new play (was this null spam shit intentional? Just figure out how to clear and reset it i guess)
+- Mod Bug: Pasting to description doesn't work properly for zooms (may remove zooms entirely)
 - Mod Bug: Caret movement somewhat buggy
 - Mod Bug: BPM Grid tool doesn't seem to target newly created BPM Events
 - Mod Bug: Map Preview can be unreasonably laggy. **No Workaround**
