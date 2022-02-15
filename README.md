@@ -1,7 +1,5 @@
 Should only work with Windows version of the game.
 
-I'm on break, will be back on the 17th.
-
 # Intralism Quality of Life Mod
 A mod with a myriad of [**features and fixes**](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod#features) that Oxy will never make.
 
