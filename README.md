@@ -37,6 +37,7 @@ Update: [Oxy is OK with this project.](https://cdn.discordapp.com/attachments/42
 - **Changes to old events**
   - [**Added lerp-speed control for Distance events**](https://youtu.be/nfSsDREbh5c)
   - **Replaced sliders with text boxes** for Speed and Distance events
+  - [**Arc selector doesn't require scrolling**](https://cdn.discordapp.com/attachments/592268952265293824/945025806256726096/unknown.png)
 - [**Auto Animated Image Storyboard**](https://youtu.be/fzL2o3i5xrA)
 - **Playtest Map** button under the "Map" drop down menu. Replaces the "Exit" button (use `esc` to leave editor)
   - You can also **press your quick-restart button to start playtesting from the start of the map**.
