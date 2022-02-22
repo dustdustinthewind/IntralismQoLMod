@@ -155,3 +155,5 @@ Update: [Oxy is OK with this project.](https://cdn.discordapp.com/attachments/42
 - Map Selector Optimizations & Improvements (caching, faster loading, show more maps, fix lag, etc.)
 - Add better storyboard navigation/manipulation features (can use https://github.com/FlyingRabidUnicornPig/Intralism-Mapping-Assistant for reference)
 - Pause on esc press
+- Map shader control (there's a shit ton of shader effects in here that could be utilized by mappers for even finer control over map visuals)
+- Skin change event (Control the skin the user uses for this map when storyboard is enabled)
