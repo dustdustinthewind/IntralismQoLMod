@@ -115,6 +115,7 @@ Update: [Oxy is OK with this project.](https://cdn.discordapp.com/attachments/42
 - Partially fixed Vanilla Bug: Rank updating can cause stutter during gameplay (partially fixed with a 10 minute timer, stutters happen but only every 10 minutes instead of every time. i want to improve this further tho)
 
 ### "High Priority" TODO
+- Give every other mapping even the same delay as arcs (no more trying to adjust zooms to match arcs on an offset)
 - Multi Track Support
 - Rotate/Flip Selected arcs
 - Stepped/Sliding BPM params
