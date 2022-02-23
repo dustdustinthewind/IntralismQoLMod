@@ -17,18 +17,19 @@ Updates happen frequently, so check often!
 Right click Intralism in Steam. Click `Properties`. Go to the `Local Files` tab and then click `Verify integrity of game files...`. This will restore Intralism to its current version. ***PLEASE NOTE***: Your save file will be considered "Corrupted" by intralism and deleted. Read the next question for assistance handling saves.
 
 ### What important things does this mod mess with?
-- This mod decrypts the save file found in `...\Intralism\Save`. **THIS WILL CAUSE INTRALISM TO DELETE YOUR SAVE IF YOU REVERT TO VANILLA.** If your first install was after version `0.6.3` you have nothing to worry about. Copy the `.bak_oldest` bakup file and change its extension to `.save`. I decrypted the save to make debugging easier and to give users access to the save file.
+- This mod decrypts the save file found in `...\Intralism\Save`. **THIS WILL CAUSE INTRALISM TO DELETE YOUR SAVE IF YOU REVERT TO VANILLA.** To fix this, close Intralism, delete the `.save` file, duplicate the `.bak_oldest` bakup file but change its extension to `.save`. 
   - If a save gets corrupted, try using the backups. Delete the faulty save and copy a backup. Change the backup copy's extension to `.save`. The `.bak_oldest` file was generated the first time you launched the mod. It is strongly recommended that you **do not delete the .bak_oldest file, as it is vanilla-compatible.**
-- This mod creates custom map events that will throw console warnings when played on vanilla, and may cause a frame drop. Any new events will trigger this, modified vanilla events (old events with new settings) will not trigger a console warning. If you upload a map with modded events besides BPM, I recommend you leave a notice on the map thumbnail ([example](https://steamuserimages-a.akamaihd.net/ugc/1817764136694754642/3A7615BACE215E783C82A9BC3FE40B37E1F4845C/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)). I may be able to make this nicer for vanilla users in the future.
-- This mod has adjusted the difficulty calculation. At the moment the most it can do is nerf the difficulty, meaning ranked scores can also get nerfed. I recommend you play on vanilla if you wish to play ranked, especially considering I intend to remove vanilla rank submitting someday.
+- This mod creates custom map events that will throw console warnings when played on vanilla, and may cause frame drops. Any new events will trigger this, modified vanilla events (old events with new settings) will not trigger a console warning. If you upload a map with modded events besides BPM, I recommend you leave a notice on the map thumbnail ([example](https://steamuserimages-a.akamaihd.net/ugc/1817764136694754642/3A7615BACE215E783C82A9BC3FE40B37E1F4845C/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)). I may be able to make this nicer for vanilla users in the future.
+- This mod has adjusted the difficulty calculation. At the moment the most it does is nerf difficulty, meaning ranked scores will also get nerfed. I recommend you play on vanilla if you wish to play ranked, especially considering I intend to remove vanilla rank submitting someday.
 
 ### Can I get banned for using the mod?
 There's no risk of VAC auto ban. You are almost certainly safe from Steam or Intralism bans. There's always a chance, but I doubt they care. Thus far, no one has been banned for using the mod.
+
 Update: [Oxy is OK with this project.](https://cdn.discordapp.com/attachments/429849391164030988/919666559071453214/4fcc2b930d.png)
 
 ## FEATURES
 ### EDITOR
-- Config v3 **maps and the save file do not encrypt** (Encrypted maps can be resaved to be decrypted!)
+- **Maps and the save file do not encrypt** (Encrypted maps can be resaved to be decrypted!)
 - Gave Editor a **Dark Theme**
 - **New Events**
   - [**BPM Events**](https://www.youtube.com/watch?v=uSNUuTWbvuk) for BPM automation (You can still use the old system if you prefer (somewhat buggy tho))
