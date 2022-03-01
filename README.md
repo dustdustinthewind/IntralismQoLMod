@@ -1,17 +1,14 @@
 Should only work with Windows version of the game.
 
 # Intralism Quality of Life Mod
-A mod with a myriad of [**features and fixes**](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod#features) that Oxy will never make.
-
-Focus is primarily on editor features right now, But [I have and will continue to improve gameplay as time goes on.](https://cdn.discordapp.com/attachments/646553696821444609/905530596632191066/91adfe01e7.png).
+A mod with a myriad of [**features and fixes**](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod#features) to improve mapping and gameplay.
 
 ## FAQ
 ### How do I install the mod?
 Click [here](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/archive/refs/heads/main.zip) to download the current version. Right click Intralism in Steam and select `Manage > Browse Local Files`. Go into `Intralism_Data\Managed`. Copy all `.dll` files from the zip you downloaded and paste them into the `Managed` folder. Replace files, yes. The `qolmod` folder is optional.
 
-To update your mod, you only need to download/paste the newest [Assembly-Csharp.dll](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/raw/main/Assembly-CSharp.dll). This could change in the future.
-
-Updates happen frequently, so check often!
+### How do I update the mod?
+To update your mod, you only need to download/paste the newest [Assembly-Csharp.dll](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/raw/main/Assembly-CSharp.dll). Same folder, same thing, replace files, yes. The update process could change in the future.
 
 ### How do I uninstall the mod?
 Right click Intralism in Steam. Click `Properties`. Go to the `Local Files` tab and then click `Verify integrity of game files...`. This will restore Intralism to its current version. ***PLEASE NOTE***: Your save file will be considered "Corrupted" by intralism and deleted. Read the next question for assistance handling saves.
