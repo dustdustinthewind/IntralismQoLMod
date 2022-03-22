@@ -145,6 +145,7 @@ Update: [Oxy is OK with this project.](https://cdn.discordapp.com/attachments/42
 - Change colors and sizes of events depending on type (imagine storyboard editing without a sea of green, starting/ending events being larger acting as bookmarks)
 - Mousewheel to control volume during gameplay
 - BPM Find tool (tap to the beat)
+- Allow esc or quick retry button from Score Screen instead of forced to use mouse
 - Autoplay Hack (Move arc-despawner to crosshair)
 - Video Player for storyboard?
 - Skip the beginning/ending of a map
