@@ -137,6 +137,7 @@ Update: [Oxy is OK with this project.](https://cdn.discordapp.com/attachments/42
 - Custom Gamemode where you can set the speed before playing.
 - SwitchHand event (go from 1hand to 2hand and vice versa)
 - Disable clicking on progress bar when event editor is up (no more accidentally going to the end of map when I try to click Apply)
+- Crop Sprite animated event
 - Improve gameplay-to-song accuracy
   - Change arc spawner to use music time instead of Time.deltaTime (greatly improves map-to-song accuracy, can stutter-proof the spawn easily, but stutters could still fuck with arc movement on the way to the crosshair. Easiest to implement)
   - Change arc movement to adjust based on music time instead of a set speed (would mean near-perfect map-to-song accuracy, stutters could still fuck with input (arcs would move properly, but over one frame they can theoretically jump over the "100% accurate" range for the user to hit them on))
