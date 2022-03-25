@@ -1,5 +1,7 @@
 Should only work with Windows version of the game.
 
+[Currently busy dumping Intralism](https://github.com/FlyingRabidUnicornPig/IQoLDecompiled). Will return with updates when dump is complete.
+
 # Intralism Quality of Life Mod
 A mod with a myriad of [**features and fixes**](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod#features) to improve mapping and gameplay.
 
