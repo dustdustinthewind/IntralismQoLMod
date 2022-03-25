@@ -124,6 +124,7 @@ Update: [Oxy has given his blessing to this project.](https://cdn.discordapp.com
 - Optimize search for closest event (would drastically improve performance of playback and scrolling, especially on *large* maps)
 - Bug Fixes and Optimizations
 - Endlessly updating the Readme
+- Ignoring the High Priroity ToDo
 
 ### TO DO / Feature Wishlist (Feel free to [request](https://steamcommunity.com/id/DustDustInTheWind/) or [here](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/issues))
 - "Initialize" event toggle for map/storyboard objects. Basically instead of spawning at 0,0,0, having to wait until time = 0 to trigger an event (maps start before 0), instead spawn at a user specified place, or start as soon as the map starts playing.
