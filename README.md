@@ -108,6 +108,7 @@ Update: [Oxy has given his blessing to this project.](https://cdn.discordapp.com
 - Mod Bug: BPM Grid tool doesn't seem to target newly created BPM Events
 - Mod Bug: Map Preview can be unreasonably laggy. **No Workaround**
 - Mod Bug: Leaving the editor will take you to the map select on top of the main menu if you play tested. (related to vanilla map select bug) **No Workaround**
+- Mod Bug: Some sliders may start as float sliders when they should be integer sliders in editor. **Workaround** press apply and they will fix themselves. (May not be in public-version of mod yet)
 - Intentional Mod "Bug": The "Map" drop down menu flashes during loading and sometimes stays up afterwards. I'd rather this wasn't the case.
 - Vanilla Bug: Map Selector Sometimes pops up on game startup. (related to playtest mod bug) **Workaround:** Close Intralism through the "Exit Button" instead of Alt+F4
 - Vanilla Bug: Map Selector always goes to page 1 of the Editor tab when loading maps.
