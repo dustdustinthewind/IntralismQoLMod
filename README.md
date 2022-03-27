@@ -108,13 +108,16 @@ Update: [Oxy has given his blessing to this project.](https://cdn.discordapp.com
 - Mod Bug: BPM Grid tool doesn't seem to target newly created BPM Events
 - Mod Bug: Map Preview can be unreasonably laggy. **No Workaround**
 - Mod Bug: Leaving the editor will take you to the map select on top of the main menu if you play tested. (related to vanilla map select bug) **No Workaround**
-- Mod Bug: Some sliders may start as float sliders when they should be integer sliders in editor. **Workaround** press apply and they will fix themselves. (May not be in public-version of mod yet)
 - Intentional Mod "Bug": The "Map" drop down menu flashes during loading and sometimes stays up afterwards. I'd rather this wasn't the case.
 - Vanilla Bug: Map Selector Sometimes pops up on game startup. (related to playtest mod bug) **Workaround:** Close Intralism through the "Exit Button" instead of Alt+F4
 - Vanilla Bug: Map Selector always goes to page 1 of the Editor tab when loading maps.
 - Vanilla Bug: Highscore doesn't save the first time you play a new map. **Workaround:** Fail the map with a positive score then start again.
 - Vanila Bug: Event Editor drop-down doesn't always position properly, sometimes not even appearing on screen. **Workaround:** Scroll to a new event, click Apply to refresh, and try not to leave the drop down open while playing the song.
 - Partially fixed Vanilla Bug: Rank updating can cause stutter during gameplay (partially fixed with a 10 minute timer, stutters happen but only every 10 minutes instead of every time. i want to improve this further tho)
+
+#### DumpVer Bugs (not public, bugs in [IQolDecompiled](https://github.com/FlyingRabidUnicornPig/IQoLDecompiled))
+- Some sliders may start as float sliders when they should be integer sliders in editor. **Workaround** press apply and they will fix themselves.
+- Editor selector (drag-n-select) will have a drastically inappropriate window for the first frame sometimes, selecting arcs you didn't want to (Extremely bothersome when `ctrl`+selecting). Happens when zoom or time changes since last select. Seems to use the same screen space as the last select. (Maybe reset values after a select-end?) **No Workaround**
 
 ### "High Priority" TODO
 - Multi Track Support
