@@ -115,10 +115,6 @@ Update: [Oxy has given his blessing to this project.](https://cdn.discordapp.com
 - Vanila Bug: Event Editor drop-down doesn't always position properly, sometimes not even appearing on screen. **Workaround:** Scroll to a new event, click Apply to refresh, and try not to leave the drop down open while playing the song.
 - Partially fixed Vanilla Bug: Rank updating can cause stutter during gameplay (partially fixed with a 10 minute timer, stutters happen but only every 10 minutes instead of every time. i want to improve this further tho)
 
-#### DumpVer Bugs (not public, bugs in [IQolDecompiled](https://github.com/FlyingRabidUnicornPig/IQoLDecompiled))
-- Some sliders may start as float sliders when they should be integer sliders in editor. **Workaround** press apply and they will fix themselves.
-- Editor selector (drag-n-select) will have a drastically inappropriate window for the first frame sometimes, selecting arcs you didn't want to (Extremely bothersome when `ctrl`+selecting). Happens when zoom or time changes since last select. Seems to use the same screen space as the last select. (Maybe reset values after a select-end?) **No Workaround**
-
 ### "High Priority" TODO
 - Multi Track Support
 - Rotate/Flip Selected arcs
