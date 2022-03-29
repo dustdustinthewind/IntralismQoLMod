@@ -1,6 +1,6 @@
 Should only work with Windows version of the game.
 
-[Currently busy dumping Intralism](https://github.com/FlyingRabidUnicornPig/IQoLDecompiled). Will return with updates when dump is complete.
+[Currently busy dumping Intralism](https://github.com/FlyingRabidUnicornPig/). Will return with updates when dump is complete.
 
 # Intralism Quality of Life Mod
 A mod with a myriad of [**features and fixes**](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod#features) to improve mapping and gameplay.
@@ -79,7 +79,7 @@ Update: [Oxy has given his blessing to this project.](https://cdn.discordapp.com
   - **Zooms do not count towards diff calculation anymore.** Modded zooms/rotations are near-impossible to calculate with any sense of reliability. Fuck that!
   - **Events after MapEnd do not count toward diff calculation anymore.** No artificial inflation with unseen arcs.
 - Added a **backup feature to saves**, in case things get fucked up.
-- Press "O" while connecting to server to **Quickstart Offline Mode** (currently buggy. is fixed in [dev](https://github.com/FlyingRabidUnicornPig/IQoLDecompiled) version, to be public soon.)
+- Press "O" while connecting to server to **Quickstart Offline Mode** (currently buggy)
 - **Browse for non-tagged workshop maps** by selecting "NoTag" in the filter options (will ignore any other tags you've pressed)
 - **New Settings** (feel free to [request](https://steamcommunity.com/id/DustDustInTheWind/) a personal QoL setting)
   - **"Gameplay"**
