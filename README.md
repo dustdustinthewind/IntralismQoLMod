@@ -79,7 +79,7 @@ Update: [Oxy has given his blessing to this project.](https://cdn.discordapp.com
   - **Zooms do not count towards diff calculation anymore.** Modded zooms/rotations are near-impossible to calculate with any sense of reliability. Fuck that!
   - **Events after MapEnd do not count toward diff calculation anymore.** No artificial inflation with unseen arcs.
 - Added a **backup feature to saves**, in case things get fucked up.
-- Press "O" while connecting to server to **Quickstart Offline Mode** (flakey, only works consistently if Steam connection is iffy, but not if Intralism connection is iffy, need to do more)
+- Press "O" while connecting to server to **Quickstart Offline Mode** (currently buggy. is fixed in [dev](https://github.com/FlyingRabidUnicornPig/IQoLDecompiled) version, to be public soon.)
 - **Browse for non-tagged workshop maps** by selecting "NoTag" in the filter options (will ignore any other tags you've pressed)
 - **New Settings** (feel free to [request](https://steamcommunity.com/id/DustDustInTheWind/) a personal QoL setting)
   - **"Gameplay"**
