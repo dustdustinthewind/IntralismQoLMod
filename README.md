@@ -1,6 +1,6 @@
 Should only work with Windows version of the game.
 
-[Currently busy dumping Intralism](https://github.com/FlyingRabidUnicornPig/). Will return with updates when dump is complete.
+[Currently busy dumping Intralism](https://github.com/FlyingRabidUnicornPig/).  Will return with updates to this repo when I finish.
 
 # Intralism Quality of Life Mod
 A mod with a myriad of [**features and fixes**](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod#features) to improve mapping and gameplay.
@@ -11,6 +11,8 @@ Click [here](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/archive/re
 
 ### How do I update the mod?
 To update your mod, you only need to download/paste the newest [Assembly-Csharp.dll](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/raw/main/Assembly-CSharp.dll). Same folder, same thing, replace files, yes. The update process could change in the future.
+
+[Dump](https://github.com/FlyingRabidUnicornPig/IQoLDecompiled) version can be found [here](https://github.com/FlyingRabidUnicornPig/IQoLDecompiled/raw/main/Assembly-CSharp.dll). Check out the [feature list here](https://github.com/FlyingRabidUnicornPig/IQoLDecompiled#new-features-for-release) I RECOMMEND BACKING UP YOUR MAPS (preferably outside of Intralism's files). I am tweaking/optimizing the entire code, not just dumping, something very bad could happen.
 
 ### How do I uninstall the mod?
 Right click Intralism in Steam. Click `Properties`. Go to the `Local Files` tab and then click `Verify integrity of game files...`. This will restore Intralism to its current version. ***PLEASE NOTE***: Your save file will be considered "Corrupted" by intralism and deleted. Read the next question for assistance handling saves.
