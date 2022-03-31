@@ -2,6 +2,8 @@ Should only work with Windows version of the game.
 
 [Currently busy dumping Intralism](https://github.com/FlyingRabidUnicornPig/).  Will return with updates to this repo when I finish.
 
+[Please consider donating to my ko-fi.](https://ko-fi.com/dustdust)
+
 # Intralism Quality of Life Mod
 A mod with a myriad of [**features and fixes**](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod#features) to improve mapping and gameplay.
 
