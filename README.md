@@ -133,6 +133,7 @@ Update: [Oxy has given his blessing to this project.](https://cdn.discordapp.com
 ### TO DO / Feature Wishlist (Feel free to [request](https://steamcommunity.com/id/DustDustInTheWind/) or [here](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/issues))
 - "Initialize" event toggle for map/storyboard objects. Basically instead of spawning at 0,0,0, having to wait until time = 0 to trigger an event (maps start before 0), instead spawn at a user specified place, or start as soon as the map starts playing.
 - Color palette for storyboard events
+- CTRL+SHIFT+V to paste without snapping to grid
 - Open map folder button in editor
 - Easy way to change speed/tempo of map (for BPM messups or for people who want to easily convert a faster/slower ver of a map)
 - Change the crosshair to a transparent version of your current view model, a 3D crosshair that matches the skin you're using and might properly represent the nonexistant "judgement line" at z0 compared to a fucking 2D image.
