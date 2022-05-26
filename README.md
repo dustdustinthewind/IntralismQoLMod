@@ -74,7 +74,7 @@ Update: [Oxy has given his blessing to this project.](https://cdn.discordapp.com
 - **Less Frequent Rank Refresh** Ranks only refresh after a score submit if 10 minutes have passed since the last submission. [This is a quick and dirty solution to handle issues of the current "Rank" Refresh system](https://cdn.discordapp.com/attachments/429849391164030988/928352748108406814/a7e8eb74b7.png) (Correction: image download only happens in main menu, not on every rank refresh) There is a setting to go back to the old system for those who need to see when their rank updates asap. Even tho I plan to remove rank updates, I'm still gonna fix this as best I can out of spite.
 - **Autocompression for vanilla image-sequence maps**. If a map has at least 1 unique image for every second, the autocompresser will kick in. Most if not all Vanilla image-sequence maps get detected by this, and will use significantly less RAM/VRAM than vanilla would in exchange for much longer loading times. You can check the console during a long loading time to see if auto-compress triggered.
 - **Storyboard and zoom animations are "less frame-dependent"**. This means that map animations (zooms, storyboards, etc.) should play very similarly on all modded clients, regardless of FPS. There is a slight, usually unnoticeable difference in animation-feel between modded and vanilla.
-- **All mapping events use config v3 arc offset**. In Vanilla, arcs are delayed by 110ms + the users arc delay setting. In IQoL, all maps use that delay. This means mappers no longer need to offset storyboard/zoom events to match to the music. This does mean old maps are offset now tho. I may make a workaround with a new config version.
+- **All mapping events use config v3 arc offset**. In Vanilla, arcs are delayed by 110ms + the users arc delay setting. In IQoL, all map events use that delay. This means mappers no longer need to offset storyboard/zoom events to match the arc offset. This does mean old maps that were built around the old mismatch are offset now.
 - **Use any skin!** Set the skin you'd like in [`qolmod/skin.txt`](https://github.com/FlyingRabidUnicornPig/IntralismQoLMod/blob/main/qolmod/skin.txt). This is a visual change to the client-side only. Users in multiplayer lobbies will see your steam-equipped skin when spectating, your inventory still only shows skins you own through Steam, etc.
 
 ### MISC
@@ -96,7 +96,7 @@ Update: [Oxy has given his blessing to this project.](https://cdn.discordapp.com
     - FPS Lock using Unity's shitty built-in fps capper (may fuck with map timing. could be fixed in future update)
 - **Many vanilla bugs have been squashed** (a never ending feat)
   - 2 hand mode is no longer deep fried
-  - The Map-Over screen is "Fixed" (minus current bug lol) (yes, the text is supposed to stay up, the bar is supposed to turn red, etc. A bug caused these from triggering and killed the frame rate with console spam as well)
+  - The Map-Over screen is fixed
   - Main Menu Player Data now starts in a "loading" state.
 - **And many new bugs have been added**
   - Mp3s now don't work *at all*.
