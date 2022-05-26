@@ -108,9 +108,9 @@ Update: [Oxy has given his blessing to this project.](https://cdn.discordapp.com
 - Mod Bug: **MP3s do not play** **Workaround:** use vanilla, where they also don't work :/ I actually have no clue how oxy actually got mp3s playing, this is a strangely unique scenario and I haven't been able to deobfuscate it yet. I will probably try to find a new solution instead of trying to understand the old solution. For now just use superior .ogg
 - Mod Bug: Some maps stutter badly on map end (escape-quit only? something related to events needing to be processed, is this related to my anti-ear-rape fix?)
 - Mod Bug: Map Over screen doesn't update values for new play (was this null spam shit intentional? Just figure out how to clear and reset it i guess)
-- Mod Bug: Caret movement somewhat buggy
+- Mod Bug: Caret movement somewhat buggy(?)
 - Mod Bug: BPM Grid tool doesn't seem to target newly created BPM Events
-- Mod Bug: Map Preview can be unreasonably laggy. **No Workaround**
+- Mod Bug: Map Preview can be unreasonably laggy. **Workaround:** Turn off map preview, srry.
 - Mod Bug: Leaving the editor will take you to the map select on top of the main menu if you play tested. (related to vanilla map select bug) **No Workaround**
 - Intentional Mod "Bug": The "Map" drop down menu flashes during loading and sometimes stays up afterwards. I'd rather this wasn't the case.
 - Vanilla Bug: Map Selector Sometimes pops up on game startup. (related to playtest mod bug) **Workaround:** Close Intralism through the "Exit Button" instead of Alt+F4
